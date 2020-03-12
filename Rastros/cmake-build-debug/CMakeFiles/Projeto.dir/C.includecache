@@ -6,23 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.h
-
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/interface.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.c
 dados.h
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.h
+stdlib.h
+-
 
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/logica.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.h
+
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.c
+interface.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.h
+stdio.h
+-
+
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.h
 dados.h
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.h
 
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/main.c
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.c
+logica.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.h
+stdio.h
+-
+
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.h
+dados.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.h
+
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/main.c
 stdio.h
 -
 dados.h
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.h
 interface.h
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/interface.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.h
 logica.h
-/home/tiago/Documents/LCC/LA/Projeto/Rastros/logica.h
+/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.h
 

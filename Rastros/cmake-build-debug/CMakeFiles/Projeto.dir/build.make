@@ -43,10 +43,10 @@ RM = /home/tiago/Programs/clion-2019.3.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tiago/Documents/LCC/LA/Projeto/Rastros
+CMAKE_SOURCE_DIR = /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Projeto.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Projeto.dir/flags.make
 
 CMakeFiles/Projeto.dir/main.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Projeto.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/main.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/Rastros/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Projeto.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/main.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/main.c
 
 CMakeFiles/Projeto.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/Rastros/main.c > CMakeFiles/Projeto.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/main.c > CMakeFiles/Projeto.dir/main.c.i
 
 CMakeFiles/Projeto.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/Rastros/main.c -o CMakeFiles/Projeto.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/main.c -o CMakeFiles/Projeto.dir/main.c.s
 
 CMakeFiles/Projeto.dir/dados.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/dados.c.o: ../dados.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Projeto.dir/dados.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/dados.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Projeto.dir/dados.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/dados.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.c
 
 CMakeFiles/Projeto.dir/dados.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/dados.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.c > CMakeFiles/Projeto.dir/dados.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.c > CMakeFiles/Projeto.dir/dados.c.i
 
 CMakeFiles/Projeto.dir/dados.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/dados.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.c -o CMakeFiles/Projeto.dir/dados.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.c -o CMakeFiles/Projeto.dir/dados.c.s
 
 CMakeFiles/Projeto.dir/interface.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/interface.c.o: ../interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Projeto.dir/interface.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/interface.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/Rastros/interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Projeto.dir/interface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/interface.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.c
 
 CMakeFiles/Projeto.dir/interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/interface.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/Rastros/interface.c > CMakeFiles/Projeto.dir/interface.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.c > CMakeFiles/Projeto.dir/interface.c.i
 
 CMakeFiles/Projeto.dir/interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/interface.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/Rastros/interface.c -o CMakeFiles/Projeto.dir/interface.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.c -o CMakeFiles/Projeto.dir/interface.c.s
 
 CMakeFiles/Projeto.dir/logica.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/logica.c.o: ../logica.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Projeto.dir/logica.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/logica.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/Rastros/logica.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Projeto.dir/logica.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/logica.c.o   -c /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.c
 
 CMakeFiles/Projeto.dir/logica.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/logica.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/Rastros/logica.c > CMakeFiles/Projeto.dir/logica.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.c > CMakeFiles/Projeto.dir/logica.c.i
 
 CMakeFiles/Projeto.dir/logica.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/logica.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/Rastros/logica.c -o CMakeFiles/Projeto.dir/logica.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.c -o CMakeFiles/Projeto.dir/logica.c.s
 
 # Object files for target Projeto
 Projeto_OBJECTS = \
@@ -125,7 +125,7 @@ Projeto: CMakeFiles/Projeto.dir/interface.c.o
 Projeto: CMakeFiles/Projeto.dir/logica.c.o
 Projeto: CMakeFiles/Projeto.dir/build.make
 Projeto: CMakeFiles/Projeto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Projeto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Projeto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Projeto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Projeto.dir/clean:
 .PHONY : CMakeFiles/Projeto.dir/clean
 
 CMakeFiles/Projeto.dir/depend:
-	cd /home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tiago/Documents/LCC/LA/Projeto/Rastros /home/tiago/Documents/LCC/LA/Projeto/Rastros /home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug /home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug /home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug /home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Projeto.dir/depend
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tiago/Documents/LCC/LA/Projeto/Rastros/dados.c" "/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/dados.c.o"
-  "/home/tiago/Documents/LCC/LA/Projeto/Rastros/interface.c" "/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/interface.c.o"
-  "/home/tiago/Documents/LCC/LA/Projeto/Rastros/logica.c" "/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/logica.c.o"
-  "/home/tiago/Documents/LCC/LA/Projeto/Rastros/main.c" "/home/tiago/Documents/LCC/LA/Projeto/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/main.c.o"
+  "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/dados.c" "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/dados.c.o"
+  "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/interface.c" "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/interface.c.o"
+  "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/logica.c" "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/logica.c.o"
+  "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/main.c" "/home/tiago/Documents/LCC/LA/Projeto/LCC-LA-PL2/Rastros/cmake-build-debug/CMakeFiles/Projeto.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
