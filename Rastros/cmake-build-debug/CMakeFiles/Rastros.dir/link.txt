@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Rastros.dir/dados.c.o CMakeFiles/Rastros.dir/interface.c.o CMakeFiles/Rastros.dir/logica.c.o CMakeFiles/Rastros.dir/main.c.o  -o Rastros 
