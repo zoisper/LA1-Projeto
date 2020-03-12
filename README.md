@@ -1,3 +1,3 @@
-# LCC LA PL2 
+# LCC LA PL2 GRUPO 6
 
 LCC LA 
