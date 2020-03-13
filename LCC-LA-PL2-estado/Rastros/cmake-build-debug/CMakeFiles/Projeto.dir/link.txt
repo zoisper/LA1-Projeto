@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Projeto.dir/main.c.o CMakeFiles/Projeto.dir/dados.c.o CMakeFiles/Projeto.dir/interface.c.o CMakeFiles/Projeto.dir/logica.c.o  -o Projeto 
