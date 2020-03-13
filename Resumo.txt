@@ -3,3 +3,5 @@ Foram impelmentados os modulos e as funções:
  - mostra estado
  - adiciona jogada
 A principal dificuldade tem sido trabalhar com o git.
+Tambem nao temos a certeza se temos de colocar no git a pasta "cmake-build-debug" e o ficheiro "CMakeLists.txt" ou basta so colocar no git os ficheiros ".c" e ".h". Por percaução colocamos tudo.
+
