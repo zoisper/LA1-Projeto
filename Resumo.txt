@@ -1,2 +1,5 @@
-Foram impelmentados os modulos e a funçao que mostra o jogo.
+Foram impelmentados os modulos e as funções:
+ - inicia estado
+ - mostra estado
+ - adiciona jogada
 A principal dificuldade tem sido trabalhar com o git.

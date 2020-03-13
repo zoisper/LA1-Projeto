@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fdfce8-8e8e-4375-a112-1f501394a713" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18fdfce8-8e8e-4375-a112-1f501394a713" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../zproject/zrastros" />
   </component>
   <component name="RunManager">
     <configuration name="Projeto" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projeto" TARGET_NAME="Projeto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Projeto" RUN_TARGET_NAME="Projeto">
@@ -66,6 +64,7 @@
       <workItem from="1584026892889" duration="21000" />
       <workItem from="1584027409215" duration="9000" />
       <workItem from="1584053854040" duration="3000" />
+      <workItem from="1584058629390" duration="34000" />
     </task>
     <servers />
   </component>
@@ -81,10 +80,10 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="722" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1583798255868" />
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583880983076">
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584058661470">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053@59.27.1861.1053" timestamp="1583880983076" />
+    <state x="772" y="310" width="424" height="484" key="FileChooserDialogImpl/59.27.1861.1053@59.27.1861.1053" timestamp="1584058661470" />
     <state width="1815" height="278" key="GridCell.Tab.0.bottom" timestamp="1584027417046">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
