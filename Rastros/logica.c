@@ -3,7 +3,9 @@
 //
 
 #include "logica.h"
+#include "interface.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 int jogar(ESTADO *e, COORDENADA c)
 {
@@ -13,13 +15,17 @@ int jogar(ESTADO *e, COORDENADA c)
     //não seja possível.
 
     printf("jogar %d %d\n", c.coluna, c.linha);
-    muda_casa(e, c);
-    muda_jogadas(e, c);
-    if (obter_jogador_atual(*e) == 2)
-        muda_num_jogadas(e);
-    muda_jogador_atual(e);
-    muda_ultima_jogada(e, c);
+
+
+        muda_casa(e, c);
+        muda_jogadas(e, c);
+        if (obter_jogador_atual(*e) == 2)
+            muda_num_jogadas(e);
+        muda_jogador_atual(e);
+        muda_ultima_jogada(e, c);
 
     return 1;
-
 }
+
+
+

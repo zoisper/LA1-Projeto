@@ -8,5 +8,7 @@
 #include "dados.h"
 
 void mostrar_tabuleiro(ESTADO e);
+int interpretador(ESTADO *e);
+
 
 #endif //PROJETO_INTERFACE_H

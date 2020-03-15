@@ -26,6 +26,8 @@ typedef struct {
 ESTADO *inicializar_estado();
 CASA obter_casa(ESTADO e, int coluna, int linha);
 int obter_jogador_atual (ESTADO e);
+int obter_num_jogadas (ESTADO e);
+COORDENADA obter_ultima_jogada(ESTADO e);
 void muda_casa(ESTADO *e, COORDENADA c);
 void muda_jogadas(ESTADO *e, COORDENADA c);
 void muda_jogador_atual (ESTADO *e);

@@ -26,14 +26,14 @@ ESTADO *inicializar_estado()
     return e;
 }
 
-CASA obter_casa(ESTADO e, int i, int j) // diz qual o estado da casa {VAZIO,BRANCA,Preta}
+CASA obter_casa(ESTADO e, int linha, int coluna) // diz qual o estado da casa {VAZIO,BRANCA,Preta}
 {
-    return e.tab[i][j];
+    return e.tab[linha][coluna];
 }
 
 void muda_casa(ESTADO *e, COORDENADA c) // passa a casa onde estava para PRETA e mete a nova com BRANCA
 {
-    e->tab[8-c.linha][c.coluna-1] = BRANCA;
+    e->tab[c.linha][c.coluna] = BRANCA;
     e->tab[e->ultima_jogada.linha][e->ultima_jogada.coluna] = PRETA;
 }
 
@@ -58,6 +58,15 @@ int obter_jogador_atual (ESTADO e) // diz qual o jogador atual
 {
     return e.jogador_atual;
 }
+int obter_num_jogadas (ESTADO e)
+{
+    return e.num_jogadas;
+}
+COORDENADA obter_ultima_jogada(ESTADO e)  // retorna a ultima jogada
+{
+    return e.ultima_jogada;
+}
+
 void muda_num_jogadas (ESTADO *e) // incrementa numero de jogadas
 {
     e->num_jogadas++;
