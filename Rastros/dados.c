@@ -62,9 +62,13 @@ int obter_num_jogadas (ESTADO e)
 {
     return e.num_jogadas;
 }
-COORDENADA obter_ultima_jogada(ESTADO e)  // retorna a ultima jogada
+int obter_ultima_jogada_coluna(ESTADO e)
 {
-    return e.ultima_jogada;
+    return e.ultima_jogada.coluna;
+}
+int obter_ultima_jogada_linha(ESTADO e)
+{
+    return e.ultima_jogada.linha;
 }
 
 void muda_num_jogadas (ESTADO *e) // incrementa numero de jogadas

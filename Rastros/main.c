@@ -6,10 +6,13 @@ int main()
 {
     ESTADO *e;
     e = inicializar_estado();
+    int controlo = 0;
     mostrar_tabuleiro(*e);
-    interpretador(e);
-
-
+    while (1)
+    {
+        prompt(*e, controlo);
+        controlo = interpretador(e);
+    }
 
     return 0;
 }

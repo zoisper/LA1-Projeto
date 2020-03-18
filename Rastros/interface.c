@@ -58,11 +58,17 @@ int interpretador(ESTADO *e)
     if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
         COORDENADA coord = {*col - 'a', '8' - *lin  };
-        jogar(e, coord);
+        int controlo = jogar(e, coord); // controlo serve para o prompt saber se deve incrementar o numero de comandos
         mostrar_tabuleiro(*e);
-        return 1;
+        return controlo;
     }
         return 0;
 }
 
-
+void prompt (ESTADO e, int controlo)
+{
+    int static num_comandos = 0;
+    if (controlo == 1)
+        num_comandos++;
+    printf("# %d PL%d (%d)> ", num_comandos, obter_jogador_atual(e), obter_num_jogadas(e));
+}
