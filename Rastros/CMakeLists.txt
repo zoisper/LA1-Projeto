@@ -3,4 +3,4 @@ project(Projeto C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Projeto main.c dados.c dados.h interface.c interface.h logica.c logica.h)
+add_executable(Projeto main.c dados/muda_estado.c dados/muda_estado.h interface/mostra_tabuleiro.c interface/mostra_tabuleiro.h logica/jogar.c logica/jogar.h logica/verifica_vencedor.c logica/verifica_vencedor.h dados/inicializar_estado.c dados/inicializar_estado.h dados/obter_dados.c dados/obter_dados.h interface/interpretador.c interface/interpretador.h interface/prompt.c interface/prompt.h interface/grava_jogo.c interface/grava_jogo.h interface/retoma_jogo.c interface/retoma_jogo.h)

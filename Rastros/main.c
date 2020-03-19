@@ -1,7 +1,10 @@
 #include <stdio.h>
-#include "dados.h"
-#include "interface.h"
-#include "logica.h"
+#include "dados/muda_estado.h"
+#include "interface/mostra_tabuleiro.h"
+#include "logica/jogar.h"
+#include "interface/interpretador.h"
+#include "interface/prompt.h"
+
 int main()
 {
     ESTADO *e;
@@ -13,6 +16,8 @@ int main()
         prompt(*e, controlo);
         controlo = interpretador(e);
     }
+
+
 
     return 0;
 }
