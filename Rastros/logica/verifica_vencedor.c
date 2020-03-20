@@ -12,14 +12,14 @@ void verifica_vencedor (ESTADO e) // verifica se alguem ganhou
 {
     if (obter_casa(e, 7, 0)== BRANCA)
     {
-        printf("Parabens Jogador 2 Ganhou!");
         mostrar_tabuleiro(e);
+        printf("Parabens Jogador 1 Ganhou!");
         exit (0);
     }
     if (obter_casa(e, 0, 7)== BRANCA)
     {
-        printf("Parabens Jogador 1 Ganhou!");
         mostrar_tabuleiro(e);
+        printf("Parabens Jogador 2 Ganhou!");
         exit (0);
     }
 }
