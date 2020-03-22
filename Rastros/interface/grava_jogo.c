@@ -27,9 +27,13 @@ void grava_jogo(ESTADO e,FILE *fp)
             }
             fprintf(fp,"%c", n);
         }
-    fprintf(fp, "%d%d",obter_jogador_atual(e), obter_num_jogadas(e));
-    fprintf(fp,"%d%d", obter_ultima_jogada_linha(e), obter_ultima_jogada_coluna(e));
+    fprintf(fp, "%c",obter_jogador_atual(e) + '0');
+    fprintf (fp, "%c", obter_num_jogadas(e) + '0');
     for(i=0;i<32;i++)
-        fprintf(fp,"%d%d%d%d",obter_jogada_jogador_linha(e,i,1), obter_jogada_jogador_coluna(e,i,1), obter_jogada_jogador_linha(e,i,2),obter_jogada_jogador_coluna(e,i,2));
+        fprintf(fp,"%c%c%c%c",'8' - obter_jogada_jogador_linha(e,i,1) , 'a' + obter_jogada_jogador_coluna(e,i,1), '8' - obter_jogada_jogador_linha(e,i,2),'a' + obter_jogada_jogador_coluna(e,i,2));
+    fprintf(fp,"%c%c", '8' - obter_ultima_jogada_linha(e), 'a' + obter_ultima_jogada_coluna(e));
+
+
+
 
 }

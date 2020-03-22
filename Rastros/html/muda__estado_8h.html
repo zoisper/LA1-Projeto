@@ -83,15 +83,18 @@ Functions</h2></td></tr>
 <tr class="memitem:aade3ad032ab8a6c7908189b6e49e9b2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#aade3ad032ab8a6c7908189b6e49e9b2a">muda_jogadas</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e, <a class="el" href="structCOORDENADA.html">COORDENADA</a> c)</td></tr>
 <tr class="memdesc:aade3ad032ab8a6c7908189b6e49e9b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acrescenta a cordenada jogada ás jogadas.  <a href="muda__estado_8h.html#aade3ad032ab8a6c7908189b6e49e9b2a">More...</a><br /></td></tr>
 <tr class="separator:aade3ad032ab8a6c7908189b6e49e9b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af22f187947c882b27c063664453bc867"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#af22f187947c882b27c063664453bc867">muda_jogador_atual</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e)</td></tr>
+<tr class="memitem:af22f187947c882b27c063664453bc867"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#af22f187947c882b27c063664453bc867">incrementa_jogador_atual</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e)</td></tr>
 <tr class="memdesc:af22f187947c882b27c063664453bc867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera o jogador atual.  <a href="muda__estado_8h.html#af22f187947c882b27c063664453bc867">More...</a><br /></td></tr>
 <tr class="separator:af22f187947c882b27c063664453bc867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdad4da1edd123f912eae008339b6ee8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#abdad4da1edd123f912eae008339b6ee8">muda_ultima_jogada</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e, <a class="el" href="structCOORDENADA.html">COORDENADA</a> c)</td></tr>
 <tr class="memdesc:abdad4da1edd123f912eae008339b6ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera a ultima jogada.  <a href="muda__estado_8h.html#abdad4da1edd123f912eae008339b6ee8">More...</a><br /></td></tr>
 <tr class="separator:abdad4da1edd123f912eae008339b6ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7605b737bbcffc3727955c097845c97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#af7605b737bbcffc3727955c097845c97">muda_num_jogadas</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e)</td></tr>
+<tr class="memitem:af7605b737bbcffc3727955c097845c97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#af7605b737bbcffc3727955c097845c97">incrementa_num_jogadas</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e)</td></tr>
 <tr class="memdesc:af7605b737bbcffc3727955c097845c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incrementa o número de jogadas.  <a href="muda__estado_8h.html#af7605b737bbcffc3727955c097845c97">More...</a><br /></td></tr>
 <tr class="separator:af7605b737bbcffc3727955c097845c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a66a7c4cf0dfc7215ff945e1a25030f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="muda__estado_8h.html#a6a66a7c4cf0dfc7215ff945e1a25030f">retoma_casa</a> (<a class="el" href="structESTADO.html">ESTADO</a> *e, int linha, int coluna, char carater)</td></tr>
+<tr class="memdesc:a6a66a7c4cf0dfc7215ff945e1a25030f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Altera a casa para o estado do ficheiro que foi lido.  <a href="muda__estado_8h.html#a6a66a7c4cf0dfc7215ff945e1a25030f">More...</a><br /></td></tr>
+<tr class="separator:a6a66a7c4cf0dfc7215ff945e1a25030f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Definição das funçoes que manipulam o estado </p>
@@ -173,13 +176,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af22f187947c882b27c063664453bc867"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af22f187947c882b27c063664453bc867">&#9670;&nbsp;</a></span>muda_jogador_atual()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af22f187947c882b27c063664453bc867">&#9670;&nbsp;</a></span>incrementa_jogador_atual()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void muda_jogador_atual </td>
+          <td class="memname">void incrementa_jogador_atual </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structESTADO.html">ESTADO</a> *&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
@@ -199,13 +202,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af7605b737bbcffc3727955c097845c97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7605b737bbcffc3727955c097845c97">&#9670;&nbsp;</a></span>muda_num_jogadas()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af7605b737bbcffc3727955c097845c97">&#9670;&nbsp;</a></span>incrementa_num_jogadas()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void muda_num_jogadas </td>
+          <td class="memname">void incrementa_num_jogadas </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structESTADO.html">ESTADO</a> *&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
@@ -257,6 +260,61 @@ Functions</h2></td></tr>
     <tr><td class="paramname">e</td><td>Apontador para o estado.<br  />
 </td></tr>
     <tr><td class="paramname">c</td><td>A cordenada. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6a66a7c4cf0dfc7215ff945e1a25030f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a66a7c4cf0dfc7215ff945e1a25030f">&#9670;&nbsp;</a></span>retoma_casa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void retoma_casa </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structESTADO.html">ESTADO</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>linha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coluna</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>carater</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Altera a casa para o estado do ficheiro que foi lido. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Apontador para o estado.<br  />
+</td></tr>
+    <tr><td class="paramname">linha</td><td>A linha do tabuleiro.<br  />
+</td></tr>
+    <tr><td class="paramname">coluna</td><td>A coluna do tabuleiro.<br  />
+</td></tr>
+    <tr><td class="paramname">carater</td><td>O carater que estava gravado no ficheiro.<br  />
+</td></tr>
   </table>
   </dd>
 </dl>

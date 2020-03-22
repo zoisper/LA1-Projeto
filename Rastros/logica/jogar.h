@@ -8,7 +8,7 @@ As funções que adicionam uma jogada.
 */
 #ifndef PROJETO_JOGAR_H
 #define PROJETO_JOGAR_H
-#include "../dados/muda_estado.h"
+#include "../dados/muda_dados.h"
 /**
  * \brief Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\nVerfifica se algum jogador venceu o jogo.
  * @param estado Apontador para estado.\n
@@ -27,5 +27,5 @@ int valida_jogada(ESTADO e, COORDENADA c);
  * \brief Verifica se algum jogador venceu o jogo.
  * @param e O estado.
  */
-void verifica_vencedor (ESTADO e);
+int verifica_vencedor (ESTADO e);
 #endif //PROJETO_JOGAR_H

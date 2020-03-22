@@ -7,11 +7,12 @@ As funções que verifica se algum jogador venceu o jogo.
 */
 #ifndef PROJETO_VERIFICA_VENCEDOR_H
 #define PROJETO_VERIFICA_VENCEDOR_H
-#include "../dados/muda_estado.h"
+#include "../dados/muda_dados.h"
 
 /**
  * \brief Verifica se algum jogador venceu o jogo.
  * @param e O estado.
+ * @return Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu.
  */
-void verifica_vencedor (ESTADO e);
+int verifica_vencedor (ESTADO e);
 #endif //PROJETO_VERIFICA_VENCEDOR_H

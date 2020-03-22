@@ -11,6 +11,7 @@
 #include "../dados/obter_dados.h"
 #include "grava_jogo.h"
 #include "retoma_jogo.h"
+#include "mostra_movimentos.h"
 
 #define BUF_SIZE 1024
 
@@ -32,18 +33,38 @@ int interpretador(ESTADO *e)
         grava_jogo (*e, fp);
         fclose(fp);
         printf ("Jogo Gravado\n");
+
     }
-    if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strncmp(load, "gr", 3) == 0)
+
+    if(strncmp(linha, "movs",4) == 0)
     {
-        fp = fopen (load,"r");
-        retoma_jogo (e, fp);
-        fclose(fp);
+        mostra_movimentos(*e);
+    }
+    if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strncmp(load, "ler", 3) == 0)
+    {
+        fp = fopen (nome_ficheiro,"r");
+        if (fp)
+        {
+            retoma_jogo (e, fp);
+            fclose(fp);
+            mostrar_tabuleiro(*e);
+            printf ("Jogo Retomado\n");
+        }
+
+        return 0;
+
     }
     if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
         COORDENADA coord = {*col - 'a', '8' - *lin  };
         int controlo = jogar(e, coord); // controlo serve para o prompt saber se deve incrementar o numero de comandos
         mostrar_tabuleiro(*e);
+        int v = verifica_vencedor(*e);
+        if (v !=0 )
+        {
+            printf ("Paraben Jogador %d venceu o jogo!", v);
+            exit (0);
+        }
         return controlo;
     }
     return 0;

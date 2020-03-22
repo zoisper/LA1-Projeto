@@ -8,18 +8,29 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void verifica_vencedor (ESTADO e) // verifica se alguem ganhou
+int verifica_vencedor (ESTADO e) // verifica se alguem ganhou
 {
+    int c = obter_ultima_jogada_coluna(e);
+    int l = obter_ultima_jogada_linha(e);
+
     if (obter_casa(e, 7, 0)== BRANCA)
     {
-        mostrar_tabuleiro(e);
-        printf("Parabens Jogador 1 Ganhou!");
-        exit (0);
+
+        return 1;
     }
-    if (obter_casa(e, 0, 7)== BRANCA)
+    else if (obter_casa(e, 0, 7)== BRANCA)
     {
-        mostrar_tabuleiro(e);
-        printf("Parabens Jogador 2 Ganhou!");
-        exit (0);
+
+        return 2;
+    }
+    else if (
+            obter_casa(e,c+1,l)!= VAZIO && obter_casa(e,c-1,l) != VAZIO &&
+            obter_casa(e,c,l+1)!= VAZIO && obter_casa(e,c,l-1)!= VAZIO &&
+            obter_casa(e,c+1,l+1)!= VAZIO && obter_casa(e,c-1,l-1)!= VAZIO &&
+            obter_casa(e,c+1,l-1)!= VAZIO && obter_casa(e,c-1,l+1)!= VAZIO)
+    {
+
+        return (obter_jogador_atual(e) == 1)? 2 : 1;
+
     }
 }

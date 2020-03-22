@@ -13,7 +13,9 @@ void \mbox{\hyperlink{muda__estado_8h_af22f187947c882b27c063664453bc867}{muda\+\
 void \mbox{\hyperlink{muda__estado_8h_abdad4da1edd123f912eae008339b6ee8}{muda\+\_\+ultima\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
 \begin{DoxyCompactList}\small\item\em Altera a ultima jogada. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{muda__estado_8h_af7605b737bbcffc3727955c097845c97}{muda\+\_\+num\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
-\begin{DoxyCompactList}\small\item\em Incrementa o número de jogadas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Incrementa o número de jogadas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{muda__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}{retoma\+\_\+casa}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, int linha, int coluna, char carater)
+\begin{DoxyCompactList}\small\item\em Altera a casa para o estado do ficheiro que foi lido. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -103,5 +105,30 @@ Altera a ultima jogada.
 \\
 \hline
 {\em c} & A cordenada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{muda__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}\label{muda__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}} 
+\index{muda\_estado.h@{muda\_estado.h}!retoma\_casa@{retoma\_casa}}
+\index{retoma\_casa@{retoma\_casa}!muda\_estado.h@{muda\_estado.h}}
+\doxysubsubsection{\texorpdfstring{retoma\_casa()}{retoma\_casa()}}
+{\footnotesize\ttfamily void retoma\+\_\+casa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{int}]{linha,  }\item[{int}]{coluna,  }\item[{char}]{carater }\end{DoxyParamCaption})}
+
+
+
+Altera a casa para o estado do ficheiro que foi lido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em linha} & A linha do tabuleiro.~\newline
+\\
+\hline
+{\em coluna} & A coluna do tabuleiro.~\newline
+\\
+\hline
+{\em carater} & O carater que estava gravado no ficheiro.~\newline
+\\
 \hline
 \end{DoxyParams}
