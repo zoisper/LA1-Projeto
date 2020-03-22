@@ -9,8 +9,8 @@
 #include "mostra_tabuleiro.h"
 #include "../logica/jogar.h"
 #include "../dados/obter_dados.h"
-#include "grava_jogo.h"
-#include "retoma_jogo.h"
+#include "../logica/grava_jogo.h"
+#include "../logica/retoma_jogo.h"
 #include "mostra_movimentos.h"
 
 #define BUF_SIZE 1024
