@@ -2,7 +2,7 @@
 // Created by tiago on 08/03/20.
 //
 /**
-@file muda_dadosh
+@file muda_dados.h
 Definição das funçoes que manipulam o estado
 */
 
@@ -24,10 +24,16 @@ void muda_casa(ESTADO *e, COORDENADA c);
  */
 void muda_jogadas(ESTADO *e, COORDENADA c);
 /**
- * \brief Altera o jogador atual.
+ * \brief Troca o jogador atual.
  * @param e Apontador para o estado.
  */
 void incrementa_jogador_atual (ESTADO *e);
+
+/**
+ * \brief Coloca o jogador atual no jogador passado pelo parametro n.
+ * @param e Apontador para o estado.\n
+ *@param n O Jogador que vamos colocar.
+ */
 void muda_jogador_atual (ESTADO *e, int n);
 /**
  * \brief Altera a ultima jogada.
@@ -40,6 +46,11 @@ void muda_ultima_jogada (ESTADO *e, COORDENADA c);
  * @param e Apontador para o estado.\n
  */
 void incrementa_num_jogadas (ESTADO *e);
+/**
+ * \brief Coloca o número de jogadas no valor passado pelo parametro n.
+ * @param e Apontador para o estado.\n
+ * *@param n O valor que vai ser colocado no numero de jogadas.
+ */
 void muda_num_jogadas (ESTADO *e, int n);
 /**
  * \brief Altera a casa para o estado do ficheiro que foi lido.

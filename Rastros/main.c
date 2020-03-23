@@ -4,6 +4,7 @@
 #include "logica/jogar.h"
 #include "interface/interpretador.h"
 #include "interface/prompt.h"
+#include "testes/testes.h"
 
 int main()
 {
@@ -13,6 +14,7 @@ int main()
     mostrar_tabuleiro(*e);
     while (1)
     {
+        testa_estado(*e);
         prompt(*e, controlo);
         controlo = interpretador(e);
     }

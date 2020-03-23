@@ -1,6 +1,6 @@
 \hypertarget{jogar_8h}{}\doxysection{logica/jogar.h File Reference}
 \label{jogar_8h}\index{logica/jogar.h@{logica/jogar.h}}
-{\ttfamily \#include \char`\"{}../dados/muda\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../dados/muda\+\_\+dados.\+h\char`\"{}}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -8,7 +8,7 @@ int \mbox{\hyperlink{jogar_8h_ac313d7e553b1e2b5f266acb9bfff8141}{jogar}} (\mbox{
 \begin{DoxyCompactList}\small\item\em Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\textbackslash{}n\+Verfifica se algum jogador venceu o jogo. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{jogar_8h_a401bcee6905d0487cf8d5dcbbef6266a}{valida\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
 \begin{DoxyCompactList}\small\item\em Verifica se uma jogada é valida. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{jogar_8h_a95f1b3213c3bc28afe26a810d21cbf13}{verifica\+\_\+vencedor}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+int \mbox{\hyperlink{jogar_8h_a33563a6ab717ef1eb3eb1d57229d259d}{verifica\+\_\+vencedor}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
 \begin{DoxyCompactList}\small\item\em Verifica se algum jogador venceu o jogo. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -60,11 +60,11 @@ Verifica se uma jogada é valida.
 \begin{DoxyReturn}{Returns}
 1 se a jogada for valida e 0 se não for. 
 \end{DoxyReturn}
-\mbox{\Hypertarget{jogar_8h_a95f1b3213c3bc28afe26a810d21cbf13}\label{jogar_8h_a95f1b3213c3bc28afe26a810d21cbf13}} 
+\mbox{\Hypertarget{jogar_8h_a33563a6ab717ef1eb3eb1d57229d259d}\label{jogar_8h_a33563a6ab717ef1eb3eb1d57229d259d}} 
 \index{jogar.h@{jogar.h}!verifica\_vencedor@{verifica\_vencedor}}
 \index{verifica\_vencedor@{verifica\_vencedor}!jogar.h@{jogar.h}}
 \doxysubsubsection{\texorpdfstring{verifica\_vencedor()}{verifica\_vencedor()}}
-{\footnotesize\ttfamily void verifica\+\_\+vencedor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int verifica\+\_\+vencedor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
 
 
 

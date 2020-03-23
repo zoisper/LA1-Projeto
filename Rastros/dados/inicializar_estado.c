@@ -13,7 +13,7 @@ ESTADO *inicializar_estado()
             e->tab[i][j] = VAZIO;
     e->tab[3][4] = BRANCA;
     e->jogador_atual = 1;
-    e->num_jogadas = 0;
+    e->num_jogadas = 32;
     e->ultima_jogada.coluna = 4;
     e->ultima_jogada.linha = 3;
     for(i=0;i<32;i++){
