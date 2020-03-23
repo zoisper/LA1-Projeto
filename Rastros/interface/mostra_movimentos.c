@@ -8,63 +8,35 @@
 #include <stdio.h>
 
 void mostra_movimentos (ESTADO e) {
-    int i;
+    int i, c1,c2,l1,l2;
     char mov;
-    if (obter_num_jogadas(e) > 0 && obter_jogador_atual(e) == 1)
+    for (i=0; i <=obter_num_jogadas(e); i++)
     {
-        printf("\n");
-        printf("01: ");
-        for (i = 0; i < obter_num_jogadas(e); i++) {
-            mov = 'a' + obter_jogada_jogador_coluna(e, i, 1);
-            printf("%c", mov);
-            mov = '8' - obter_jogada_jogador_linha(e, i, 1);
-            printf("%c ", mov);
-        }
-        printf("\n");
-        printf("02: ");
-        for (i = 0; i < obter_num_jogadas(e); i++) {
-            mov = 'a' + obter_jogada_jogador_coluna(e, i, 2);
-            printf("%c", mov);
-            mov = '8' - obter_jogada_jogador_linha(e, i, 2);
-            printf("%c ", mov);
-        }
-        printf("\n");
-    }
-    else
-        if (obter_num_jogadas(e) > 0 && obter_jogador_atual(e) == 2) {
-        printf("\n");
-        printf("01: ");
-        for (i = 0; i < obter_num_jogadas(e) + 1; i++) {
-            mov = 'a' + obter_jogada_jogador_coluna(e, i, 1);
-            printf("%c", mov);
-            mov = '8' - obter_jogada_jogador_linha(e, i, 1);
-            printf("%c ", mov);
-        }
-        printf("\n");
-        printf("02: ");
-        for (i = 0; i < obter_num_jogadas(e); i++) {
-            mov = 'a' + obter_jogada_jogador_coluna(e, i, 2);
-            printf("%c", mov);
-            mov = '8' - obter_jogada_jogador_linha(e, i, 2);
-            printf("%c ", mov);
-        }
-        printf("\n");
+        c1 = obter_jogada_jogador_coluna(e,i,1);
+        c2 = obter_jogada_jogador_coluna(e,i,2);
+        l1 = obter_jogada_jogador_linha(e,i,1);
+        l2 = obter_jogada_jogador_linha(e,i,2);
 
-    }
-    else
-        if (obter_num_jogadas(e) == 0 && obter_jogador_atual(e) == 2)
+
+        if((c1 != 0 || l1 != 0)  && (c1 != 4|| l1 != 3))
         {
-            printf("\n");
-            printf("01: ");
-            mov = 'a' + obter_jogada_jogador_coluna(e, 0, 1);
+            printf("0%d: ",i+1);
+            mov = 'a' + obter_jogada_jogador_coluna(e, i, 1);
             printf("%c", mov);
-            mov = '8' - obter_jogada_jogador_linha(e, 0, 1);
+            mov = '8' - obter_jogada_jogador_linha(e, i, 1);
+            printf("%c ", mov);
+        }
+        if((c2 != 0 || l2 != 0)  && (c2 != 4|| l2 != 3))
+        {
+            mov = 'a' + obter_jogada_jogador_coluna(e, i, 2);
+            printf("%c", mov);
+            mov = '8' - obter_jogada_jogador_linha(e, i, 2);
             printf("%c ", mov);
             printf("\n");
-            printf("02: ");
-            printf("\n");
-        }
-        else
-            printf("\n01:\n02:\n");
 
+        }
+    }
+    if (obter_jogador_atual(e) == 2)
+        printf("\n");
 }
+
