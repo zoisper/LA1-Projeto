@@ -9,6 +9,7 @@ void grava_jogo(ESTADO e,FILE *fp)
 {
     int i,j,n;
     for (i=0; i<8; i++)
+    {
         for(j=0;j<8;j++)
         {
             if (i == 0 && j == 7 && obter_casa(e,i,j) == VAZIO)
@@ -27,6 +28,10 @@ void grava_jogo(ESTADO e,FILE *fp)
             }
             fprintf(fp,"%c", n);
         }
+        fprintf(fp,"\n");
+    }
+
+    fprintf(fp, "\n");
     fprintf(fp, "%c",obter_jogador_atual(e) + '0');
     fprintf (fp, "%c", obter_num_jogadas(e) + '0');
     for(i=0;i<32;i++)

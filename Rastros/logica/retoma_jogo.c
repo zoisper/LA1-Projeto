@@ -16,6 +16,10 @@ void retoma_jogo (ESTADO *e, FILE *fp)
         {
             carater = fgetc(fp);
             retoma_casa(e,i, j,carater);
+            if(carater == '\n')
+              j-- ;
+
+
         }
 
     jogador = fgetc(fp) - '0';

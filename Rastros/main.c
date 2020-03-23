@@ -14,7 +14,7 @@ int main()
     mostrar_tabuleiro(*e);
     while (1)
     {
-        testa_estado(*e);
+        //testa_estado(*e);
         prompt(*e, controlo);
         controlo = interpretador(e);
     }
