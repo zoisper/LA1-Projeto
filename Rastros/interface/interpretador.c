@@ -40,6 +40,12 @@ int interpretador(ESTADO *e)
 
     }
 
+    if(strlen (linha) == 5 && strncmp(linha, "movs",4) == 0)
+    {
+        mostra_movimentos(*e, stdout);
+        return 1;
+    }
+
     if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
     {
         fp = fopen (nome_ficheiro,"r");
@@ -54,11 +60,7 @@ int interpretador(ESTADO *e)
         return 0;
     }
 
-    if(strlen (linha) == 5 && strncmp(linha, "movs",4) == 0)
-    {
-        mostra_movimentos(*e, stdout);
-        return 1;
-    }
+
 
     if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
