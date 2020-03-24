@@ -33,15 +33,8 @@ void incrementa_num_jogadas (ESTADO *e)
 {
     e->num_jogadas++;
 }
-void muda_num_jogadas (ESTADO *e, int n)
-{
-    e->num_jogadas = n;
-}
-void muda_jogador_atual (ESTADO *e, int n)
-{
-    e->jogador_atual = n;
-}
-void incrementa_jogador_atual (ESTADO *e)
+
+void muda_jogador_atual (ESTADO *e)
 {
     e->jogador_atual = (e->jogador_atual == 1)? 2 : 1;
 }
@@ -52,9 +45,3 @@ void muda_ultima_jogada (ESTADO *e, COORDENADA c)
     e->ultima_jogada.coluna= c.coluna;
 }
 
-void retoma_casa (ESTADO *e, int linha, int coluna, char carater)
-{
-    CASA casa;
-    casa = (carater == '.' || carater == '1' || carater == '2' )? VAZIO : (carater == '*') ? BRANCA : PRETA;
-    e->tab[linha][coluna] = casa;
-}

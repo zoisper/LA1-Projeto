@@ -1,13 +1,18 @@
-Foram impelmentados os modulos e as funções:
- - inicia estado
- - mostra estado
- - adiciona jogada
+Modulos adicionados.
+Impementado:
+ - Função que inicia estado;
+ - Função que mostra o tabuleiro;
+ - Função jogar;
 A principal dificuldade tem sido trabalhar com o git.
 Tambem nao temos a certeza se temos de colocar no git a pasta "cmake-build-debug" e o ficheiro "CMakeLists.txt" ou basta so colocar no git os ficheiros ".c" e ".h". Por percaução colocamos tudo.
- Foi impementado:
- - Funçao que valida a jogada
- - Funçao que verifica o vencedor
- - Comlpeltada a função que implementa a jogada 
- - Comandos 'Q', 'gr' e 'ler' (ler ainda na ta finalizado) no interpretador
+Impementado:
+ - Funçao que valida a jogada;
+ - Funçao que verifica o vencedor;
+ - Comlpeltada a função jogar; 
+ - Comandos "Q", "gr" e "ler";
+Impelemetado:
+ - Comando "movs".
+ - Informação sobre movimentos adicionada aos comandos "gr" e "ler".
+Camada de testes adicionada.
  
 

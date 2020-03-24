@@ -8,7 +8,7 @@ Funçao que mostra os moviementos.
 #ifndef PROJETO_MOSTRA_MOVIMENTOS_H
 #define PROJETO_MOSTRA_MOVIMENTOS_H
 
-#include "../dados/inicializar_estado.h"
+#include "../dados/inicializa_estado.h"
 /**
  * Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.\n
  * @param e Apontador para o estado.\n

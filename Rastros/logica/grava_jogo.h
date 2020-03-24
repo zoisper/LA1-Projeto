@@ -9,12 +9,12 @@ As função que grava o jogo num ficheiro.
 #define PROJETO_GRAVA_JOGO_H
 
 #include <stdio.h>
-#include "../dados/inicializar_estado.h"
+#include "../dados/inicializa_estado.h"
 
 /**
- * \brief Interpreta os comandos enviados pelo utilizador e chama a função necessaria.
+ * \brief Grava o jogo num fcheiro.\n
  * @param e Apontador para estado.\n
- * @return 1 se o comando for valido e 0 se for invalido.
+ * @param fp Apontador para o ficheiro.
  */
 
 void grava_jogo(ESTADO e, FILE *fp);

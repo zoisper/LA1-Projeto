@@ -1,7 +1,6 @@
-#include <stdio.h>
+
 #include "dados/muda_dados.h"
 #include "interface/mostra_tabuleiro.h"
-#include "logica/jogar.h"
 #include "interface/interpretador.h"
 #include "interface/prompt.h"
 #include "testes/testes.h"

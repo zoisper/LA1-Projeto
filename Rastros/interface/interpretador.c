@@ -10,7 +10,7 @@
 #include "../logica/jogar.h"
 #include "../dados/obter_dados.h"
 #include "../logica/grava_jogo.h"
-#include "../logica/retoma_jogo.h"
+#include "../dados/retoma_estado.h"
 #include "../logica/verifica_vencedor.h"
 #include "mostra_movimentos.h"
 
@@ -26,22 +26,21 @@ int interpretador(ESTADO *e)
 
     if(fgets(linha, BUF_SIZE, stdin) == NULL)
         return 0;
+
     if(strlen(linha) == 2 && linha[0]=='Q')
         exit(0);
-    if(sscanf(linha, "%s %s", save, nome_ficheiro) == 2 && strncmp(save, "gr", 2) == 0)
+
+    if(sscanf(linha, "%s %s", save, nome_ficheiro) == 2 && strlen(save) == 2 && strncmp(save, "gr", 2) == 0)
     {
         fp = fopen (nome_ficheiro,"w");
         grava_jogo(*e, fp);
         fclose(fp);
         printf ("Jogo Gravado\n");
+        return 1;
 
     }
 
-    if(strncmp(linha, "movs",4) == 0)
-    {
-        mostra_movimentos(*e, stdout);
-    }
-    if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strncmp(load, "ler", 3) == 0)
+    if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
     {
         fp = fopen (nome_ficheiro,"r");
         if (fp)
@@ -50,11 +49,17 @@ int interpretador(ESTADO *e)
             fclose(fp);
             mostrar_tabuleiro(*e);
             printf ("Jogo Retomado\n");
+            return 1;
         }
-
         return 0;
-
     }
+
+    if(strlen (linha) == 5 && strncmp(linha, "movs",4) == 0)
+    {
+        mostra_movimentos(*e, stdout);
+        return 1;
+    }
+
     if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
         COORDENADA coord = {*col - 'a', '8' - *lin  };

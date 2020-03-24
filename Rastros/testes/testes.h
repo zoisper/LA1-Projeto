@@ -7,11 +7,10 @@ Testes sobre o estado do jogo
 */
 #ifndef PROJETO_TESTES_H
 #define PROJETO_TESTES_H
-#include "../dados/inicializar_estado.h"
-#include "../dados/obter_dados.h"
+#include "../dados/inicializa_estado.h"
 
 /**
- * \brief Vai verificar se os dados do estado estão corretos
+ * \brief Testes que verificam se não ocorrem erros no progrma.\n
  * @param e Apontador para estado.\n
  */
 void testa_estado (ESTADO e);

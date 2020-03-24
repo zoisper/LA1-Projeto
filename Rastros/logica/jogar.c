@@ -5,6 +5,7 @@
 #include "jogar.h"
 #include <stdio.h>
 #include "../dados/obter_dados.h"
+#include "../dados/muda_dados.h"
 
 
 int jogar(ESTADO *e, COORDENADA c)
@@ -17,7 +18,7 @@ int jogar(ESTADO *e, COORDENADA c)
         muda_jogadas(e, c);
         if (obter_jogador_atual(*e) == 2)
             incrementa_num_jogadas(e);
-        incrementa_jogador_atual(e);
+        muda_jogador_atual(e);
         muda_ultima_jogada(e, c);
 
 
@@ -29,7 +30,6 @@ int jogar(ESTADO *e, COORDENADA c)
 
 int valida_jogada(ESTADO e, COORDENADA c) // verifica se as cordenandas jogadas sao adjacentes a ultima jogada e se a casa ta vazia
 {
-    int t = 0;
     if      (
                     (obter_casa(e, c.linha, c.coluna) == VAZIO) &&
                             (

@@ -9,7 +9,7 @@ As função que mostra o tabuleiro.
 #ifndef PROJETO_MOSTRA_TABULEIRO_H
 #define PROJETO_MOSTRA_TABULEIRO_H
 #include <stdio.h>
-#include "../dados/muda_dados.h"
+#include "../dados/inicializa_estado.h"
 
 /**
  * \brief Mostra o tabuleiro do jogo.

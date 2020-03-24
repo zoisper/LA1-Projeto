@@ -5,8 +5,8 @@
 @file inicializar_estado.h
 Definição do estado e da função que o inicializa
 */
-#ifndef PROJETO_INICIALIZAR_ESTADO_H
-#define PROJETO_INICIALIZAR_ESTADO_H
+#ifndef PROJETO_INICIALIZA_ESTADO_H
+#define PROJETO_INICIALIZA_ESTADO_H
 /**
 \brief Tipo de dados para a casa
 */
@@ -53,4 +53,4 @@ Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocad
 @returns O novo estado
 */
 ESTADO *inicializar_estado();
-#endif //PROJETO_INICIALIZAR_ESTADO_H
+#endif //PROJETO_INICIALIZA_ESTADO_H
