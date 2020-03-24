@@ -2,7 +2,7 @@
 // Created by tiago on 19/03/20.
 //
 /**
-@file retoma_jogo.h
+@file retoma_estado.h
 As funções que vão ler o jogo de um ficheiro.
 */
 #ifndef PROJETO_RETOMA_ESTADO_H

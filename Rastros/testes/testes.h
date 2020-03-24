@@ -2,7 +2,7 @@
 // Created by tiago on 23/03/20.
 //
 /**
-@file teste.h
+@file testes.h
 Testes sobre o estado do jogo
 */
 #ifndef PROJETO_TESTES_H
