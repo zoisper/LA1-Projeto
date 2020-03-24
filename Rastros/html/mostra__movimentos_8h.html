@@ -71,20 +71,20 @@ $(function() {
 <div class="title">mostra_movimentos.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="inicializar__estado_8h_source.html">../dados/inicializar_estado.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;../dados/inicializa_estado.h&quot;</code><br />
 </div>
 <p><a href="mostra__movimentos_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ace7e06b2a2d7f2be73f509ed52301cb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostra__movimentos_8h.html#ace7e06b2a2d7f2be73f509ed52301cb6">mostra_movimentos</a> (<a class="el" href="structESTADO.html">ESTADO</a> e)</td></tr>
-<tr class="separator:ace7e06b2a2d7f2be73f509ed52301cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e85a3096ce6b245e16319c3e86fb1fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostra__movimentos_8h.html#a2e85a3096ce6b245e16319c3e86fb1fb">mostra_movimentos</a> (<a class="el" href="structESTADO.html">ESTADO</a> e, FILE *fp)</td></tr>
+<tr class="separator:a2e85a3096ce6b245e16319c3e86fb1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Funçao que interpreta os comandos </p>
+<div class="textblock"><p>Funçao que mostra os moviementos. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ace7e06b2a2d7f2be73f509ed52301cb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace7e06b2a2d7f2be73f509ed52301cb6">&#9670;&nbsp;</a></span>mostra_movimentos()</h2>
+<a id="a2e85a3096ce6b245e16319c3e86fb1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e85a3096ce6b245e16319c3e86fb1fb">&#9670;&nbsp;</a></span>mostra_movimentos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -93,15 +93,27 @@ Functions</h2></td></tr>
           <td class="memname">void mostra_movimentos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structESTADO.html">ESTADO</a>&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Função que vai mostrar todos os movimentos realizados pelos jogadores.<br  />
+<p>Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.<br  />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">e</td><td>Apontador para o estado. </td></tr>
+    <tr><td class="paramname">e</td><td>Apontador para o estado.<br  />
+</td></tr>
+    <tr><td class="paramname">fp</td><td>Apontador para o ficheiro. </td></tr>
   </table>
   </dd>
 </dl>

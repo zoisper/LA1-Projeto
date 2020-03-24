@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: COORDENADA Struct Reference</title>
+<title>My Project: dados/retoma_estado.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,65 +59,32 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_eb8800cb0c3fd4fa9d40306d6b83386d.html">dados</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structCOORDENADA-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">COORDENADA Struct Reference</div>  </div>
+<div class="title">retoma_estado.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Tipo de dados para as coordenadas.  
- <a href="structCOORDENADA.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="inicializa__estado_8h_source.html">inicializa_estado.h</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:adfbc8d4856ce807139fdf62e00aed29a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCOORDENADA.html#adfbc8d4856ce807139fdf62e00aed29a">coluna</a></td></tr>
-<tr class="separator:adfbc8d4856ce807139fdf62e00aed29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefe14bcc5a066ac3b21500cc3d28c06f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCOORDENADA.html#aefe14bcc5a066ac3b21500cc3d28c06f">linha</a></td></tr>
-<tr class="separator:aefe14bcc5a066ac3b21500cc3d28c06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Tipo de dados para as coordenadas. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="adfbc8d4856ce807139fdf62e00aed29a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfbc8d4856ce807139fdf62e00aed29a">&#9670;&nbsp;</a></span>coluna</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int COORDENADA::coluna</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A coordenda da coluna </p>
-
-</div>
-</div>
-<a id="aefe14bcc5a066ac3b21500cc3d28c06f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefe14bcc5a066ac3b21500cc3d28c06f">&#9670;&nbsp;</a></span>linha</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int COORDENADA::linha</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A coordenda da linha </p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li>dados/<a class="el" href="inicializa__estado_8h_source.html">inicializa_estado.h</a></li>
-</ul>
-</div><!-- contents -->
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by tiago on 19/03/20.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef PROJETO_RETOMA_ESTADO_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define PROJETO_RETOMA_ESTADO_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;inicializa_estado.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> retoma_jogo (<a class="code" href="structESTADO.html">ESTADO</a> *e, FILE  *fp);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> retoma_casa (<a class="code" href="structESTADO.html">ESTADO</a> *e, <span class="keywordtype">int</span> linha, <span class="keywordtype">int</span> coluna, <span class="keywordtype">char</span> carater);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif //PROJETO_RETOMA_ESTADO_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astructESTADO_html"><div class="ttname"><a href="structESTADO.html">ESTADO</a></div><div class="ttdoc">Tipo de dados para o estado.</div><div class="ttdef"><b>Definition:</b> inicializa_estado.h:37</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

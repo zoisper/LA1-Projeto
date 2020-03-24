@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['retoma_5fcasa_82',['retoma_casa',['../muda__dados_8h.html#a6a66a7c4cf0dfc7215ff945e1a25030f',1,'muda_dados.c']]],
-  ['retoma_5fjogo_83',['retoma_jogo',['../retoma__jogo_8h.html#a48561d0a4a7395a898763975af85037c',1,'retoma_jogo.c']]]
+  ['valida_5fjogada_69',['valida_jogada',['../jogar_8h.html#a401bcee6905d0487cf8d5dcbbef6266a',1,'jogar.c']]],
+  ['verifica_5fvencedor_70',['verifica_vencedor',['../jogar_8h.html#a33563a6ab717ef1eb3eb1d57229d259d',1,'verifica_vencedor(ESTADO e):&#160;verifica_vencedor.c'],['../verifica__vencedor_8h.html#a33563a6ab717ef1eb3eb1d57229d259d',1,'verifica_vencedor(ESTADO e):&#160;verifica_vencedor.c']]]
 ];

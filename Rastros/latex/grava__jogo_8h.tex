@@ -1,12 +1,13 @@
 \hypertarget{grava__jogo_8h}{}\doxysection{logica/grava\+\_\+jogo.h File Reference}
 \label{grava__jogo_8h}\index{logica/grava\_jogo.h@{logica/grava\_jogo.h}}
 {\ttfamily \#include $<$stdio.\+h$>$}\newline
-{\ttfamily \#include \char`\"{}../dados/inicializar\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../dados/inicializa\+\_\+estado.\+h\char`\"{}}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{grava__jogo_8h_a074574235df8bf5ae4cde4aad7428004}{grava\+\_\+jogo}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, F\+I\+LE $\ast$fp)
-\begin{DoxyCompactList}\small\item\em Interpreta os comandos enviados pelo utilizador e chama a função necessaria. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Grava o jogo num fcheiro.~\newline
+. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -21,14 +22,14 @@ As função que grava o jogo num ficheiro.
 
 
 
-Interpreta os comandos enviados pelo utilizador e chama a função necessaria. 
+Grava o jogo num fcheiro.~\newline
+. 
 
 
 \begin{DoxyParams}{Parameters}
 {\em e} & Apontador para estado.~\newline
 \\
 \hline
+{\em fp} & Apontador para o ficheiro. \\
+\hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-1 se o comando for valido e 0 se for invalido. 
-\end{DoxyReturn}

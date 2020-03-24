@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['retoma_5fjogo_2eh_59',['retoma_jogo.h',['../retoma__jogo_8h.html',1,'']]]
+  ['verifica_5fvencedor_2eh_50',['verifica_vencedor.h',['../verifica__vencedor_8h.html',1,'']]]
 ];

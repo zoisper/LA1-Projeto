@@ -1,26 +1,29 @@
 \hypertarget{mostra__movimentos_8h}{}\doxysection{interface/mostra\+\_\+movimentos.h File Reference}
 \label{mostra__movimentos_8h}\index{interface/mostra\_movimentos.h@{interface/mostra\_movimentos.h}}
-{\ttfamily \#include \char`\"{}../dados/inicializar\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../dados/inicializa\+\_\+estado.\+h\char`\"{}}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{mostra__movimentos_8h_ace7e06b2a2d7f2be73f509ed52301cb6}{mostra\+\_\+movimentos}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+void \mbox{\hyperlink{mostra__movimentos_8h_a2e85a3096ce6b245e16319c3e86fb1fb}{mostra\+\_\+movimentos}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, F\+I\+LE $\ast$fp)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
-Funçao que interpreta os comandos 
+Funçao que mostra os moviementos. 
 
 \doxysubsection{Function Documentation}
-\mbox{\Hypertarget{mostra__movimentos_8h_ace7e06b2a2d7f2be73f509ed52301cb6}\label{mostra__movimentos_8h_ace7e06b2a2d7f2be73f509ed52301cb6}} 
+\mbox{\Hypertarget{mostra__movimentos_8h_a2e85a3096ce6b245e16319c3e86fb1fb}\label{mostra__movimentos_8h_a2e85a3096ce6b245e16319c3e86fb1fb}} 
 \index{mostra\_movimentos.h@{mostra\_movimentos.h}!mostra\_movimentos@{mostra\_movimentos}}
 \index{mostra\_movimentos@{mostra\_movimentos}!mostra\_movimentos.h@{mostra\_movimentos.h}}
 \doxysubsubsection{\texorpdfstring{mostra\_movimentos()}{mostra\_movimentos()}}
-{\footnotesize\ttfamily void mostra\+\_\+movimentos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void mostra\+\_\+movimentos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{F\+I\+LE $\ast$}]{fp }\end{DoxyParamCaption})}
 
-Função que vai mostrar todos os movimentos realizados pelos jogadores.~\newline
+Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.~\newline
 
 \begin{DoxyParams}{Parameters}
-{\em e} & Apontador para o estado. \\
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em fp} & Apontador para o ficheiro. \\
 \hline
 \end{DoxyParams}
