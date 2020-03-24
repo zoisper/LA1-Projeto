@@ -37,7 +37,7 @@ void mostrar_tabuleiro(ESTADO e)
                         printf(" %c", n);
                 }
         }
-        printf("\n X ");
+        printf("\n   ");
         for (i = 0; i < 8; i++)
             printf(" %c", c++);
         printf("\n");

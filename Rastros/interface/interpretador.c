@@ -31,7 +31,7 @@ int interpretador(ESTADO *e)
     if(sscanf(linha, "%s %s", save, nome_ficheiro) == 2 && strncmp(save, "gr", 2) == 0)
     {
         fp = fopen (nome_ficheiro,"w");
-        grava_jogo (*e, fp);
+        grava_jogo(*e, fp);
         fclose(fp);
         printf ("Jogo Gravado\n");
 
@@ -39,7 +39,7 @@ int interpretador(ESTADO *e)
 
     if(strncmp(linha, "movs",4) == 0)
     {
-        mostra_movimentos(*e);
+        mostra_movimentos(*e, stdout);
     }
     if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strncmp(load, "ler", 3) == 0)
     {
