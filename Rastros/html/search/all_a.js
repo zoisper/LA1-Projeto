@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['retoma_5fcasa_37',['retoma_casa',['../retoma__estado_8h.html#a6a66a7c4cf0dfc7215ff945e1a25030f',1,'retoma_estado.c']]],
-  ['retoma_5festado_2eh_38',['retoma_estado.h',['../retoma__estado_8h.html',1,'']]],
-  ['retoma_5fjogo_39',['retoma_jogo',['../retoma__estado_8h.html#a48561d0a4a7395a898763975af85037c',1,'retoma_estado.c']]]
+  ['reinicia_5festado_39',['reinicia_estado',['../retoma__estado_8h.html#a4bd7d5815cd0cd54e9b810db137c8c4a',1,'retoma_estado.c']]],
+  ['retoma_5fcasa_40',['retoma_casa',['../retoma__estado_8h.html#a6a66a7c4cf0dfc7215ff945e1a25030f',1,'retoma_estado.c']]],
+  ['retoma_5festado_2eh_41',['retoma_estado.h',['../retoma__estado_8h.html',1,'']]],
+  ['retoma_5fmovimentos_42',['retoma_movimentos',['../retoma__estado_8h.html#a0feb41160e9543833017fd545a8314fc',1,'retoma_estado.c']]],
+  ['retoma_5ftabuleiro_43',['retoma_tabuleiro',['../retoma__estado_8h.html#a6176d98071e4510c8dd5cbba5e55c9af',1,'retoma_estado.c']]]
 ];

@@ -7,7 +7,8 @@
 #include "obter_dados.h"
 # include <stdio.h>
 
-void retoma_jogo (ESTADO *e, FILE *fp) {
+void reinicia_estado (ESTADO *e)
+{
     int i, j;
     for (i = 0; i < 8; i++)
         for (j = 0; j < 8; j++)
@@ -23,18 +24,29 @@ void retoma_jogo (ESTADO *e, FILE *fp) {
         e->jogadas[i].jogador2.coluna = 0;
         e->jogadas[i].jogador2.linha = 0;
     }
+}
 
+void retoma_tabuleiro (ESTADO *e, FILE *fp)
+{
+    int i,j;
     char carater;
     for (i = 0; i < 8; i++)
-        for (j = 0; j < 8; j++) {
-            carater = fgetc(fp);
-            retoma_casa(e, i, j, carater);
-            if (carater == '\n')
-                j--;
-        }
+           for (j = 0; j < 8; j++)
+           {
+               carater = fgetc(fp);
+               retoma_casa(e, i, j, carater);
+               if (carater == '\n')
+                   j--;
+           }
+}
 
-    while ((carater = fgetc(fp)) != EOF) {
-        if (carater >= 'a' && carater <= 'h' && e->jogador_atual == 1) {
+void retoma_movimentos(ESTADO *e, FILE *fp)
+{
+    char carater;
+    while ((carater = fgetc(fp)) != EOF)
+    {
+        if (carater >= 'a' && carater <= 'h' && e->jogador_atual == 1)
+        {
             e->jogadas[obter_num_jogadas(*e)].jogador1.coluna = carater - 'a';
             e->ultima_jogada.coluna = carater - 'a';
             carater = fgetc(fp);
@@ -43,7 +55,8 @@ void retoma_jogo (ESTADO *e, FILE *fp) {
             e->jogador_atual = 2;
         }
 
-        if (carater >= 'a' && carater <= 'h' && e->jogador_atual == 2) {
+        if (carater >= 'a' && carater <= 'h' && e->jogador_atual == 2)
+        {
             e->jogadas[obter_num_jogadas(*e)].jogador2.coluna = carater - 'a';
             e->ultima_jogada.coluna = carater - 'a';
             carater = fgetc(fp);
@@ -52,13 +65,13 @@ void retoma_jogo (ESTADO *e, FILE *fp) {
             e->num_jogadas++;
             e->jogador_atual = 1;
         }
-
     }
 }
 
-void retoma_casa (ESTADO *e, int linha, int coluna, char carater)
+
+void retoma_casa(ESTADO *e, int linha, int coluna, char carater)
 {
     CASA casa;
-    casa = (carater == '.' || carater == '1' || carater == '2' )? VAZIO : (carater == '*') ? BRANCA : PRETA;
+    casa = (carater == '.' || carater == '1' || carater == '2') ? VAZIO : (carater == '*') ? BRANCA : PRETA;
     e->tab[linha][coluna] = casa;
 }

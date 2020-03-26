@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: interface/interpretador.h Source File</title>
+<title>My Project: logica/ler_jogo.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,25 +61,28 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_b31d54d5631803016a26f28213a41162.html">interface</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6ea6a6918393993a6a2c0f40fca09e95.html">logica</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">interpretador.h</div>  </div>
+<div class="title">ler_jogo.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="interpretador_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by tiago on 19/03/20.</span></div>
+<a href="ler__jogo_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by tiago on 26/03/20.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef PROJETO_INTERPRETADOR_H</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define PROJETO_INTERPRETADOR_H</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../dados/inicializa_estado.h&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">int</span> <a class="code" href="interpretador_8h.html#a24da95ebeede4a540e37790ce8be359b">interpretador</a>(<a class="code" href="structESTADO.html">ESTADO</a> *e);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif //PROJETO_INTERPRETADOR_H</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span><span class="preprocessor">#include &quot;../dados/inicializa_estado.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef PROJETO_LER_JOGO_H</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define PROJETO_LER_JOGO_H</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="ler__jogo_8h.html#a0270b4589e43cf0161b198532ffd29d5">ler_jogo</a> (<a class="code" href="structESTADO.html">ESTADO</a> *e, FILE *FP);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif //PROJETO_LER_JOGO_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="ainterpretador_8h_html_a24da95ebeede4a540e37790ce8be359b"><div class="ttname"><a href="interpretador_8h.html#a24da95ebeede4a540e37790ce8be359b">interpretador</a></div><div class="ttdeci">int interpretador(ESTADO *e)</div><div class="ttdoc">Interpreta os comandos enviados pelo utilizador e chama a função necessaria.</div><div class="ttdef"><b>Definition:</b> interpretador.c:21</div></div>
+<div class="ttc" id="aler__jogo_8h_html_a0270b4589e43cf0161b198532ffd29d5"><div class="ttname"><a href="ler__jogo_8h.html#a0270b4589e43cf0161b198532ffd29d5">ler_jogo</a></div><div class="ttdeci">void ler_jogo(ESTADO *e, FILE *FP)</div><div class="ttdoc">Le o estado de um ficheiro. .</div><div class="ttdef"><b>Definition:</b> ler_jogo.c:8</div></div>
 <div class="ttc" id="astructESTADO_html"><div class="ttname"><a href="structESTADO.html">ESTADO</a></div><div class="ttdoc">Tipo de dados para o estado.</div><div class="ttdef"><b>Definition:</b> inicializa_estado.h:37</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -13,6 +13,7 @@
 #include "../dados/retoma_estado.h"
 #include "../logica/verifica_vencedor.h"
 #include "mostra_movimentos.h"
+#include "../logica/ler_jogo.h"
 
 #define BUF_SIZE 1024
 
@@ -30,7 +31,7 @@ int interpretador(ESTADO *e)
     if(strlen(linha) == 2 && linha[0]=='Q')
         exit(0);
 
-    if(sscanf(linha, "%s %s", save, nome_ficheiro) == 2 && strlen(save) == 2 && strncmp(save, "gr", 2) == 0)
+    else if(sscanf(linha, "%s %s", save, nome_ficheiro) == 2 && strlen(save) == 2 && strncmp(save, "gr", 2) == 0)
     {
         fp = fopen (nome_ficheiro,"w");
         grava_jogo(*e, fp);
@@ -40,18 +41,18 @@ int interpretador(ESTADO *e)
 
     }
 
-    if(strlen (linha) == 5 && strncmp(linha, "movs",4) == 0)
+    else if(strlen (linha) == 5 && strncmp(linha, "movs",4) == 0)
     {
         mostra_movimentos(*e, stdout);
         return 1;
     }
 
-    if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
+    else if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
     {
         fp = fopen (nome_ficheiro,"r");
         if (fp)
         {
-            retoma_jogo (e, fp);
+            ler_jogo (e, fp);
             fclose(fp);
             mostrar_tabuleiro(*e);
             printf ("Jogo Retomado\n");
@@ -62,7 +63,7 @@ int interpretador(ESTADO *e)
 
 
 
-    if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
+    else if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
         COORDENADA coord = {*col - 'a', '8' - *lin  };
         int controlo = jogar(e, coord); // controlo serve para o prompt saber se deve incrementar o numero de comandos
