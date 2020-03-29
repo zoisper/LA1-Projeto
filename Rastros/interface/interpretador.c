@@ -10,16 +10,18 @@
 #include "../logica/jogar.h"
 #include "../dados/obter_dados.h"
 #include "../logica/grava_jogo.h"
-#include "../dados/retoma_estado.h"
 #include "../logica/verifica_vencedor.h"
 #include "mostra_movimentos.h"
 #include "../logica/ler_jogo.h"
+#include "../logica/pos_jogada.h"
 
 #define BUF_SIZE 1024
 
 
 int interpretador(ESTADO *e)
 {
+    int num;
+    char pos[4];
     char linha[BUF_SIZE];
     char col[2], lin[2];
     char save[3], load[4], nome_ficheiro[BUF_SIZE];
@@ -46,6 +48,8 @@ int interpretador(ESTADO *e)
         mostra_movimentos(*e, stdout);
         return 1;
     }
+
+
 
     else if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
     {

@@ -1,0 +1,22 @@
+Funcionalidades:
+
+- Implementar o comando "pos" que começa o jogo apartir de uma jogada anterior.
+
+Product Backlog:
+ 
+- Adicionar o comando "pos" ao interpretador.
+- Criar funções de teste.
+- Atualizar documentação.
+
+Sprint Backlog:
+
+- Rui Gonçalves
+	Historia:
+
+- Tiago Leite
+	Historia: 
+	- Implementar uma função (pos_jogada) na camada de  lógica  que recebe o estado e o número da jogada e retorna o jogo para o momento dessa jogada. - Concluido 29/03/2020
+
+- Vicente Castro
+	Historia:
+	

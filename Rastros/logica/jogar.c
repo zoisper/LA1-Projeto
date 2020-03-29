@@ -3,7 +3,6 @@
 //
 
 #include "jogar.h"
-#include <stdio.h>
 #include "../dados/obter_dados.h"
 #include "../dados/muda_dados.h"
 
@@ -11,7 +10,7 @@
 int jogar(ESTADO *e, COORDENADA c)
 {
 
-    printf("jogar %d %d\n", c.coluna, c.linha);
+    //printf("jogar %d %d\n", c.coluna, c.linha);
     if (valida_jogada(*e, c) == 1)
     {
         muda_casa(e, c);
