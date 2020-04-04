@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['tab_44',['tab',['../structESTADO.html#ab56f0f1be16954d3768b4174d14c087d',1,'ESTADO']]],
-  ['testa_5festado_45',['testa_estado',['../testes_8h.html#a3408a6150ed8646bd869f684357a9bbb',1,'testes.c']]],
-  ['testes_2eh_46',['testes.h',['../testes_8h.html',1,'']]]
+  ['pos_2eh_40',['pos.h',['../pos_8h.html',1,'']]],
+  ['pos_5fjogada_41',['pos_jogada',['../pos_8h.html#a86c811a5cae6d95a57f4e54f3d1e1f87',1,'pos.c']]],
+  ['prompt_42',['prompt',['../prompt_8h.html#ae4dfbe3acd79cd3900c4b66b608f7cad',1,'prompt.c']]],
+  ['prompt_2eh_43',['prompt.h',['../prompt_8h.html',1,'']]]
 ];

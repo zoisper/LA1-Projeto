@@ -1,12 +1,15 @@
-//
-// Created by tiago on 29/03/20.
-//
-
+/**
+@file testa_jogar.h
+Testes que verificam se a função jogar funciona corretamente.
+*/
 #ifndef PROJETO_TESTA_JOGAR_H
 #define PROJETO_TESTA_JOGAR_H
 
 #include "../dados/inicializa_estado.h"
-#include <assert.h>
 
+/**
+* \brief Função que realiza varias jogadas validas e invalidas e analisa o resultado.\n
+* @param e O estado.\n
+*/
 void testa_jogar (ESTADO e);
 #endif //PROJETO_TESTA_JOGAR_H

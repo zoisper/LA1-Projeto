@@ -1,9 +1,7 @@
-//
-// Created by tiago on 29/03/20.
-//
 
 #include "testa_jogar.h"
 #include "../logica/jogar.h"
+#include <assert.h>
 
 void testa_jogar (ESTADO e)
 {
@@ -22,4 +20,5 @@ void testa_jogar (ESTADO e)
     for (i=0; i<10;i++)
         jogar(&e,coord);
     assert(e.num_jogadas==1);
+
 }

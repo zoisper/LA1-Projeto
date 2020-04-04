@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 /**
 @file grava_jogo.h
 As função que grava o jogo num ficheiro.

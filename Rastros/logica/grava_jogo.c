@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 
 #include "grava_jogo.h"
 #include "../dados/obter_dados.h"

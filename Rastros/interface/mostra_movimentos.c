@@ -1,6 +1,4 @@
-//
-// Created by tiago on 21/03/20.
-//
+
 
 #include <printf.h>
 #include "mostra_movimentos.h"

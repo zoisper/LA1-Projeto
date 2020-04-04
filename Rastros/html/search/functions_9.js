@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['valida_5fjogada_92',['valida_jogada',['../jogar_8h.html#a401bcee6905d0487cf8d5dcbbef6266a',1,'jogar.c']]],
-  ['verifica_5fvencedor_93',['verifica_vencedor',['../jogar_8h.html#a33563a6ab717ef1eb3eb1d57229d259d',1,'verifica_vencedor(ESTADO e):&#160;verifica_vencedor.c'],['../verifica__vencedor_8h.html#a33563a6ab717ef1eb3eb1d57229d259d',1,'verifica_vencedor(ESTADO e):&#160;verifica_vencedor.c']]]
+  ['pos_5fjogada_107',['pos_jogada',['../pos_8h.html#a86c811a5cae6d95a57f4e54f3d1e1f87',1,'pos.c']]],
+  ['prompt_108',['prompt',['../prompt_8h.html#ae4dfbe3acd79cd3900c4b66b608f7cad',1,'prompt.c']]]
 ];

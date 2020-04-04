@@ -1,6 +1,3 @@
-//
-// Created by tiago on 19/03/20.
-//
 
 #include "interpretador.h"
 #include <stdio.h>
@@ -49,7 +46,7 @@ int interpretador(ESTADO *e)
         return 1;
     }
 
-  
+    
 
     else if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
     {

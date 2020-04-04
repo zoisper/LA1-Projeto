@@ -1,7 +1,3 @@
-//
-// Created by tiago on 23/03/20.
-//
-
 
 #include "testa_estado.h"
 #include <assert.h>

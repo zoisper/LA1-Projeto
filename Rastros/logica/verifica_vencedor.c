@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 
 #include "verifica_vencedor.h"
 #include "../dados/obter_dados.h"

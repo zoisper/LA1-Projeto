@@ -1,6 +1,4 @@
-//
-// Created by tiago on 26/03/20.
-//
+
 /**
 @file ler_jogo.h
 A função que vai ler o jogo de um ficheiro.

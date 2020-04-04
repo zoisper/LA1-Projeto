@@ -1,6 +1,3 @@
-//
-// Created by tiago on 09/03/20.
-//
 
 /**
 @file jogar.h

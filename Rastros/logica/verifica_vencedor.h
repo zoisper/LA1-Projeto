@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 /**
 @file verifica_vencedor.h
 As funções que verifica se algum jogador venceu o jogo.

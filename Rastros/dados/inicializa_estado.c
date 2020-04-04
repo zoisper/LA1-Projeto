@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 
 #include "inicializa_estado.h"
 #include <stdlib.h>

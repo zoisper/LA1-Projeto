@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 /**
 @file inicializa_estado.h
 Definição do estado e da função que o inicializa

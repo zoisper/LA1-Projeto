@@ -1,6 +1,4 @@
-//
-// Created by tiago on 08/03/20.
-//
+
 
 /**
 @file mostra_tabuleiro.h

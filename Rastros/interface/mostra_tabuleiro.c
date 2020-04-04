@@ -1,6 +1,4 @@
-//
-// Created by tiago on 08/03/20.
-//
+
 #include <stdio.h>
 #include "../dados/obter_dados.h"
 #define BUF_SIZE 1024

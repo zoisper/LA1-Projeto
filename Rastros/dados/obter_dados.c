@@ -1,6 +1,3 @@
-//
-// Created by tiago on 19/03/20.
-//
 
 #include "obter_dados.h"
 CASA obter_casa(ESTADO e, int linha, int coluna)

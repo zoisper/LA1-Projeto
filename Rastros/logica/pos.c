@@ -1,12 +1,9 @@
-//
-// Created by tiago on 29/03/20.
-//
 
 #include "pos.h"
 #include "../dados/obter_dados.h"
 #include "../dados/retoma_estado.h"
 #include "jogar.h"
-# define tamanho 32
+#define tamanho 32
 
 
 
@@ -35,7 +32,7 @@ int pos_jogada (ESTADO *e, int num)
 
 }
 
-void clona_jogadas(ESTADO e, JOGADA jogadas[], int n )
+void clona_jogadas(ESTADO e, JOGADA jogadas[], int num )
 {
     int i;
     for (i=0; i<tamanho; i++)
@@ -46,7 +43,7 @@ void clona_jogadas(ESTADO e, JOGADA jogadas[], int n )
         jogadas[i].jogador2.linha = 0;
     }
 
-    for (i=0; i<n; i++)
+    for (i=0; i<num; i++)
     {
         jogadas[i].jogador1.coluna = obter_jogada_jogador_coluna(e,i, 1);
         jogadas[i].jogador1.linha = obter_jogada_jogador_linha(e,i, 1);
@@ -77,16 +74,16 @@ int houve_jogada (ESTADO e, JOGADA jogadas[])
 }
 
 
-void acede_jogada (ESTADO *e,  JOGADA JOGADAS_aux[], int num)
+void acede_jogada (ESTADO *e,  JOGADA jogadas[], int num)
 {
     reinicia_estado(e);
     COORDENADA coord;
     int i;
     for (i=0;i<num; i++)
     {
-        coord = JOGADAS_aux[i].jogador1;
+        coord = jogadas[i].jogador1;
         jogar(e, coord);
-        coord = JOGADAS_aux[i].jogador2;
+        coord = jogadas[i].jogador2;
         jogar(e, coord);
     }
 }

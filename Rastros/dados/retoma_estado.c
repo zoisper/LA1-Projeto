@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 
 #include "retoma_estado.h"
 #include "muda_dados.h"

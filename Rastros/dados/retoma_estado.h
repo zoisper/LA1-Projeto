@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 /**
 @file retoma_estado.h
 As funções que vão ler o tabuleiro e movimentos de um ficheiro.

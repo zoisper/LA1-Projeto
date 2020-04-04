@@ -1,6 +1,4 @@
-//
-// Created by tiago on 21/03/20.
-//
+
 /**
 @file mostra_movimentos.h
 Funçao que mostra os moviementos.

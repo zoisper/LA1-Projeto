@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 /**
 @file obter_dados.h
 Definição das funçoes que obtem informação do estado

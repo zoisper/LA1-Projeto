@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jogar_71',['jogar',['../jogar_8h.html#ac313d7e553b1e2b5f266acb9bfff8141',1,'jogar.c']]]
+  ['grava_5fjogo_87',['grava_jogo',['../grava__jogo_8h.html#a074574235df8bf5ae4cde4aad7428004',1,'grava_jogo.c']]]
 ];

@@ -1,6 +1,4 @@
-//
-// Created by tiago on 09/03/20.
-//
+
 
 #include "jogar.h"
 #include "../dados/obter_dados.h"

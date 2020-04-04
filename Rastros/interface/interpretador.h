@@ -1,6 +1,4 @@
-//
-// Created by tiago on 19/03/20.
-//
+
 /**
 @file interpretador.h
 Funçao que interpreta os comandos

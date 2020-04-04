@@ -1,6 +1,3 @@
-//
-// Created by tiago on 08/03/20.
-//
 
 #include "muda_dados.h"
 #include <stdlib.h>
