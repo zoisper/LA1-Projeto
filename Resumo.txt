@@ -14,5 +14,8 @@ Impelemetado:
  - Comando "movs".
  - Informação sobre movimentos adicionada aos comandos "gr" e "ler".
 Camada de testes adicionada.
+Implementado:
+- Comandos "pos".
+-  Funçoes que correm testes automaticos.
  
 
