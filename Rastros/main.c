@@ -3,7 +3,9 @@
 #include "interface/mostra_tabuleiro.h"
 #include "interface/interpretador.h"
 #include "interface/prompt.h"
-#include "testes/testes.h"
+#include "testes/teste.h"
+
+
 
 int main()
 {
@@ -11,11 +13,12 @@ int main()
     e = inicializar_estado();
     int controlo = 0;
     mostrar_tabuleiro(*e);
+    teste (*e);
     while (1)
     {
-        testa_estado(*e);
         prompt(*e, controlo);
         controlo = interpretador(e);
+
     }
 
 

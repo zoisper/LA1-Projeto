@@ -12,10 +12,10 @@ int verifica_vencedor (ESTADO e) // verifica se alguem ganhou
     int l = obter_ultima_jogada_linha(e);
 
     if (obter_casa(e, 0, 7)== BRANCA)
-        return 1;
+        return 2;
     else
         if (obter_casa(e, 7, 0)== BRANCA)
-            return 2;
+            return 1;
 
     else
         if (

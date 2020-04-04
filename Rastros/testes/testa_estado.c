@@ -3,9 +3,10 @@
 //
 
 
-#include "testes.h"
+#include "testa_estado.h"
 #include <assert.h>
 #include "../dados/obter_dados.h"
+
 
 
 void testa_estado (ESTADO e)

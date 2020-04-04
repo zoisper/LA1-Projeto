@@ -2,11 +2,11 @@
 // Created by tiago on 23/03/20.
 //
 /**
-@file testes.h
-Testes sobre o estado do jogo
+@file teste_estado.h
+Testes sobre o estado inicial do jogo
 */
-#ifndef PROJETO_TESTES_H
-#define PROJETO_TESTES_H
+#ifndef PROJETO_TESTA_ESTADO_H
+#define PROJETO_TESTA_ESTADO_H
 #include "../dados/inicializa_estado.h"
 
 /**
@@ -15,4 +15,4 @@ Testes sobre o estado do jogo
  */
 void testa_estado (ESTADO e);
 
-#endif //PROJETO_TESTES_H
+#endif //PROJETO_TESTA_ESTADO_H
