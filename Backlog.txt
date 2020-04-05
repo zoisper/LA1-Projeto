@@ -7,12 +7,13 @@ Product Backlog:
  
 - Criar um módulo de listas ligadas genérico
 - Criar o comando jog
-- Adicionar o comando pos ao interpretador.
+
 
 Sprint Backlog:
 
 - Rui Gonçalves
 	Historia:
+	- Adicionar o comando pos ao interpretador. - Concluido 05/03/20220
 
 - Tiago Leite
 	Historia: 
