@@ -1,12 +1,13 @@
 Funcionalidades:
 
-- Implementar o comando "pos" que começa o jogo apartir de uma jogada anterior.
+- Implementar o comando pos que começa o jogo apartir de uma jogada anterior.
+- Implementar o comando jog.
 
 Product Backlog:
  
 - Criar um módulo de listas ligadas genérico
 - Criar o comando jog
-- Adicionar o comando "pos" ao interpretador.
+- Adicionar o comando pos ao interpretador.
 
 Sprint Backlog:
 

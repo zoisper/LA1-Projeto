@@ -61,7 +61,12 @@ int interpretador(ESTADO *e)
         }
         return 0;
     }
-
+    else if(strlen (linha) == 6 && sscanf(linha, "%s %d",pos, &num )&& strncmp(pos, "pos",3) == 0)
+    {
+        controlo = pos_jogada(e, num);
+        mostrar_tabuleiro(*e);
+        return controlo;
+    }
 
 
     else if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
