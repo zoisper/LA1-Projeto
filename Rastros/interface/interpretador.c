@@ -1,3 +1,6 @@
+//
+// Created by tiago on 19/03/20.
+//
 
 #include "interpretador.h"
 #include <stdio.h>
@@ -5,19 +8,19 @@
 #include <stdlib.h>
 #include "mostra_tabuleiro.h"
 #include "../logica/jogar.h"
+#include "../dados/obter_dados.h"
 #include "../logica/grava_jogo.h"
 #include "../logica/verifica_vencedor.h"
 #include "mostra_movimentos.h"
 #include "../logica/ler_jogo.h"
-#include "../logica/pos.h"
-
+#include "../logica/pos_jogada.h"
 
 #define BUF_SIZE 1024
 
 
 int interpretador(ESTADO *e)
 {
-    int num, controlo, vencedor;
+    int num;
     char pos[4];
     char linha[BUF_SIZE];
     char col[2], lin[2];
@@ -46,7 +49,7 @@ int interpretador(ESTADO *e)
         return 1;
     }
 
-    
+
 
     else if(sscanf(linha, "%s %s", load, nome_ficheiro) == 2 && strlen(load) == 3 && strncmp(load, "ler", 3) == 0)
     {
@@ -63,18 +66,22 @@ int interpretador(ESTADO *e)
     }
 
 
+    else if(strlen (linha) == 6 && sscanf(linha, "%s %d",pos, &num )&& strncmp(pos, "pos",3) == 0)
+    {
+        controlo = pos_jogada(e, num);
+        mostrar_tabuleiro(*e);
+        return controlo;
+    }
 
     else if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
         COORDENADA coord = {*col - 'a', '8' - *lin  };
-        controlo = jogar(e, coord);
-        if (controlo == 0)
-            printf("Jogada Invalida");
+        int controlo = jogar(e, coord); // controlo serve para o prompt saber se deve incrementar o numero de comandos
         mostrar_tabuleiro(*e);
-        vencedor = verifica_vencedor(*e);
-        if (vencedor !=0 )
+        int v = verifica_vencedor(*e);
+        if (v !=0 )
         {
-            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
+            printf ("Paraben Jogador %d venceu o jogo!", v);
             exit (0);
         }
         return controlo;
