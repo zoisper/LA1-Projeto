@@ -8,6 +8,7 @@
 int main()
 {
 
+    
     ESTADO *e;
     e = inicializar_estado();
     int controlo = 0;
