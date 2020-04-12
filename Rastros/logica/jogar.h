@@ -23,6 +23,8 @@ int valida_jogada(ESTADO e, COORDENADA c);
 /**
  * \brief Verifica se algum jogador venceu o jogo.
  * @param e O estado.
+ * @return Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu.
  */
 int verifica_vencedor (ESTADO e);
+
 #endif //PROJETO_JOGAR_H

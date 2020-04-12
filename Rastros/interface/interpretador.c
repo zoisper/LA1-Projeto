@@ -6,10 +6,12 @@
 #include "mostra_tabuleiro.h"
 #include "../logica/jogar.h"
 #include "../logica/grava_jogo.h"
-#include "../logica/verifica_vencedor.h"
 #include "mostra_movimentos.h"
 #include "../logica/ler_jogo.h"
 #include "../logica/pos.h"
+#include "../dados/lista.h"
+#include "../logica/jog.h"
+#include "mostra_vencedor.h"
 
 
 #define BUF_SIZE 1024
@@ -18,11 +20,13 @@
 int interpretador(ESTADO *e)
 {
     int num, controlo, vencedor;
-    char pos[4];
     char linha[BUF_SIZE];
     char col[2], lin[2];
-    char save[3], load[4], nome_ficheiro[BUF_SIZE];
+    char save[3], load[4], pos[4], nome_ficheiro[BUF_SIZE];
+    CASA *casa;
+    LISTA lista;
     FILE *fp;
+    COORDENADA coord;
 
     if(fgets(linha, BUF_SIZE, stdin) == NULL)
         return 0;
@@ -68,20 +72,31 @@ int interpretador(ESTADO *e)
         return controlo;
     }
 
+    else if(strlen (linha) == 4 && strncmp(linha, "jog",3) == 0)
+    {
+        lista = casas_possiveis(e);
+        casa = escolhe_casa_random(lista);
+        limpa_lista(lista);
+        coord = converte_casa_coordenada(e, casa);
+        jogar(e,coord);
+        mostrar_tabuleiro(*e);
+        vencedor = verifica_vencedor(*e);
+        mostra_vencedor(vencedor);
+
+        return 1;
+    }
+
 
     else if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
-        COORDENADA coord = {*col - 'a', '8' - *lin  };
+        coord.coluna = (*col - 'a');
+        coord.linha = ('8' - *lin);
         controlo = jogar(e, coord);
         if (controlo == 0)
             printf("Jogada Invalida");
         mostrar_tabuleiro(*e);
         vencedor = verifica_vencedor(*e);
-        if (vencedor !=0 )
-        {
-            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
-            exit (0);
-        }
+        mostra_vencedor(vencedor);
         return controlo;
     }
     return 0;

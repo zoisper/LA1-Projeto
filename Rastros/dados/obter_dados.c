@@ -36,3 +36,7 @@ int obter_ultima_jogada_linha(ESTADO e)
 {
     return e.ultima_jogada.linha;
 }
+CASA *obter_endereco_casa (ESTADO *e, int coluna, int linha)
+{
+    return  &(e->tab[linha][coluna]);
+}

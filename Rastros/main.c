@@ -5,10 +5,9 @@
 #include "interface/prompt.h"
 #include "testes/teste.h"
 
-
-
 int main()
 {
+
     ESTADO *e;
     e = inicializar_estado();
     int controlo = 0;

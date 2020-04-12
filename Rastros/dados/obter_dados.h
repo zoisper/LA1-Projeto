@@ -53,4 +53,7 @@ int obter_jogada_jogador_coluna(ESTADO e, int num_jogada,int jogador);
  * @return A cordenada da linha dessa jogada desse jogado.
  */
 int obter_jogada_jogador_linha(ESTADO e, int num_jogada,int jogador);
+
+CASA *obter_endereco_casa (ESTADO *e, int coluna, int linha);
+
 #endif //PROJETO_OBTER_DADOS_H
