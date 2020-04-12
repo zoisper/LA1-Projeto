@@ -11,7 +11,7 @@
 #include "../logica/pos.h"
 #include "../dados/lista.h"
 #include "../logica/jog.h"
-#include "mostra_vencedor.h"
+
 
 
 #define BUF_SIZE 1024
@@ -78,12 +78,16 @@ int interpretador(ESTADO *e)
         casa = escolhe_casa_random(lista);
         limpa_lista(lista);
         coord = converte_casa_coordenada(e, casa);
-        jogar(e,coord);
+        controlo = jogar(e,coord);
         mostrar_tabuleiro(*e);
         vencedor = verifica_vencedor(*e);
-        mostra_vencedor(vencedor);
+        if (vencedor != 0)
+        {
+            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
+            return 2;
+        }
 
-        return 1;
+        return controlo;
     }
 
 
@@ -96,7 +100,11 @@ int interpretador(ESTADO *e)
             printf("Jogada Invalida");
         mostrar_tabuleiro(*e);
         vencedor = verifica_vencedor(*e);
-        mostra_vencedor(vencedor);
+        if (vencedor != 0)
+        {
+            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
+            return 2;
+        }
         return controlo;
     }
     return 0;

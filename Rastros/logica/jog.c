@@ -9,15 +9,16 @@
 
 LISTA casas_possiveis(ESTADO *e)
 {
-    int l,c,linha, coluna;
+    int l,c,ultima_linha, ultima_coluna;
     LISTA L;
-    coluna = obter_ultima_jogada_coluna(*e);
-    linha = obter_ultima_jogada_linha(*e);
+    ultima_coluna = obter_ultima_jogada_coluna(*e);
+    ultima_linha = obter_ultima_jogada_linha(*e);
     L = criar_lista();
-    for(l=linha-1; l <=linha +1; l++)
-        for(c=coluna-1; c <=coluna+1; c++)
-            if (obter_casa(*e, l,c) == VAZIO)
-                L = insere_cabeca(L, obter_endereco_casa(e,c,l));
+    for(l=ultima_linha-1; l <=ultima_linha +1; l++)
+        for(c=ultima_coluna-1; c <=ultima_coluna+1; c++)
+            if ((obter_casa(*e, l,c) == VAZIO) && l>=0 && l<8 && c>=0 && c<8)
+            L = insere_cabeca(L, obter_endereco_casa(e,l,c));
+
     return L;
 }
 
@@ -40,10 +41,9 @@ COORDENADA converte_casa_coordenada(ESTADO *e, CASA *casa)
 {
     COORDENADA coord;
     int l,c;
-
     for(l=0;l<8;l++)
         for(c=0;c<8;c++)
-            if (obter_endereco_casa(e,c,l) == casa)
+            if (obter_endereco_casa(e,l,c) == casa)
             {
                 coord.linha = l;
                 coord.coluna = c;

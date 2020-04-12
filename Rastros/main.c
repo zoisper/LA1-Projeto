@@ -13,14 +13,10 @@ int main()
     int controlo = 0;
     mostrar_tabuleiro(*e);
     teste (*e);
-    while (1)
+    while (controlo != 2)
     {
         prompt(*e, controlo);
         controlo = interpretador(e);
-
     }
-
-
-
     return 0;
 }
