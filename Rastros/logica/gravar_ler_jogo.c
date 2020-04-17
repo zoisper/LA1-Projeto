@@ -1,8 +1,9 @@
 
 
-#include "grava_jogo.h"
-#include "../dados/obter_dados.h"
-#include "../interface/mostra_movimentos.h"
+#include "gravar_ler_jogo.h"
+#include "../dados/obter_dados_estado.h"
+#include "../interface/mostra.h"
+#include "../dados/muda_estado.h"
 
 void grava_jogo(ESTADO e,FILE *fp)
 {
@@ -33,4 +34,11 @@ void grava_jogo(ESTADO e,FILE *fp)
 
     fprintf(fp, "\n");
     mostra_movimentos(e, fp);
+}
+
+void ler_jogo (ESTADO *e, FILE *fp)
+{
+    reinicia_estado(e);
+    retoma_tabuleiro(e,fp);
+    retoma_movimentos(e,fp);
 }

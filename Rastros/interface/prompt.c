@@ -2,7 +2,7 @@
 
 #include "prompt.h"
 #include <stdio.h>
-#include "../dados/obter_dados.h"
+#include "../dados/obter_dados_estado.h"
 
 
 void prompt (ESTADO e, int controlo)

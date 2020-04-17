@@ -48,7 +48,7 @@ typedef struct {
 /**
 \brief Inicializa o valor do estado.\n
 Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocado na posição inicial e todos os campos do estado estarem com o valor por omissão.
-@returns O novo estado
+@return O novo estado
 */
 ESTADO *inicializar_estado();
 #endif //PROJETO_INICIALIZA_ESTADO_H

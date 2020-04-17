@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['grava_5fjogo_87',['grava_jogo',['../grava__jogo_8h.html#a074574235df8bf5ae4cde4aad7428004',1,'grava_jogo.c']]]
+  ['devolve_5fcabeca_101',['devolve_cabeca',['../lista_8h.html#abfcb205f3eb670157be0d1221021714b',1,'lista.c']]]
 ];

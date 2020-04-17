@@ -1,7 +1,7 @@
 
 #include "pos.h"
-#include "../dados/obter_dados.h"
-#include "../dados/retoma_estado.h"
+#include "../dados/obter_dados_estado.h"
+#include "../dados/muda_estado.h"
 #include "jogar.h"
 #define tamanho 32
 

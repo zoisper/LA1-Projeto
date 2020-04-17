@@ -1,13 +1,13 @@
 /**
-@file teste.h
+@file main_teste.h
 Testes Automaticos
  */
-#ifndef PROJETO_TESTE_H
-#define PROJETO_TESTE_H
+#ifndef PROJETO_MAIN_TESTE_H
+#define PROJETO_MAIN_TESTE_H
 #include "../dados/inicializa_estado.h"
 /**
  * \brief Função que realiza varios testes automaticos\n.
  * @param e O estado
  */
 void teste (ESTADO e);
-#endif //PROJETO_TESTE_H
+#endif //PROJETO_MAIN_TESTE_H

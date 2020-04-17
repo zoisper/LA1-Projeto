@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['jogadas_121',['jogadas',['../structESTADO.html#afae43b87a488fad0f2b56a18bad31d18',1,'ESTADO']]],
-  ['jogador_5fatual_122',['jogador_atual',['../structESTADO.html#a5dd28e2e68b7aef2b6b7ea88e02eff58',1,'ESTADO']]]
+  ['dado_144',['dado',['../structlista.html#a185bf2f5d7beeec38e7fa345b1620b45',1,'lista']]]
 ];

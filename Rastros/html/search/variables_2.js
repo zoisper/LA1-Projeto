@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['linha_123',['linha',['../structCOORDENADA.html#aefe14bcc5a066ac3b21500cc3d28c06f',1,'COORDENADA']]]
+  ['jogadas_145',['jogadas',['../structESTADO.html#afae43b87a488fad0f2b56a18bad31d18',1,'ESTADO']]],
+  ['jogador_5fatual_146',['jogador_atual',['../structESTADO.html#a5dd28e2e68b7aef2b6b7ea88e02eff58',1,'ESTADO']]]
 ];

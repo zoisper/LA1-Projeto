@@ -1,10 +1,10 @@
 
 /**
-@file obter_dados.h
+@file obter_dados_estado.h
 Definição das funçoes que obtem informação do estado
 */
-#ifndef PROJETO_OBTER_DADOS_H
-#define PROJETO_OBTER_DADOS_H
+#ifndef PROJETO_OBTER_DADOS_ESTADO_H
+#define PROJETO_OBTER_DADOS_ESTADO_H
 #include "inicializa_estado.h"
 /**
  * \brief Devolve o valor de uma casa.
@@ -54,4 +54,4 @@ int obter_jogada_jogador_coluna(ESTADO e, int num_jogada,int jogador);
  */
 int obter_jogada_jogador_linha(ESTADO e, int num_jogada,int jogador);
 
-#endif //PROJETO_OBTER_DADOS_H
+#endif //PROJETO_OBTER_DADOS_ESTADO_H

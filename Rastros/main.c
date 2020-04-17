@@ -1,10 +1,10 @@
 
 #include <stdlib.h>
-#include "dados/muda_dados.h"
-#include "interface/mostra_tabuleiro.h"
+#include "dados/muda_estado.h"
+#include "interface/mostra.h"
 #include "interface/interpretador.h"
 #include "interface/prompt.h"
-#include "testes/teste.h"
+#include "testes/main_teste.h"
 
 
 int main()

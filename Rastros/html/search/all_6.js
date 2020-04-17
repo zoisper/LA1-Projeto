@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['jogada_14',['JOGADA',['../structJOGADA.html',1,'']]],
-  ['jogadas_15',['jogadas',['../structESTADO.html#afae43b87a488fad0f2b56a18bad31d18',1,'ESTADO::jogadas()'],['../inicializa__estado_8h.html#a94c221d29a1760f008b7834093259b7d',1,'JOGADAS():&#160;inicializa_estado.h']]],
-  ['jogador_5fatual_16',['jogador_atual',['../structESTADO.html#a5dd28e2e68b7aef2b6b7ea88e02eff58',1,'ESTADO']]],
-  ['jogar_17',['jogar',['../jogar_8h.html#ac313d7e553b1e2b5f266acb9bfff8141',1,'jogar.c']]],
-  ['jogar_2eh_18',['jogar.h',['../jogar_8h.html',1,'']]]
+  ['incrementa_5fnum_5fjogadas_14',['incrementa_num_jogadas',['../muda__estado_8h.html#a9e452d73246e3db9d9b4cc4d458ed056',1,'muda_estado.c']]],
+  ['inicializa_5festado_2eh_15',['inicializa_estado.h',['../inicializa__estado_8h.html',1,'']]],
+  ['inicializar_5festado_16',['inicializar_estado',['../inicializa__estado_8h.html#a7e0c7e26fb685d9ab501e19b05e6954f',1,'inicializa_estado.c']]],
+  ['insere_5fcabeca_17',['insere_cabeca',['../lista_8h.html#a37ba5fc3cfddb6bc94d4b54b00bc696e',1,'lista.c']]],
+  ['interpretador_18',['interpretador',['../interpretador_8h.html#a24da95ebeede4a540e37790ce8be359b',1,'interpretador.c']]],
+  ['interpretador_2eh_19',['interpretador.h',['../interpretador_8h.html',1,'']]]
 ];

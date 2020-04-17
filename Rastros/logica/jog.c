@@ -1,7 +1,7 @@
 
 
 #include "jog.h"
-#include "../dados/obter_dados.h"
+#include "../dados/obter_dados_estado.h"
 #include <time.h>
 #include <stdlib.h>
 
@@ -12,7 +12,7 @@ COORDENADA jog_random (ESTADO e)
 
     lista = jogadas_possiveis(e);
     coord = escolhe_jogada_random(lista);
-    limpa_lista(lista);
+    limpa_lista(&lista);
     return  coord;
 
 }

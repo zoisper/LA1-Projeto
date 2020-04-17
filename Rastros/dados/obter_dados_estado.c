@@ -1,5 +1,5 @@
 
-#include "obter_dados.h"
+#include "obter_dados_estado.h"
 CASA obter_casa(ESTADO e, int linha, int coluna)
 {
     return e.tab[linha][coluna];

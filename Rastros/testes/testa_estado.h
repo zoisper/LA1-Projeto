@@ -13,4 +13,6 @@ Testes sobre as variaveis do estado.
  */
 void testa_estado (ESTADO e);
 
+
+
 #endif //PROJETO_TESTA_ESTADO_H

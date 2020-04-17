@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['houve_5fjogada_88',['houve_jogada',['../pos_8h.html#ac8fb5926d53c2022a8c5482a7e309788',1,'pos.c']]]
+  ['escolhe_5fjogada_5frandom_102',['escolhe_jogada_random',['../jog_8h.html#a47b40efa78acd09baa3c643b0277a41c',1,'jog.c']]]
 ];

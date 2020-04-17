@@ -1,0 +1,82 @@
+\hypertarget{jog_8h}{}\doxysection{logica/jog.h File Reference}
+\label{jog_8h}\index{logica/jog.h@{logica/jog.h}}
+{\ttfamily \#include \char`\"{}../dados/lista.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../dados/inicializa\+\_\+estado.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structlista}{L\+I\+S\+TA}} \mbox{\hyperlink{jog_8h_a55ff32fdb2588a5a80f10d4902841c68}{jogadas\+\_\+possiveis}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Cria uma lista ligada com todas as jogadas possiveis.~\newline
+. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{jog_8h_a47b40efa78acd09baa3c643b0277a41c}{escolhe\+\_\+jogada\+\_\+random}} (\mbox{\hyperlink{structlista}{L\+I\+S\+TA}} \mbox{\hyperlink{structlista}{lista}})
+\begin{DoxyCompactList}\small\item\em Escolhe aleatoriamente uma jogada de uma lista de jogadas possiveis.~\newline
+. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} \mbox{\hyperlink{jog_8h_a041c2caba4e06c4294acb91b82cc5f6e}{jog\+\_\+random}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Função que chama as funçoes jogadas\+\_\+possiveis e escolhe\+\_\+jogada\+\_\+random .~\newline
+. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+As funções que implementam o comando jog. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{jog_8h_a47b40efa78acd09baa3c643b0277a41c}\label{jog_8h_a47b40efa78acd09baa3c643b0277a41c}} 
+\index{jog.h@{jog.h}!escolhe\_jogada\_random@{escolhe\_jogada\_random}}
+\index{escolhe\_jogada\_random@{escolhe\_jogada\_random}!jog.h@{jog.h}}
+\doxysubsubsection{\texorpdfstring{escolhe\_jogada\_random()}{escolhe\_jogada\_random()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} escolhe\+\_\+jogada\+\_\+random (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structlista}{L\+I\+S\+TA}}}]{lista }\end{DoxyParamCaption})}
+
+
+
+Escolhe aleatoriamente uma jogada de uma lista de jogadas possiveis.~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & A lista com as jogadas possiveis.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A coordernada da jogada escolhida. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{jog_8h_a041c2caba4e06c4294acb91b82cc5f6e}\label{jog_8h_a041c2caba4e06c4294acb91b82cc5f6e}} 
+\index{jog.h@{jog.h}!jog\_random@{jog\_random}}
+\index{jog\_random@{jog\_random}!jog.h@{jog.h}}
+\doxysubsubsection{\texorpdfstring{jog\_random()}{jog\_random()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} jog\+\_\+random (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Função que chama as funçoes jogadas\+\_\+possiveis e escolhe\+\_\+jogada\+\_\+random .~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O valor do estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A coordernada da jogada escolhida aleatoriamente. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{jog_8h_a55ff32fdb2588a5a80f10d4902841c68}\label{jog_8h_a55ff32fdb2588a5a80f10d4902841c68}} 
+\index{jog.h@{jog.h}!jogadas\_possiveis@{jogadas\_possiveis}}
+\index{jogadas\_possiveis@{jogadas\_possiveis}!jog.h@{jog.h}}
+\doxysubsubsection{\texorpdfstring{jogadas\_possiveis()}{jogadas\_possiveis()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structlista}{L\+I\+S\+TA}} jogadas\+\_\+possiveis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Cria uma lista ligada com todas as jogadas possiveis.~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O valor do estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Uma lista com as jogadas possiveis. 
+\end{DoxyReturn}

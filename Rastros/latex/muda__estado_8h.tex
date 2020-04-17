@@ -1,6 +1,7 @@
 \hypertarget{muda__estado_8h}{}\doxysection{dados/muda\+\_\+estado.h File Reference}
 \label{muda__estado_8h}\index{dados/muda\_estado.h@{dados/muda\_estado.h}}
-{\ttfamily \#include \char`\"{}inicializar\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}inicializa\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -9,19 +10,44 @@ void \mbox{\hyperlink{muda__estado_8h_ab8aa37fa587b4cda8f81ecaf9da6b148}{muda\+\
 void \mbox{\hyperlink{muda__estado_8h_aade3ad032ab8a6c7908189b6e49e9b2a}{muda\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
 \begin{DoxyCompactList}\small\item\em Acrescenta a cordenada jogada ás jogadas. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{muda__estado_8h_af22f187947c882b27c063664453bc867}{muda\+\_\+jogador\+\_\+atual}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
-\begin{DoxyCompactList}\small\item\em Altera o jogador atual. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Troca o jogador atual. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{muda__estado_8h_abdad4da1edd123f912eae008339b6ee8}{muda\+\_\+ultima\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
 \begin{DoxyCompactList}\small\item\em Altera a ultima jogada. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{muda__estado_8h_af7605b737bbcffc3727955c097845c97}{muda\+\_\+num\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
+void \mbox{\hyperlink{muda__estado_8h_a9e452d73246e3db9d9b4cc4d458ed056}{incrementa\+\_\+num\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
 \begin{DoxyCompactList}\small\item\em Incrementa o número de jogadas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{muda__estado_8h_a4bd7d5815cd0cd54e9b810db137c8c4a}{reinicia\+\_\+estado}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Reinicia o estado.~\newline
+. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{muda__estado_8h_a6176d98071e4510c8dd5cbba5e55c9af}{retoma\+\_\+tabuleiro}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, F\+I\+LE $\ast$fp)
+\begin{DoxyCompactList}\small\item\em Lẽ o tabuleiro de um ficheiro.~\newline
+. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{muda__estado_8h_a0feb41160e9543833017fd545a8314fc}{retoma\+\_\+movimentos}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, F\+I\+LE $\ast$fp)
+\begin{DoxyCompactList}\small\item\em Lẽ os moovimentos de um ficheiro.~\newline
+. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{muda__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}{retoma\+\_\+casa}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, int linha, int coluna, char carater)
-\begin{DoxyCompactList}\small\item\em Altera a casa para o estado do ficheiro que foi lido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Altera a casa para o valor que estava gravado no ficheiro lido. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
 Definição das funçoes que manipulam o estado 
 
 \doxysubsection{Function Documentation}
+\mbox{\Hypertarget{muda__estado_8h_a9e452d73246e3db9d9b4cc4d458ed056}\label{muda__estado_8h_a9e452d73246e3db9d9b4cc4d458ed056}} 
+\index{muda\_estado.h@{muda\_estado.h}!incrementa\_num\_jogadas@{incrementa\_num\_jogadas}}
+\index{incrementa\_num\_jogadas@{incrementa\_num\_jogadas}!muda\_estado.h@{muda\_estado.h}}
+\doxysubsubsection{\texorpdfstring{incrementa\_num\_jogadas()}{incrementa\_num\_jogadas()}}
+{\footnotesize\ttfamily void incrementa\+\_\+num\+\_\+jogadas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Incrementa o número de jogadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{muda__estado_8h_ab8aa37fa587b4cda8f81ecaf9da6b148}\label{muda__estado_8h_ab8aa37fa587b4cda8f81ecaf9da6b148}} 
 \index{muda\_estado.h@{muda\_estado.h}!muda\_casa@{muda\_casa}}
 \index{muda\_casa@{muda\_casa}!muda\_estado.h@{muda\_estado.h}}
@@ -66,27 +92,11 @@ Acrescenta a cordenada jogada ás jogadas.
 
 
 
-Altera o jogador atual. 
+Troca o jogador atual. 
 
 
 \begin{DoxyParams}{Parameters}
 {\em e} & Apontador para o estado. \\
-\hline
-\end{DoxyParams}
-\mbox{\Hypertarget{muda__estado_8h_af7605b737bbcffc3727955c097845c97}\label{muda__estado_8h_af7605b737bbcffc3727955c097845c97}} 
-\index{muda\_estado.h@{muda\_estado.h}!muda\_num\_jogadas@{muda\_num\_jogadas}}
-\index{muda\_num\_jogadas@{muda\_num\_jogadas}!muda\_estado.h@{muda\_estado.h}}
-\doxysubsubsection{\texorpdfstring{muda\_num\_jogadas()}{muda\_num\_jogadas()}}
-{\footnotesize\ttfamily void muda\+\_\+num\+\_\+jogadas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
-
-
-
-Incrementa o número de jogadas. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em e} & Apontador para o estado.~\newline
-\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{muda__estado_8h_abdad4da1edd123f912eae008339b6ee8}\label{muda__estado_8h_abdad4da1edd123f912eae008339b6ee8}} 
@@ -107,6 +117,23 @@ Altera a ultima jogada.
 {\em c} & A cordenada. \\
 \hline
 \end{DoxyParams}
+\mbox{\Hypertarget{muda__estado_8h_a4bd7d5815cd0cd54e9b810db137c8c4a}\label{muda__estado_8h_a4bd7d5815cd0cd54e9b810db137c8c4a}} 
+\index{muda\_estado.h@{muda\_estado.h}!reinicia\_estado@{reinicia\_estado}}
+\index{reinicia\_estado@{reinicia\_estado}!muda\_estado.h@{muda\_estado.h}}
+\doxysubsubsection{\texorpdfstring{reinicia\_estado()}{reinicia\_estado()}}
+{\footnotesize\ttfamily void reinicia\+\_\+estado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Reinicia o estado.~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para estado.~\newline
+\\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{muda__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}\label{muda__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}} 
 \index{muda\_estado.h@{muda\_estado.h}!retoma\_casa@{retoma\_casa}}
 \index{retoma\_casa@{retoma\_casa}!muda\_estado.h@{muda\_estado.h}}
@@ -115,7 +142,7 @@ Altera a ultima jogada.
 
 
 
-Altera a casa para o estado do ficheiro que foi lido. 
+Altera a casa para o valor que estava gravado no ficheiro lido. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -130,5 +157,43 @@ Altera a casa para o estado do ficheiro que foi lido.
 \hline
 {\em carater} & O carater que estava gravado no ficheiro.~\newline
 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{muda__estado_8h_a0feb41160e9543833017fd545a8314fc}\label{muda__estado_8h_a0feb41160e9543833017fd545a8314fc}} 
+\index{muda\_estado.h@{muda\_estado.h}!retoma\_movimentos@{retoma\_movimentos}}
+\index{retoma\_movimentos@{retoma\_movimentos}!muda\_estado.h@{muda\_estado.h}}
+\doxysubsubsection{\texorpdfstring{retoma\_movimentos()}{retoma\_movimentos()}}
+{\footnotesize\ttfamily void retoma\+\_\+movimentos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{F\+I\+LE $\ast$}]{fp }\end{DoxyParamCaption})}
+
+
+
+Lẽ os moovimentos de um ficheiro.~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para estado.~\newline
+\\
+\hline
+{\em fp} & Apontador para o ficheiro onde os movimentos estão guardados. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{muda__estado_8h_a6176d98071e4510c8dd5cbba5e55c9af}\label{muda__estado_8h_a6176d98071e4510c8dd5cbba5e55c9af}} 
+\index{muda\_estado.h@{muda\_estado.h}!retoma\_tabuleiro@{retoma\_tabuleiro}}
+\index{retoma\_tabuleiro@{retoma\_tabuleiro}!muda\_estado.h@{muda\_estado.h}}
+\doxysubsubsection{\texorpdfstring{retoma\_tabuleiro()}{retoma\_tabuleiro()}}
+{\footnotesize\ttfamily void retoma\+\_\+tabuleiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{F\+I\+LE $\ast$}]{fp }\end{DoxyParamCaption})}
+
+
+
+Lẽ o tabuleiro de um ficheiro.~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para estado.~\newline
+\\
+\hline
+{\em fp} & Apontador para o ficheiro onde o tabuleiro está guardado. \\
 \hline
 \end{DoxyParams}

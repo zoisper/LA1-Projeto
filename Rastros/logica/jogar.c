@@ -1,8 +1,8 @@
 
 
 #include "jogar.h"
-#include "../dados/obter_dados.h"
-#include "../dados/muda_dados.h"
+#include "../dados/obter_dados_estado.h"
+#include "../dados/muda_estado.h"
 
 
 int jogar(ESTADO *e, COORDENADA c)

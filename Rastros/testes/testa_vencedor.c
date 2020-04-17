@@ -1,6 +1,6 @@
 #include "testa_vencedor.h"
 #include "../logica/jogar.h"
-#include "../dados/retoma_estado.h"
+#include "../dados/muda_estado.h"
 #include <assert.h>
 
 

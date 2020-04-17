@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['num_5fjogadas_124',['num_jogadas',['../structESTADO.html#a261495728744647e618b4e623f5a4b7a',1,'ESTADO']]]
+  ['linha_147',['linha',['../structCOORDENADA.html#aefe14bcc5a066ac3b21500cc3d28c06f',1,'COORDENADA']]]
 ];

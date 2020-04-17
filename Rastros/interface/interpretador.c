@@ -3,11 +3,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "mostra_tabuleiro.h"
+#include "mostra.h"
 #include "../logica/jogar.h"
-#include "../logica/grava_jogo.h"
-#include "mostra_movimentos.h"
-#include "../logica/ler_jogo.h"
+#include "../logica/gravar_ler_jogo.h"
 #include "../logica/pos.h"
 #include "../logica/jog.h"
 

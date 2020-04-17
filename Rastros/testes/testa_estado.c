@@ -1,8 +1,8 @@
 
 #include "testa_estado.h"
 #include <assert.h>
-#include "../dados/obter_dados.h"
-
+#include "../dados/obter_dados_estado.h"
+#include "../logica/jogar.h"
 
 
 void testa_estado (ESTADO e)
@@ -28,3 +28,5 @@ void testa_estado (ESTADO e)
     assert (obter_ultima_jogada_coluna(e)>=0 && obter_ultima_jogada_coluna(e)<=7);
 
 }
+
+

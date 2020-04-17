@@ -1,4 +1,4 @@
-#include "teste.h"
+#include "main_teste.h"
 #include "testa_estado.h"
 #include "testa_jogar.h"
 #include "testa_vencedor.h"

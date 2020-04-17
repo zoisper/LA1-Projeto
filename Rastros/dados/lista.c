@@ -1,6 +1,3 @@
-//
-// Created by tiago on 07/04/20.
-//
 
 #include "lista.h"
 #include <stdlib.h>
@@ -14,7 +11,7 @@ LISTA criar_lista()
 
 LISTA insere_cabeca(LISTA L, void *valor)
 {
-    LISTA r = (LISTA) malloc(sizeof(NodoLista));
+    LISTA r = (LISTA) malloc(sizeof(Nodo));
     if (!L)
     {
         r->dado = valor;
@@ -50,6 +47,7 @@ LISTA remove_cabeca(LISTA L)
     if (L)
     {
         r = L->prox;
+        free(L->dado);
         free (L);
 
     }
@@ -75,13 +73,14 @@ int comprimento_lista (LISTA L)
     return r;
 }
 
-void limpa_lista(LISTA L)
+void limpa_lista(LISTA *L)
 {
     LISTA r = NULL;
-    while (L)
+    while (*L)
     {
-       r = L;
-       L = L->prox;
+       r = *L;
+       *L = (*L)->prox;
+       free(r->dado);
        free(r);
     }
 

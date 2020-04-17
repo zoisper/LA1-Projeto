@@ -2,7 +2,7 @@
 #include "../logica/jogar.h"
 #include "../logica/pos.h"
 #include <assert.h>
-#include "../dados/obter_dados.h"
+#include "../dados/obter_dados_estado.h"
 
 void testa_pos(ESTADO e)
 {

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tab_125',['tab',['../structESTADO.html#ab56f0f1be16954d3768b4174d14c087d',1,'ESTADO']]]
+  ['num_5fjogadas_148',['num_jogadas',['../structESTADO.html#a261495728744647e618b4e623f5a4b7a',1,'ESTADO']]]
 ];
