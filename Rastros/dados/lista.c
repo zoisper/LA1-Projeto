@@ -15,8 +15,17 @@ LISTA criar_lista()
 LISTA insere_cabeca(LISTA L, void *valor)
 {
     LISTA r = (LISTA) malloc(sizeof(NodoLista));
-    r->dado = valor;
-    r->prox = L;
+    if (!L)
+    {
+        r->dado = valor;
+        r->prox = NULL;
+    }
+    else
+    {
+        r->dado = valor;
+        r->prox = L;
+    }
+
     return  r;
 }
 
@@ -42,6 +51,7 @@ LISTA remove_cabeca(LISTA L)
     {
         r = L->prox;
         free (L);
+
     }
     return  r;
 }

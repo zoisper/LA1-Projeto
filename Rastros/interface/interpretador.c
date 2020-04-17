@@ -9,7 +9,6 @@
 #include "mostra_movimentos.h"
 #include "../logica/ler_jogo.h"
 #include "../logica/pos.h"
-#include "../dados/lista.h"
 #include "../logica/jog.h"
 
 
@@ -23,8 +22,6 @@ int interpretador(ESTADO *e)
     char linha[BUF_SIZE];
     char col[2], lin[2];
     char save[3], load[4], pos[4], nome_ficheiro[BUF_SIZE];
-    CASA *casa;
-    LISTA lista;
     FILE *fp;
     COORDENADA coord;
 
@@ -74,10 +71,7 @@ int interpretador(ESTADO *e)
 
     else if(strlen (linha) == 4 && strncmp(linha, "jog",3) == 0)
     {
-        lista = casas_possiveis(e);
-        casa = escolhe_casa_random(lista);
-        limpa_lista(lista);
-        coord = converte_casa_coordenada(e, casa);
+        coord = jog_random(*e);
         controlo = jogar(e,coord);
         mostrar_tabuleiro(*e);
         vencedor = verifica_vencedor(*e);

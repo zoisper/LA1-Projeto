@@ -1,6 +1,3 @@
-//
-// Created by tiago on 11/04/20.
-//
 
 #ifndef PROJETO_JOG_H
 #define PROJETO_JOG_H
@@ -8,7 +5,7 @@
 #include "../dados/lista.h"
 #include "../dados/inicializa_estado.h"
 
-LISTA casas_possiveis(ESTADO *e);
-CASA *escolhe_casa_random (LISTA l);
-COORDENADA converte_casa_coordenada(ESTADO *e, CASA *casa);
+LISTA jogadas_possiveis(ESTADO e);
+COORDENADA escolhe_jogada_random (LISTA lista);
+COORDENADA jog_random (ESTADO e);
 #endif //PROJETO_JOG_H
