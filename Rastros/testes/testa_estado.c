@@ -2,7 +2,7 @@
 #include "testa_estado.h"
 #include <assert.h>
 #include "../dados/obter_dados_estado.h"
-#include "../logica/jogar.h"
+
 
 
 void testa_estado (ESTADO e)

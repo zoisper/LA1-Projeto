@@ -1,6 +1,6 @@
 
-#include <stdlib.h>
-#include "dados/muda_estado.h"
+
+#include "dados/inicializa_estado.h"
 #include "interface/mostra.h"
 #include "interface/interpretador.h"
 #include "interface/prompt.h"
