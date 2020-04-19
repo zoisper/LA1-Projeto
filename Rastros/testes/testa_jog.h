@@ -1,5 +1,5 @@
 /**
-@file testa_pos.h
+@file testa_jog.h
  Testes ao comandos jog.
  */
 #ifndef PROJETO_TESTA_JOG_H

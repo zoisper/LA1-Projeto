@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['mostra_5fmovimentos_115',['mostra_movimentos',['../mostra_8h.html#a2e85a3096ce6b245e16319c3e86fb1fb',1,'mostra.c']]],
-  ['mostrar_5ftabuleiro_116',['mostrar_tabuleiro',['../mostra_8h.html#a9fc929f0b191b7d58d9fd8685d16a4af',1,'mostra.c']]],
-  ['muda_5fcasa_117',['muda_casa',['../muda__estado_8h.html#ab8aa37fa587b4cda8f81ecaf9da6b148',1,'muda_estado.c']]],
-  ['muda_5fjogadas_118',['muda_jogadas',['../muda__estado_8h.html#aade3ad032ab8a6c7908189b6e49e9b2a',1,'muda_estado.c']]],
-  ['muda_5fjogador_5fatual_119',['muda_jogador_atual',['../muda__estado_8h.html#af22f187947c882b27c063664453bc867',1,'muda_estado.c']]],
-  ['muda_5fultima_5fjogada_120',['muda_ultima_jogada',['../muda__estado_8h.html#abdad4da1edd123f912eae008339b6ee8',1,'muda_estado.c']]]
+  ['obter_5fcasa_124',['obter_casa',['../obter__dados__estado_8h.html#ad35fe177ba4902b4267925bdae8d8ea6',1,'obter_dados_estado.c']]],
+  ['obter_5fcoordenada_5flista_125',['obter_coordenada_lista',['../jog_8h.html#a2a43fc25cca5da56379fd0fe9d1b6ba2',1,'jog.c']]],
+  ['obter_5fjogada_5fjogador_5fcoluna_126',['obter_jogada_jogador_coluna',['../obter__dados__estado_8h.html#a8ec08cd9bf9691ce65f1c5c12d2dd965',1,'obter_dados_estado.c']]],
+  ['obter_5fjogada_5fjogador_5flinha_127',['obter_jogada_jogador_linha',['../obter__dados__estado_8h.html#aa078bc44de22b3c2f2bd5367fc06ffff',1,'obter_dados_estado.c']]],
+  ['obter_5fjogador_5fatual_128',['obter_jogador_atual',['../obter__dados__estado_8h.html#adca88fda125fd06faefdf80ebbad48c1',1,'obter_dados_estado.c']]],
+  ['obter_5fnum_5fjogadas_129',['obter_num_jogadas',['../obter__dados__estado_8h.html#a89fec6fb258b5278165d5d00a0d352e0',1,'obter_dados_estado.c']]],
+  ['obter_5fnum_5frandom_130',['obter_num_random',['../jog_8h.html#ad1ee8ea407289e3e192cda36f83b4484',1,'jog.c']]],
+  ['obter_5fultima_5fjogada_5fcoluna_131',['obter_ultima_jogada_coluna',['../obter__dados__estado_8h.html#a904ac424419f4bb0ceeb934266039415',1,'obter_dados_estado.c']]],
+  ['obter_5fultima_5fjogada_5flinha_132',['obter_ultima_jogada_linha',['../obter__dados__estado_8h.html#a6fb04090c3e6a56e81bcd19780d22169',1,'obter_dados_estado.c']]]
 ];

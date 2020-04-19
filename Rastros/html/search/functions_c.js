@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['reinicia_5festado_131',['reinicia_estado',['../muda__estado_8h.html#a4bd7d5815cd0cd54e9b810db137c8c4a',1,'muda_estado.c']]],
-  ['remove_5fcabeca_132',['remove_cabeca',['../lista_8h.html#a9026a681a68322b5ec7f07137b864cbd',1,'lista.c']]],
-  ['retoma_5fcasa_133',['retoma_casa',['../muda__estado_8h.html#a6a66a7c4cf0dfc7215ff945e1a25030f',1,'muda_estado.c']]],
-  ['retoma_5fmovimentos_134',['retoma_movimentos',['../muda__estado_8h.html#a0feb41160e9543833017fd545a8314fc',1,'muda_estado.c']]],
-  ['retoma_5ftabuleiro_135',['retoma_tabuleiro',['../muda__estado_8h.html#a6176d98071e4510c8dd5cbba5e55c9af',1,'muda_estado.c']]]
+  ['testa_5festado_141',['testa_estado',['../testa__estado_8h.html#a3408a6150ed8646bd869f684357a9bbb',1,'testa_estado.c']]],
+  ['testa_5fjog_142',['testa_jog',['../testa__jog_8h.html#a9e1830eba669d92ec321a8fb5ce5e28b',1,'testa_jog.c']]],
+  ['testa_5fjogar_143',['testa_jogar',['../testa__jogar_8h.html#af1d018e2433b78c4430cfcea6630ca97',1,'testa_jogar.c']]],
+  ['testa_5fpos_144',['testa_pos',['../testa__pos_8h.html#acbd34061ccfd19882abecdc8a6a7ccb4',1,'testa_pos.c']]],
+  ['testa_5fvencedor_145',['testa_vencedor',['../testa__vencedor_8h.html#aeb6bd83fb58928a32a0dd9ddfa8339e8',1,'testa_vencedor.c']]],
+  ['teste_146',['teste',['../main__teste_8h.html#a8f6e5f65c7e881551930ee0177897c63',1,'main_teste.c']]]
 ];

@@ -17,15 +17,24 @@ As funções que implementam o comando jog.
  */
 LISTA jogadas_possiveis(ESTADO e);
 /**
- * \brief Escolhe aleatoriamente uma jogada de uma lista de jogadas possiveis.\n
+ * \brief Acede à lista e obtem a coordendada guardada no nodo passado por parametro.\n
  * @param lista A lista com as jogadas possiveis.\n
- * @return A coordernada da jogada escolhida.
+ * @param nodo O nodo que tem a coordenada pertendida.\n
+ * @return A coordernada.
  */
-COORDENADA escolhe_jogada_random (LISTA lista);
+COORDENADA obter_coordenada_lista (LISTA lista, int nodo);
 
 /**
- * \brief Função que chama as funçoes jogadas_possiveis e escolhe_jogada_random .\n
+ * \brief Função que obtem um numero random dentro de um intervalo .\n
+ * @param min O limite inferior.\n
+ * @param max O limite superior.\n
+ * @return O número obtido.
+ */
+int obter_num_random (int min, int max);
+/**
+ * \brief Função que chama as funçoes jogadas_possiveis, obter_num_random e obter_coordenada_lista para obter uma jogada aleatoria.\n
  * @param e O valor do estado.\n
  * @return A coordernada da jogada escolhida aleatoriamente.
- */COORDENADA jog_random (ESTADO e);
+ */
+COORDENADA jog_random (ESTADO e);
 #endif //PROJETO_JOG_H

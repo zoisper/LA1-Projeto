@@ -82,47 +82,22 @@ Functions</h2></td></tr>
 <tr class="memdesc:a55ff32fdb2588a5a80f10d4902841c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cria uma lista ligada com todas as jogadas possiveis.<br  />
 .  <a href="jog_8h.html#a55ff32fdb2588a5a80f10d4902841c68">More...</a><br /></td></tr>
 <tr class="separator:a55ff32fdb2588a5a80f10d4902841c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47b40efa78acd09baa3c643b0277a41c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCOORDENADA.html">COORDENADA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jog_8h.html#a47b40efa78acd09baa3c643b0277a41c">escolhe_jogada_random</a> (<a class="el" href="structlista.html">LISTA</a> <a class="el" href="structlista.html">lista</a>)</td></tr>
-<tr class="memdesc:a47b40efa78acd09baa3c643b0277a41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escolhe aleatoriamente uma jogada de uma lista de jogadas possiveis.<br  />
-.  <a href="jog_8h.html#a47b40efa78acd09baa3c643b0277a41c">More...</a><br /></td></tr>
-<tr class="separator:a47b40efa78acd09baa3c643b0277a41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a43fc25cca5da56379fd0fe9d1b6ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCOORDENADA.html">COORDENADA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jog_8h.html#a2a43fc25cca5da56379fd0fe9d1b6ba2">obter_coordenada_lista</a> (<a class="el" href="structlista.html">LISTA</a> <a class="el" href="structlista.html">lista</a>, int nodo)</td></tr>
+<tr class="memdesc:a2a43fc25cca5da56379fd0fe9d1b6ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acede à lista e obtem a coordendada guardada no nodo passado por parametro.<br  />
+.  <a href="jog_8h.html#a2a43fc25cca5da56379fd0fe9d1b6ba2">More...</a><br /></td></tr>
+<tr class="separator:a2a43fc25cca5da56379fd0fe9d1b6ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ee8ea407289e3e192cda36f83b4484"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jog_8h.html#ad1ee8ea407289e3e192cda36f83b4484">obter_num_random</a> (int min, int max)</td></tr>
+<tr class="memdesc:ad1ee8ea407289e3e192cda36f83b4484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que obtem um numero random dentro de um intervalo .<br  />
+.  <a href="jog_8h.html#ad1ee8ea407289e3e192cda36f83b4484">More...</a><br /></td></tr>
+<tr class="separator:ad1ee8ea407289e3e192cda36f83b4484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a041c2caba4e06c4294acb91b82cc5f6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCOORDENADA.html">COORDENADA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jog_8h.html#a041c2caba4e06c4294acb91b82cc5f6e">jog_random</a> (<a class="el" href="structESTADO.html">ESTADO</a> e)</td></tr>
-<tr class="memdesc:a041c2caba4e06c4294acb91b82cc5f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que chama as funçoes jogadas_possiveis e escolhe_jogada_random .<br  />
+<tr class="memdesc:a041c2caba4e06c4294acb91b82cc5f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que chama as funçoes jogadas_possiveis, obter_num_random e obter_coordenada_lista para obter uma jogada aleatoria.<br  />
 .  <a href="jog_8h.html#a041c2caba4e06c4294acb91b82cc5f6e">More...</a><br /></td></tr>
 <tr class="separator:a041c2caba4e06c4294acb91b82cc5f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>As funções que implementam o comando jog. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a47b40efa78acd09baa3c643b0277a41c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47b40efa78acd09baa3c643b0277a41c">&#9670;&nbsp;</a></span>escolhe_jogada_random()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structCOORDENADA.html">COORDENADA</a> escolhe_jogada_random </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structlista.html">LISTA</a>&#160;</td>
-          <td class="paramname"><em>lista</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Escolhe aleatoriamente uma jogada de uma lista de jogadas possiveis.<br  />
-. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lista</td><td>A lista com as jogadas possiveis.<br  />
-</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A coordernada da jogada escolhida. </dd></dl>
-
-</div>
-</div>
 <a id="a041c2caba4e06c4294acb91b82cc5f6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a041c2caba4e06c4294acb91b82cc5f6e">&#9670;&nbsp;</a></span>jog_random()</h2>
 
@@ -139,7 +114,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Função que chama as funçoes jogadas_possiveis e escolhe_jogada_random .<br  />
+<p>Função que chama as funçoes jogadas_possiveis, obter_num_random e obter_coordenada_lista para obter uma jogada aleatoria.<br  />
 . </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -178,6 +153,88 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Uma lista com as jogadas possiveis. </dd></dl>
+
+</div>
+</div>
+<a id="a2a43fc25cca5da56379fd0fe9d1b6ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a43fc25cca5da56379fd0fe9d1b6ba2">&#9670;&nbsp;</a></span>obter_coordenada_lista()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCOORDENADA.html">COORDENADA</a> obter_coordenada_lista </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlista.html">LISTA</a>&#160;</td>
+          <td class="paramname"><em>lista</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nodo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Acede à lista e obtem a coordendada guardada no nodo passado por parametro.<br  />
+. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lista</td><td>A lista com as jogadas possiveis.<br  />
+</td></tr>
+    <tr><td class="paramname">nodo</td><td>O nodo que tem a coordenada pertendida.<br  />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A coordernada. </dd></dl>
+
+</div>
+</div>
+<a id="ad1ee8ea407289e3e192cda36f83b4484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1ee8ea407289e3e192cda36f83b4484">&#9670;&nbsp;</a></span>obter_num_random()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int obter_num_random </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função que obtem um numero random dentro de um intervalo .<br  />
+. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min</td><td>O limite inferior.<br  />
+</td></tr>
+    <tr><td class="paramname">max</td><td>O limite superior.<br  />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>O número obtido. </dd></dl>
 
 </div>
 </div>

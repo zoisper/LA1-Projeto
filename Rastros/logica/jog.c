@@ -9,9 +9,12 @@ COORDENADA jog_random (ESTADO e)
 {
     LISTA lista;
     COORDENADA coord;
+    int len, random;
 
     lista = jogadas_possiveis(e);
-    coord = escolhe_jogada_random(lista);
+    len = comprimento_lista(lista);
+    random =  obter_num_random (0, len);
+    coord = obter_coordenada_lista (lista, random);
     limpa_lista(&lista);
     return  coord;
 
@@ -37,20 +40,24 @@ LISTA jogadas_possiveis(ESTADO e)
 
     return lista;
 }
-COORDENADA escolhe_jogada_random (LISTA lista)
+COORDENADA obter_coordenada_lista (LISTA lista, int nodo)
 {
-    int i, len,random;
-    long ultime;
+    int i;
     COORDENADA * coord_ptr ;
     COORDENADA coord;
-    len = comprimento_lista (lista);
-    time (&ultime);
-    srand(ultime);
-    random = rand() % len;
-    for (i=0; i<random; i++)
+    for (i=0; i<nodo; i++)
         lista = proximo(lista);
     coord_ptr = devolve_cabeca(lista);
     coord.linha = coord_ptr->linha;
     coord.coluna = coord_ptr->coluna;
     return coord;
+}
+int obter_num_random (int min, int max)
+{
+    int random;
+    long ultime;
+    time (&ultime);
+    srand(ultime);
+    random = min + (rand() % max);
+    return random;
 }

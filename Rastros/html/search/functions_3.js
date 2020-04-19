@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['escolhe_5fjogada_5frandom_102',['escolhe_jogada_random',['../jog_8h.html#a47b40efa78acd09baa3c643b0277a41c',1,'jog.c']]]
+  ['grava_5fjogo_106',['grava_jogo',['../gravar__ler__jogo_8h.html#a074574235df8bf5ae4cde4aad7428004',1,'gravar_ler_jogo.c']]]
 ];
