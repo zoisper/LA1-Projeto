@@ -17,5 +17,7 @@ Camada de testes adicionada.
 Implementado:
 - Comandos "pos".
 -  Funçoes que correm testes automaticos.
- 
+ Implementado:
+- Comandos "jog" (heurística random).
+- Função que corre testes automaticos ao comando jog.
 

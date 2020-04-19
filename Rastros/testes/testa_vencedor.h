@@ -11,7 +11,7 @@ Testes que verificam se o vencedor é o correto.
 
 /**
 * \brief Função que realiza jogadas ate um jogador vencer e verifica se o vencedor é o correto\n
-* @param e O estado.\n
+* @param e O valor do estado.\n
 */
 void testa_vencedor(ESTADO e);
 

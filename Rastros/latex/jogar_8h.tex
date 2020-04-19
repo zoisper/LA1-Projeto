@@ -6,7 +6,7 @@
 \item 
 int \mbox{\hyperlink{jogar_8h_ac313d7e553b1e2b5f266acb9bfff8141}{jogar}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
 \begin{DoxyCompactList}\small\item\em Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\textbackslash{}n\+Verfifica se algum jogador venceu o jogo. \end{DoxyCompactList}\item 
-int \mbox{\hyperlink{jogar_8h_a401bcee6905d0487cf8d5dcbbef6266a}{valida\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
+int \mbox{\hyperlink{jogar_8h_a107d3b83e5a4fd1e64544528a8d03d22}{valida\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} coord)
 \begin{DoxyCompactList}\small\item\em Verifica se uma jogada é valida. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{jogar_8h_a33563a6ab717ef1eb3eb1d57229d259d}{verifica\+\_\+vencedor}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
 \begin{DoxyCompactList}\small\item\em Verifica se algum jogador venceu o jogo. \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -38,11 +38,11 @@ Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma pe�
 \begin{DoxyReturn}{Returns}
 1 se a jogada for possivel e 0 caso não seja possivel jogar. 
 \end{DoxyReturn}
-\mbox{\Hypertarget{jogar_8h_a401bcee6905d0487cf8d5dcbbef6266a}\label{jogar_8h_a401bcee6905d0487cf8d5dcbbef6266a}} 
+\mbox{\Hypertarget{jogar_8h_a107d3b83e5a4fd1e64544528a8d03d22}\label{jogar_8h_a107d3b83e5a4fd1e64544528a8d03d22}} 
 \index{jogar.h@{jogar.h}!valida\_jogada@{valida\_jogada}}
 \index{valida\_jogada@{valida\_jogada}!jogar.h@{jogar.h}}
 \doxysubsubsection{\texorpdfstring{valida\_jogada()}{valida\_jogada()}}
-{\footnotesize\ttfamily int valida\+\_\+jogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int valida\+\_\+jogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{coord }\end{DoxyParamCaption})}
 
 
 
@@ -53,7 +53,7 @@ Verifica se uma jogada é valida.
 {\em e} & O Estado.~\newline
 \\
 \hline
-{\em c} & A coordenada.~\newline
+{\em coord} & A coordenada.~\newline
 \\
 \hline
 \end{DoxyParams}

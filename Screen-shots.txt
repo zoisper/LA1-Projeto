@@ -241,7 +241,7 @@ Comando pos
 
 --------------------
 
-Comando jog
+Comando jog (heurística random)
 
 8  . . . . . . . 2
  7  . . . . . . . .

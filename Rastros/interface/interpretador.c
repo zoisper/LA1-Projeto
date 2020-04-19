@@ -85,6 +85,7 @@ int interpretador(ESTADO *e)
 
     else if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
+
         coord.coluna = (*col - 'a');
         coord.linha = ('8' - *lin);
         controlo = jogar(e, coord);

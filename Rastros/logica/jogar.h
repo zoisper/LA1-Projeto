@@ -16,10 +16,10 @@ int jogar(ESTADO *e, COORDENADA c);
 /**
  * \brief Verifica se uma jogada é valida.
  * @param e O Estado.\n
- * @param c A coordenada.\n
+ * @param coord A coordenada.\n
  * @return 1 se a jogada for valida e 0 se não for.
  */
-int valida_jogada(ESTADO e, COORDENADA c);
+int valida_jogada(ESTADO e, COORDENADA coord);
 /**
  * \brief Verifica se algum jogador venceu o jogo.
  * @param e O estado.

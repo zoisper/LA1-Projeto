@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: logica/jogar.h Source File</title>
+<title>My Project: testes/testa_jog.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,29 +61,24 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_6ea6a6918393993a6a2c0f40fca09e95.html">logica</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_dad9382648e46fed49a0fd0ec0acdc29.html">testes</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">jogar.h</div>  </div>
+<div class="title">testa_jog.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="jogar_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef PROJETO_JOGAR_H</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define PROJETO_JOGAR_H</span></div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef PROJETO_TESTA_JOG_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define PROJETO_TESTA_JOG_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../dados/inicializa_estado.h&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">int</span> <a class="code" href="jogar_8h.html#ac313d7e553b1e2b5f266acb9bfff8141">jogar</a>(<a class="code" href="structESTADO.html">ESTADO</a> *e, <a class="code" href="structCOORDENADA.html">COORDENADA</a> c);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">int</span> <a class="code" href="jogar_8h.html#a107d3b83e5a4fd1e64544528a8d03d22">valida_jogada</a>(<a class="code" href="structESTADO.html">ESTADO</a> e, <a class="code" href="structCOORDENADA.html">COORDENADA</a> coord);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">int</span> <a class="code" href="jogar_8h.html#a33563a6ab717ef1eb3eb1d57229d259d">verifica_vencedor</a> (<a class="code" href="structESTADO.html">ESTADO</a> e);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif //PROJETO_JOGAR_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">void</span> testa_jog(<a class="code" href="structESTADO.html">ESTADO</a> e);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif //PROJETO_TESTA_JOG_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="ajogar_8h_html_a107d3b83e5a4fd1e64544528a8d03d22"><div class="ttname"><a href="jogar_8h.html#a107d3b83e5a4fd1e64544528a8d03d22">valida_jogada</a></div><div class="ttdeci">int valida_jogada(ESTADO e, COORDENADA coord)</div><div class="ttdoc">Verifica se uma jogada é valida.</div><div class="ttdef"><b>Definition:</b> jogar.c:28</div></div>
 <div class="ttc" id="astructESTADO_html"><div class="ttname"><a href="structESTADO.html">ESTADO</a></div><div class="ttdoc">Tipo de dados para o estado.</div><div class="ttdef"><b>Definition:</b> inicializa_estado.h:35</div></div>
-<div class="ttc" id="ajogar_8h_html_ac313d7e553b1e2b5f266acb9bfff8141"><div class="ttname"><a href="jogar_8h.html#ac313d7e553b1e2b5f266acb9bfff8141">jogar</a></div><div class="ttdeci">int jogar(ESTADO *e, COORDENADA c)</div><div class="ttdoc">Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima joga...</div><div class="ttdef"><b>Definition:</b> jogar.c:8</div></div>
-<div class="ttc" id="ajogar_8h_html_a33563a6ab717ef1eb3eb1d57229d259d"><div class="ttname"><a href="jogar_8h.html#a33563a6ab717ef1eb3eb1d57229d259d">verifica_vencedor</a></div><div class="ttdeci">int verifica_vencedor(ESTADO e)</div><div class="ttdoc">Verifica se algum jogador venceu o jogo.</div><div class="ttdef"><b>Definition:</b> jogar.c:43</div></div>
-<div class="ttc" id="astructCOORDENADA_html"><div class="ttname"><a href="structCOORDENADA.html">COORDENADA</a></div><div class="ttdoc">Tipo de dados para as coordenadas.</div><div class="ttdef"><b>Definition:</b> inicializa_estado.h:15</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

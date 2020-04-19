@@ -9,7 +9,7 @@
 
 /**
  * Funçao que faz varias jogadas e verifica se o comando 'pos' esta a funcionar corretamente.\n
- * @param e O estado.
+ * @param e O valor do estado.
  */
 void testa_pos(ESTADO e);
 
