@@ -12,3 +12,5 @@
 
 ## Comando jog
 ![](Imagens/comando_jog.png)
+## Comando jog2
+![](Imagens/comando_jog2.png)
