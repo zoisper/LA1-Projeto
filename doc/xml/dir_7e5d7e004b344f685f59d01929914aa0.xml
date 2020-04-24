@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_7e5d7e004b344f685f59d01929914aa0" kind="dir">
+    <compoundname>projeto</compoundname>
+    <innerdir refid="dir_62773cb669de775ed99caac67a9e25bf">projeto/cmake-build-debug</innerdir>
+    <innerdir refid="dir_b28b316e18b4c5caa31c35a120e6ab71">projeto/dados</innerdir>
+    <innerdir refid="dir_3924cb794333f3827dc4f454bbc6e9ca">projeto/interface</innerdir>
+    <innerdir refid="dir_6064e80c0b1d8c322d8786bb501dd3f4">projeto/logica</innerdir>
+    <innerdir refid="dir_aa09fa57aee6fe4647886249dd15e648">projeto/testes</innerdir>
+    <innerfile refid="main_8c">main.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="projeto/"/>
+  </compounddef>
+</doxygen>

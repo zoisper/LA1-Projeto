@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="muda__estado_8h" kind="file" language="C++">
+    <compoundname>muda_estado.h</compoundname>
+    <includes refid="inicializa__estado_8h" local="yes">inicializa_estado.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includedby refid="comando__pos_8c" local="yes">projeto/logica/comando_pos.c</includedby>
+    <includedby refid="fazer__jogada_8c" local="yes">projeto/logica/fazer_jogada.c</includedby>
+    <includedby refid="ler__jogo_8c" local="yes">projeto/logica/ler_jogo.c</includedby>
+    <includedby refid="testa__jog_8c" local="yes">projeto/testes/testa_jog.c</includedby>
+    <includedby refid="testa__vencedor_8c" local="yes">projeto/testes/testa_vencedor.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>projeto/dados/muda_estado.h</label>
+        <link refid="muda__estado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>inicializa_estado.h</label>
+        <link refid="inicializa__estado_8h"/>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="muda__estado_8h_1ae821d10232eb163ea9f752d8ab2d280f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void muda_casa</definition>
+        <argsstring>(ESTADO *e, COORDENADA coord)</argsstring>
+        <name>muda_casa</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref></type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Coloca &quot;BRANCA&quot; na casa da cordenada jogada e coloca &quot;PRETA&quot; na casa jogada anteriormente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A cordenada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="18" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="5" bodyend="9" declfile="projeto/dados/muda_estado.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="muda__estado_8h_1a37b332da122e14b0e2be85e65ad52160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void muda_jogadas</definition>
+        <argsstring>(ESTADO *e, COORDENADA coord)</argsstring>
+        <name>muda_jogadas</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref></type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Acrescenta a cordenada jogada ás jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A cordenada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="24" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="11" bodyend="26" declfile="projeto/dados/muda_estado.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="muda__estado_8h_1af22f187947c882b27c063664453bc867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void muda_jogador_atual</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>muda_jogador_atual</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Troca o jogador atual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="29" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="33" bodyend="36" declfile="projeto/dados/muda_estado.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="muda__estado_8h_1aa5c51d4e7476689e120126dc3336f9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void muda_ultima_jogada</definition>
+        <argsstring>(ESTADO *e, COORDENADA coord)</argsstring>
+        <name>muda_ultima_jogada</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref></type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Altera a ultima jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A cordenada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="36" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="38" bodyend="42" declfile="projeto/dados/muda_estado.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="muda__estado_8h_1a9e452d73246e3db9d9b4cc4d458ed056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void incrementa_num_jogadas</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>incrementa_num_jogadas</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Incrementa o número de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="41" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="28" bodyend="31" declfile="projeto/dados/muda_estado.h" declline="41" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="muda__estado_8h_1a4bd7d5815cd0cd54e9b810db137c8c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void reinicia_estado</definition>
+        <argsstring>(ESTADO *e)</argsstring>
+        <name>reinicia_estado</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Reinicia o estado.<linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="47" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="44" bodyend="61" declfile="projeto/dados/muda_estado.h" declline="47" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="muda__estado_8h_1a6a66a7c4cf0dfc7215ff945e1a25030f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void retoma_casa</definition>
+        <argsstring>(ESTADO *e, int linha, int coluna, char carater)</argsstring>
+        <name>retoma_casa</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>linha</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coluna</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>carater</declname>
+        </param>
+        <briefdescription>
+<para>Altera a casa para o valor que estava gravado no ficheiro lido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>linha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A linha do tabuleiro.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coluna</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A coluna do tabuleiro.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carater</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O carater que estava gravado no ficheiro.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="projeto/dados/muda_estado.h" line="56" column="6" bodyfile="projeto/dados/muda_estado.c" bodystart="64" bodyend="69" declfile="projeto/dados/muda_estado.h" declline="56" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Definição das funçoes que manipulam o estado </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#ifndef<sp/>PROJETO_MUDA_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_MUDA_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="inicializa__estado_8h" kindref="compound">inicializa_estado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1ae821d10232eb163ea9f752d8ab2d280f" kindref="member">muda_casa</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>coord);</highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1a37b332da122e14b0e2be85e65ad52160" kindref="member">muda_jogadas</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>coord);</highlight></codeline>
+<codeline lineno="29"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1af22f187947c882b27c063664453bc867" kindref="member">muda_jogador_atual</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1aa5c51d4e7476689e120126dc3336f9f6" kindref="member">muda_ultima_jogada</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>coord);</highlight></codeline>
+<codeline lineno="41"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1a9e452d73246e3db9d9b4cc4d458ed056" kindref="member">incrementa_num_jogadas</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1a4bd7d5815cd0cd54e9b810db137c8c4a" kindref="member">reinicia_estado</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="muda__estado_8h_1a6a66a7c4cf0dfc7215ff945e1a25030f" kindref="member">retoma_casa</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>linha,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coluna,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>carater);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MUDA_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="projeto/dados/muda_estado.h"/>
+  </compounddef>
+</doxygen>

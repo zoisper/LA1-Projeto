@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="md_README" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>LCC</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>UC Laboratório de Algoritmia I</para>
+<para>Turno Prático 2</para>
+<para>Grupo 6</para>
+<para>A91652 Rui Jordão Sampaio Gonçalves <linebreak/>
+</para>
+<para>A91693 Tiago André Oliveira Leite <linebreak/>
+</para>
+<para>A91677 Vicente de Carvalho Castro <linebreak/>
+ </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

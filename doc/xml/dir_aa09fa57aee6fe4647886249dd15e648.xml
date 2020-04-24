@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_aa09fa57aee6fe4647886249dd15e648" kind="dir">
+    <compoundname>projeto/testes</compoundname>
+    <innerfile refid="main__teste_8c">main_teste.c</innerfile>
+    <innerfile refid="main__teste_8h">main_teste.h</innerfile>
+    <innerfile refid="testa__estado_8c">testa_estado.c</innerfile>
+    <innerfile refid="testa__estado_8h">testa_estado.h</innerfile>
+    <innerfile refid="testa__jog_8c">testa_jog.c</innerfile>
+    <innerfile refid="testa__jog_8h">testa_jog.h</innerfile>
+    <innerfile refid="testa__jogar_8c">testa_jogar.c</innerfile>
+    <innerfile refid="testa__jogar_8h">testa_jogar.h</innerfile>
+    <innerfile refid="testa__pos_8c">testa_pos.c</innerfile>
+    <innerfile refid="testa__pos_8h">testa_pos.h</innerfile>
+    <innerfile refid="testa__vencedor_8c">testa_vencedor.c</innerfile>
+    <innerfile refid="testa__vencedor_8h">testa_vencedor.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="projeto/testes/"/>
+  </compounddef>
+</doxygen>

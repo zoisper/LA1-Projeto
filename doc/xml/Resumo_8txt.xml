@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="Resumo_8txt" kind="file" language="C++">
+    <compoundname>Resumo.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="Resumo_8txt_1a598734c76dace7a3dd4d10b389325582" prot="public" static="no" mutable="no">
+        <type>Modulos adicionados</type>
+        <definition>A principal dificuldade tem sido trabalhar com o git Tambem nao temos a certeza se temos de colocar no git a pasta cmake build debug e o ficheiro CMakeLists txt ou basta so colocar no git os ficheiros c e h Por percaução colocamos tudo Impementado</definition>
+        <argsstring></argsstring>
+        <name>Impementado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resumo.txt" line="2" column="1" bodyfile="Resumo.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Resumo_8txt_1add8a32ad5b1888a8d73429f82278f4ed" prot="public" static="no" mutable="no">
+        <type>Função que mostra o</type>
+        <definition>Função que mostra o tabuleiro</definition>
+        <argsstring></argsstring>
+        <name>tabuleiro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resumo.txt" line="4" column="25" bodyfile="Resumo.txt" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Resumo_8txt_1a0396dd2b9d786ab3dc50b47ec2e92c85" prot="public" static="no" mutable="no">
+        <type>Função</type>
+        <definition>Comlpeltada a função jogar</definition>
+        <argsstring></argsstring>
+        <name>jogar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resumo.txt" line="5" column="12" bodyfile="Resumo.txt" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Resumo_8txt_1aad2c0b9664df359817287d65f32c0365" prot="public" static="no" mutable="no">
+        <type>Funçao que verifica o</type>
+        <definition>Funçao que verifica o vencedor</definition>
+        <argsstring></argsstring>
+        <name>vencedor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resumo.txt" line="10" column="26" bodyfile="Resumo.txt" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Resumo_8txt_1a5d364cd90a538de4da88855abccced4e" prot="public" static="no" mutable="no">
+        <type>Comandos</type>
+        <definition>Comandos Q</definition>
+        <argsstring></argsstring>
+        <name>Q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resumo.txt" line="12" column="12" bodyfile="Resumo.txt" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Resumo_8txt_1a5af4c5fb7ec267abdd93adc2b0ea2f4b" prot="public" static="no" mutable="no">
+        <type>Comandos gr e</type>
+        <definition>Comandos gr e ler</definition>
+        <argsstring></argsstring>
+        <name>ler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Resumo.txt" line="12" column="19" bodyfile="Resumo.txt" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">Modulos<sp/>adicionados.</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">Impementado:</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/>-<sp/>Função<sp/>que<sp/>inicia<sp/>estado;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/>-<sp/>Função<sp/>que<sp/>mostra<sp/>o<sp/>tabuleiro;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/>-<sp/>Função<sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">A<sp/>principal<sp/>dificuldade<sp/>tem<sp/>sido<sp/>trabalhar<sp/>com<sp/>o<sp/>git.</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">Tambem<sp/>nao<sp/>temos<sp/>a<sp/>certeza<sp/>se<sp/>temos<sp/>de<sp/>colocar<sp/>no<sp/>git<sp/>a<sp/>pasta<sp/></highlight><highlight class="stringliteral">&quot;cmake-build-debug&quot;</highlight><highlight class="normal"><sp/>e<sp/>o<sp/>ficheiro<sp/></highlight><highlight class="stringliteral">&quot;CMakeLists.txt&quot;</highlight><highlight class="normal"><sp/>ou<sp/>basta<sp/>so<sp/>colocar<sp/>no<sp/>git<sp/>os<sp/>ficheiros<sp/></highlight><highlight class="stringliteral">&quot;.c&quot;</highlight><highlight class="normal"><sp/>e<sp/></highlight><highlight class="stringliteral">&quot;.h&quot;</highlight><highlight class="normal">.<sp/>Por<sp/>percaução<sp/>colocamos<sp/>tudo.</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">Impementado:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/>-<sp/>Funçao<sp/>que<sp/>valida<sp/>a<sp/>jogada;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/>-<sp/>Funçao<sp/>que<sp/>verifica<sp/>o<sp/>vencedor;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/>-<sp/>Comlpeltada<sp/>a<sp/>função<sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>;<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/>-<sp/>Comandos<sp/></highlight><highlight class="stringliteral">&quot;Q&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;gr&quot;</highlight><highlight class="normal"><sp/>e<sp/></highlight><highlight class="stringliteral">&quot;ler&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">Impelemetado:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/>-<sp/>Comando<sp/></highlight><highlight class="stringliteral">&quot;movs&quot;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/>-<sp/>Informação<sp/>sobre<sp/>movimentos<sp/>adicionada<sp/>aos<sp/>comandos<sp/></highlight><highlight class="stringliteral">&quot;gr&quot;</highlight><highlight class="normal"><sp/>e<sp/></highlight><highlight class="stringliteral">&quot;ler&quot;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">Camada<sp/>de<sp/>testes<sp/>adicionada.</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">Implementado:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>Comandos<sp/></highlight><highlight class="stringliteral">&quot;pos&quot;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/><sp/>Funçoes<sp/>que<sp/>correm<sp/>testes<sp/>automaticos.</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/>Implementado:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">-<sp/>Comandos<sp/></highlight><highlight class="stringliteral">&quot;jog&quot;</highlight><highlight class="normal"><sp/>(heurística<sp/>random).</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">-<sp/>Função<sp/>que<sp/>corre<sp/>testes<sp/>automaticos<sp/>ao<sp/>comando<sp/>jog.</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Resumo.txt"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="link_8txt" kind="file" language="C++">
+    <compoundname>link.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">/usr/bin/cc<sp/>-std=gnu11<sp/>-Wall<sp/>-Wextra<sp/>-pedantic-errors<sp/>-O<sp/>-g<sp/><sp/><sp/>CMakeFiles/Projeto.dir/main.c.o<sp/>CMakeFiles/Projeto.dir/dados/muda_estado.c.o<sp/>CMakeFiles/Projeto.dir/interface/mostrar.c.o<sp/>CMakeFiles/Projeto.dir/logica/fazer_jogada.c.o<sp/>CMakeFiles/Projeto.dir/dados/inicializa_estado.c.o<sp/>CMakeFiles/Projeto.dir/dados/obter_dados_estado.c.o<sp/>CMakeFiles/Projeto.dir/interface/<ref refid="interpretador_8h_1a24da95ebeede4a540e37790ce8be359b" kindref="member">interpretador</ref>.c.o<sp/>CMakeFiles/Projeto.dir/interface/<ref refid="prompt_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" kindref="member">prompt</ref>.c.o<sp/>CMakeFiles/Projeto.dir/logica/<ref refid="ler__jogo_8h_1a0270b4589e43cf0161b198532ffd29d5" kindref="member">ler_jogo</ref>.c.o<sp/>CMakeFiles/Projeto.dir/testes/<ref refid="testa__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>.c.o<sp/>CMakeFiles/Projeto.dir/logica/comando_pos.c.o<sp/>CMakeFiles/Projeto.dir/testes/<ref refid="testa__jogar_8h_1af1d018e2433b78c4430cfcea6630ca97" kindref="member">testa_jogar</ref>.c.o<sp/>CMakeFiles/Projeto.dir/testes/main_teste.c.o<sp/>CMakeFiles/Projeto.dir/testes/<ref refid="testa__vencedor_8h_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kindref="member">testa_vencedor</ref>.c.o<sp/>CMakeFiles/Projeto.dir/testes/<ref refid="testa__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" kindref="member">testa_pos</ref>.c.o<sp/>CMakeFiles/Projeto.dir/dados/<ref refid="structlista" kindref="compound">lista</ref>.c.o<sp/>CMakeFiles/Projeto.dir/logica/comando_jog.c.o<sp/>CMakeFiles/Projeto.dir/testes/<ref refid="testa__jog_8h_1a9e1830eba669d92ec321a8fb5ce5e28b" kindref="member">testa_jog</ref>.c.o<sp/><sp/>-o<sp/>Projeto<sp/></highlight></codeline>
+    </programlisting>
+    <location file="projeto/cmake-build-debug/CMakeFiles/Projeto.dir/link.txt"/>
+  </compounddef>
+</doxygen>

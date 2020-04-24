@@ -1,0 +1,80 @@
+\hypertarget{fazer__jogada_8h}{}\doxysection{projeto/logica/fazer\+\_\+jogada.h File Reference}
+\label{fazer__jogada_8h}\index{projeto/logica/fazer\_jogada.h@{projeto/logica/fazer\_jogada.h}}
+{\ttfamily \#include \char`\"{}../dados/inicializa\+\_\+estado.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{fazer__jogada_8h_ac313d7e553b1e2b5f266acb9bfff8141}{jogar}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} c)
+\begin{DoxyCompactList}\small\item\em Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\textbackslash{}n\+Verfifica se algum jogador venceu o jogo. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{fazer__jogada_8h_aa0dff642c63d9b5bc5ba1a78b1933091}{validar\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} coord)
+\begin{DoxyCompactList}\small\item\em Verifica se uma jogada é valida. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{fazer__jogada_8h_ab0a0cac713e6a5566be4e2029a424dbe}{verificar\+\_\+vencedor}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Verifica se algum jogador venceu o jogo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+As funções que adicionam uma jogada. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{fazer__jogada_8h_ac313d7e553b1e2b5f266acb9bfff8141}\label{fazer__jogada_8h_ac313d7e553b1e2b5f266acb9bfff8141}} 
+\index{fazer\_jogada.h@{fazer\_jogada.h}!jogar@{jogar}}
+\index{jogar@{jogar}!fazer\_jogada.h@{fazer\_jogada.h}}
+\doxysubsubsection{\texorpdfstring{jogar()}{jogar()}}
+{\footnotesize\ttfamily int jogar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\textbackslash{}n\+Verfifica se algum jogador venceu o jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em estado} & Apontador para estado.~\newline
+\\
+\hline
+{\em c} & A coordendad.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 se a jogada for possivel e 0 caso não seja possivel jogar. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fazer__jogada_8h_aa0dff642c63d9b5bc5ba1a78b1933091}\label{fazer__jogada_8h_aa0dff642c63d9b5bc5ba1a78b1933091}} 
+\index{fazer\_jogada.h@{fazer\_jogada.h}!validar\_jogada@{validar\_jogada}}
+\index{validar\_jogada@{validar\_jogada}!fazer\_jogada.h@{fazer\_jogada.h}}
+\doxysubsubsection{\texorpdfstring{validar\_jogada()}{validar\_jogada()}}
+{\footnotesize\ttfamily int validar\+\_\+jogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{coord }\end{DoxyParamCaption})}
+
+
+
+Verifica se uma jogada é valida. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O Estado.~\newline
+\\
+\hline
+{\em coord} & A coordenada.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 se a jogada for valida e 0 se não for. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fazer__jogada_8h_ab0a0cac713e6a5566be4e2029a424dbe}\label{fazer__jogada_8h_ab0a0cac713e6a5566be4e2029a424dbe}} 
+\index{fazer\_jogada.h@{fazer\_jogada.h}!verificar\_vencedor@{verificar\_vencedor}}
+\index{verificar\_vencedor@{verificar\_vencedor}!fazer\_jogada.h@{fazer\_jogada.h}}
+\doxysubsubsection{\texorpdfstring{verificar\_vencedor()}{verificar\_vencedor()}}
+{\footnotesize\ttfamily int verificar\+\_\+vencedor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Verifica se algum jogador venceu o jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu. 
+\end{DoxyReturn}

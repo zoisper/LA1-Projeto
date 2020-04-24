@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="README_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>LCC<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">UC<sp/>Laboratório<sp/>de<sp/>Algoritmia<sp/>I</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Turno<sp/>Prático<sp/>2<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Grupo<sp/>6</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal">A91652<sp/><sp/><sp/>Rui<sp/>Jordão<sp/>Sampaio<sp/>Gonçalves<sp/><sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A91693<sp/><sp/><sp/>Tiago<sp/>André<sp/>Oliveira<sp/>Leite<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A91677<sp/><sp/><sp/>Vicente<sp/>de<sp/>Carvalho<sp/>Castro<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

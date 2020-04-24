@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_6064e80c0b1d8c322d8786bb501dd3f4" kind="dir">
+    <compoundname>projeto/logica</compoundname>
+    <innerfile refid="comando__jog_8c">comando_jog.c</innerfile>
+    <innerfile refid="comando__jog_8h">comando_jog.h</innerfile>
+    <innerfile refid="comando__pos_8c">comando_pos.c</innerfile>
+    <innerfile refid="comando__pos_8h">comando_pos.h</innerfile>
+    <innerfile refid="fazer__jogada_8c">fazer_jogada.c</innerfile>
+    <innerfile refid="fazer__jogada_8h">fazer_jogada.h</innerfile>
+    <innerfile refid="ler__jogo_8c">ler_jogo.c</innerfile>
+    <innerfile refid="ler__jogo_8h">ler_jogo.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="projeto/logica/"/>
+  </compounddef>
+</doxygen>
