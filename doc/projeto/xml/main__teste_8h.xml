@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="main__teste_8h" kind="file" language="C++">
+    <compoundname>main_teste.h</compoundname>
+    <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="main__teste_8c" local="yes">testes/main_teste.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>../dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+      <node id="1">
+        <label>testes/main_teste.h</label>
+        <link refid="main__teste_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main__teste_8h_1a8f6e5f65c7e881551930ee0177897c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void teste</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>teste</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Função que realiza varios testes automaticos<linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testes/main_teste.h" line="12" column="6" bodyfile="testes/main_teste.c" bodystart="8" bodyend="21" declfile="testes/main_teste.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Testes Automaticos </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#ifndef<sp/>PROJETO_MAIN_TESTE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_MAIN_TESTE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight></codeline>
+<codeline lineno="12"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main__teste_8h_1a8f6e5f65c7e881551930ee0177897c63" kindref="member">teste</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MAIN_TESTE_H</highlight></codeline>
+    </programlisting>
+    <location file="testes/main_teste.h"/>
+  </compounddef>
+</doxygen>

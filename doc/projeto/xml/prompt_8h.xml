@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="prompt_8h" kind="file" language="C++">
+    <compoundname>prompt.h</compoundname>
+    <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
+    <includedby refid="prompt_8c" local="yes">interface/prompt.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>interface/prompt.h</label>
+        <link refid="prompt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>../dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="prompt_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void prompt</definition>
+        <argsstring>(ESTADO e, int controlo)</argsstring>
+        <name>prompt</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>controlo</declname>
+        </param>
+        <briefdescription>
+<para>Prompt com o número de comandos, o jogador atual e o número da jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controlo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variavel que vai indicar se o nummero de comandos do prompt incrementa ou nao. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/prompt.h" line="14" column="6" bodyfile="interface/prompt.c" bodystart="8" bodyend="15" declfile="interface/prompt.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>As função responssavel pelo prompt. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>PROJETO_PROMPT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_PROMPT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight></codeline>
+<codeline lineno="14"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="prompt_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" kindref="member">prompt</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controlo);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_PROMPT_H</highlight></codeline>
+    </programlisting>
+    <location file="interface/prompt.h"/>
+  </compounddef>
+</doxygen>

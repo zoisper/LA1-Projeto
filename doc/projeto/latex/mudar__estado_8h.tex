@@ -1,0 +1,155 @@
+\hypertarget{mudar__estado_8h}{}\doxysection{dados/mudar\+\_\+estado.h File Reference}
+\label{mudar__estado_8h}\index{dados/mudar\_estado.h@{dados/mudar\_estado.h}}
+{\ttfamily \#include \char`\"{}inicializar\+\_\+estado.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{mudar__estado_8h_ae821d10232eb163ea9f752d8ab2d280f}{muda\+\_\+casa}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} coord)
+\begin{DoxyCompactList}\small\item\em Coloca \char`\"{}\+B\+R\+A\+N\+C\+A\char`\"{} na casa da cordenada jogada e coloca \char`\"{}\+P\+R\+E\+T\+A\char`\"{} na casa jogada anteriormente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mudar__estado_8h_a37b332da122e14b0e2be85e65ad52160}{muda\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} coord)
+\begin{DoxyCompactList}\small\item\em Acrescenta a cordenada jogada ás jogadas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mudar__estado_8h_af22f187947c882b27c063664453bc867}{muda\+\_\+jogador\+\_\+atual}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Troca o jogador atual. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mudar__estado_8h_aa5c51d4e7476689e120126dc3336f9f6}{muda\+\_\+ultima\+\_\+jogada}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, \mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}} coord)
+\begin{DoxyCompactList}\small\item\em Altera a ultima jogada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mudar__estado_8h_a9e452d73246e3db9d9b4cc4d458ed056}{incrementa\+\_\+num\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Incrementa o número de jogadas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mudar__estado_8h_a46db10fbc55ab619c37705b8998eb645}{reiniciar\+\_\+estado}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Reinicia o estado.~\newline
+. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mudar__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}{retoma\+\_\+casa}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$e, int linha, int coluna, char carater)
+\begin{DoxyCompactList}\small\item\em Altera a casa para o valor que estava gravado no ficheiro lido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definição das funçoes que manipulam o estado 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mudar__estado_8h_a9e452d73246e3db9d9b4cc4d458ed056}\label{mudar__estado_8h_a9e452d73246e3db9d9b4cc4d458ed056}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!incrementa\_num\_jogadas@{incrementa\_num\_jogadas}}
+\index{incrementa\_num\_jogadas@{incrementa\_num\_jogadas}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{incrementa\_num\_jogadas()}{incrementa\_num\_jogadas()}}
+{\footnotesize\ttfamily void incrementa\+\_\+num\+\_\+jogadas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Incrementa o número de jogadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mudar__estado_8h_ae821d10232eb163ea9f752d8ab2d280f}\label{mudar__estado_8h_ae821d10232eb163ea9f752d8ab2d280f}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!muda\_casa@{muda\_casa}}
+\index{muda\_casa@{muda\_casa}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{muda\_casa()}{muda\_casa()}}
+{\footnotesize\ttfamily void muda\+\_\+casa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{coord }\end{DoxyParamCaption})}
+
+
+
+Coloca \char`\"{}\+B\+R\+A\+N\+C\+A\char`\"{} na casa da cordenada jogada e coloca \char`\"{}\+P\+R\+E\+T\+A\char`\"{} na casa jogada anteriormente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em coord} & A cordenada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mudar__estado_8h_a37b332da122e14b0e2be85e65ad52160}\label{mudar__estado_8h_a37b332da122e14b0e2be85e65ad52160}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!muda\_jogadas@{muda\_jogadas}}
+\index{muda\_jogadas@{muda\_jogadas}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{muda\_jogadas()}{muda\_jogadas()}}
+{\footnotesize\ttfamily void muda\+\_\+jogadas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{coord }\end{DoxyParamCaption})}
+
+
+
+Acrescenta a cordenada jogada ás jogadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em coord} & A cordenada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mudar__estado_8h_af22f187947c882b27c063664453bc867}\label{mudar__estado_8h_af22f187947c882b27c063664453bc867}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!muda\_jogador\_atual@{muda\_jogador\_atual}}
+\index{muda\_jogador\_atual@{muda\_jogador\_atual}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{muda\_jogador\_atual()}{muda\_jogador\_atual()}}
+{\footnotesize\ttfamily void muda\+\_\+jogador\+\_\+atual (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Troca o jogador atual. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mudar__estado_8h_aa5c51d4e7476689e120126dc3336f9f6}\label{mudar__estado_8h_aa5c51d4e7476689e120126dc3336f9f6}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!muda\_ultima\_jogada@{muda\_ultima\_jogada}}
+\index{muda\_ultima\_jogada@{muda\_ultima\_jogada}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{muda\_ultima\_jogada()}{muda\_ultima\_jogada()}}
+{\footnotesize\ttfamily void muda\+\_\+ultima\+\_\+jogada (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{\mbox{\hyperlink{structCOORDENADA}{C\+O\+O\+R\+D\+E\+N\+A\+DA}}}]{coord }\end{DoxyParamCaption})}
+
+
+
+Altera a ultima jogada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em coord} & A cordenada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mudar__estado_8h_a46db10fbc55ab619c37705b8998eb645}\label{mudar__estado_8h_a46db10fbc55ab619c37705b8998eb645}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!reiniciar\_estado@{reiniciar\_estado}}
+\index{reiniciar\_estado@{reiniciar\_estado}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{reiniciar\_estado()}{reiniciar\_estado()}}
+{\footnotesize\ttfamily void reiniciar\+\_\+estado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Reinicia o estado.~\newline
+. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mudar__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}\label{mudar__estado_8h_a6a66a7c4cf0dfc7215ff945e1a25030f}} 
+\index{mudar\_estado.h@{mudar\_estado.h}!retoma\_casa@{retoma\_casa}}
+\index{retoma\_casa@{retoma\_casa}!mudar\_estado.h@{mudar\_estado.h}}
+\doxysubsubsection{\texorpdfstring{retoma\_casa()}{retoma\_casa()}}
+{\footnotesize\ttfamily void retoma\+\_\+casa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} $\ast$}]{e,  }\item[{int}]{linha,  }\item[{int}]{coluna,  }\item[{char}]{carater }\end{DoxyParamCaption})}
+
+
+
+Altera a casa para o valor que estava gravado no ficheiro lido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em linha} & A linha do tabuleiro.~\newline
+\\
+\hline
+{\em coluna} & A coluna do tabuleiro.~\newline
+\\
+\hline
+{\em carater} & O carater que estava gravado no ficheiro.~\newline
+\\
+\hline
+\end{DoxyParams}

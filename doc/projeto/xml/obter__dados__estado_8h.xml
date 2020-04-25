@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="obter__dados__estado_8h" kind="file" language="C++">
+    <compoundname>obter_dados_estado.h</compoundname>
+    <includes refid="inicializar__estado_8h" local="yes">inicializar_estado.h</includes>
+    <includedby refid="mudar__estado_8c" local="yes">dados/mudar_estado.c</includedby>
+    <includedby refid="obter__dados__estado_8c" local="yes">dados/obter_dados_estado.c</includedby>
+    <includedby refid="mostrar_8c" local="yes">interface/mostrar.c</includedby>
+    <includedby refid="prompt_8c" local="yes">interface/prompt.c</includedby>
+    <includedby refid="comando__jog_8c" local="yes">logica/comando_jog.c</includedby>
+    <includedby refid="comando__pos_8c" local="yes">logica/comando_pos.c</includedby>
+    <includedby refid="fazer__jogada_8c" local="yes">logica/fazer_jogada.c</includedby>
+    <includedby refid="ler__jogo_8c" local="yes">logica/ler_jogo.c</includedby>
+    <includedby refid="testa__estado_8c" local="yes">testes/testa_estado.c</includedby>
+    <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
+    <includedby refid="testa__pos_8c" local="yes">testes/testa_pos.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>dados/obter_dados_estado.h</label>
+        <link refid="obter__dados__estado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="obter__dados__estado_8h_1ad35fe177ba4902b4267925bdae8d8ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" kindref="member">CASA</ref></type>
+        <definition>CASA obter_casa</definition>
+        <argsstring>(ESTADO e, int coluna, int linha)</argsstring>
+        <name>obter_casa</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coluna</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>linha</declname>
+        </param>
+        <briefdescription>
+<para>Devolve o valor de uma casa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coluna</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A coordenada da coluna da casa.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>linha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A coordendanda da linha da casa.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>O valor da casa. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="16" column="6" bodyfile="dados/obter_dados_estado.c" bodystart="3" bodyend="6" declfile="dados/obter_dados_estado.h" declline="16" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="obter__dados__estado_8h_1adca88fda125fd06faefdf80ebbad48c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_jogador_atual</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>obter_jogador_atual</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Devolve o numero do jogador atual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>O numero do jogador atual. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="22" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="27" bodyend="30" declfile="dados/obter_dados_estado.h" declline="22" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_num_jogadas</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>obter_num_jogadas</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Devolve o numero de jogadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>O numeoro de jogadas. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="29" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="31" bodyend="34" declfile="dados/obter_dados_estado.h" declline="29" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_ultima_jogada_coluna</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>obter_ultima_jogada_coluna</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Devolve a coordendada da coluna da ultima jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A coordenada da coluna da ultima jogada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="35" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="35" bodyend="38" declfile="dados/obter_dados_estado.h" declline="35" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_ultima_jogada_linha</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>obter_ultima_jogada_linha</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Devolve a coordendada da linha da ultima jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A coordenada da linha da ultima jogada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="41" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="39" bodyend="42" declfile="dados/obter_dados_estado.h" declline="41" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="obter__dados__estado_8h_1a8ec08cd9bf9691ce65f1c5c12d2dd965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_jogada_jogador_coluna</definition>
+        <argsstring>(ESTADO e, int num_jogada, int jogador)</argsstring>
+        <name>obter_jogada_jogador_coluna</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_jogada</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jogador</declname>
+        </param>
+        <briefdescription>
+<para>Coloca &quot;BRANCA&quot; na casa da cordenada jogada e coloca &quot;PRETA&quot; na casa jogada anteriormente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A cordenada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="47" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="8" bodyend="16" declfile="dados/obter_dados_estado.h" declline="47" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="obter__dados__estado_8h_1aa078bc44de22b3c2f2bd5367fc06ffff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obter_jogada_jogador_linha</definition>
+        <argsstring>(ESTADO e, int num_jogada, int jogador)</argsstring>
+        <name>obter_jogada_jogador_linha</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_jogada</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jogador</declname>
+        </param>
+        <briefdescription>
+<para>Obtem a cordenada da linha de uma jogada de um jogador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_jogada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O número da jogada.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jogador</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O número do jogador.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A cordenada da linha dessa jogada desse jogado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dados/obter_dados_estado.h" line="55" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="17" bodyend="25" declfile="dados/obter_dados_estado.h" declline="55" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Definição das funçoes que obtem informação do estado </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>PROJETO_OBTER_DADOS_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_OBTER_DADOS_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="inicializar__estado_8h" kindref="compound">inicializar_estado.h</ref>&quot;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" kindref="member">CASA</ref><sp/><ref refid="obter__dados__estado_8h_1ad35fe177ba4902b4267925bdae8d8ea6" kindref="member">obter_casa</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coluna,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>linha);</highlight></codeline>
+<codeline lineno="22"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="obter__dados__estado_8h_1adca88fda125fd06faefdf80ebbad48c1" kindref="member">obter_jogador_atual</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="35"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="41"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="47"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="obter__dados__estado_8h_1a8ec08cd9bf9691ce65f1c5c12d2dd965" kindref="member">obter_jogada_jogador_coluna</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_jogada,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador);</highlight></codeline>
+<codeline lineno="55"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="obter__dados__estado_8h_1aa078bc44de22b3c2f2bd5367fc06ffff" kindref="member">obter_jogada_jogador_linha</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_jogada,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jogador);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_OBTER_DADOS_ESTADO_H</highlight></codeline>
+    </programlisting>
+    <location file="dados/obter_dados_estado.h"/>
+  </compounddef>
+</doxygen>

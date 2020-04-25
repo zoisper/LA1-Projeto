@@ -1,0 +1,170 @@
+\hypertarget{obter__dados__estado_8h}{}\doxysection{dados/obter\+\_\+dados\+\_\+estado.h File Reference}
+\label{obter__dados__estado_8h}\index{dados/obter\_dados\_estado.h@{dados/obter\_dados\_estado.h}}
+{\ttfamily \#include \char`\"{}inicializar\+\_\+estado.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{inicializar__estado_8h_aba91601f16d4c485b2d9b8c429f27039}{C\+A\+SA}} \mbox{\hyperlink{obter__dados__estado_8h_ad35fe177ba4902b4267925bdae8d8ea6}{obter\+\_\+casa}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, int coluna, int linha)
+\begin{DoxyCompactList}\small\item\em Devolve o valor de uma casa. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{obter__dados__estado_8h_adca88fda125fd06faefdf80ebbad48c1}{obter\+\_\+jogador\+\_\+atual}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Devolve o numero do jogador atual. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{obter__dados__estado_8h_a89fec6fb258b5278165d5d00a0d352e0}{obter\+\_\+num\+\_\+jogadas}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Devolve o numero de jogadas. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{obter__dados__estado_8h_a904ac424419f4bb0ceeb934266039415}{obter\+\_\+ultima\+\_\+jogada\+\_\+coluna}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Devolve a coordendada da coluna da ultima jogada. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{obter__dados__estado_8h_a6fb04090c3e6a56e81bcd19780d22169}{obter\+\_\+ultima\+\_\+jogada\+\_\+linha}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e)
+\begin{DoxyCompactList}\small\item\em Devolve a coordendada da linha da ultima jogada. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{obter__dados__estado_8h_a8ec08cd9bf9691ce65f1c5c12d2dd965}{obter\+\_\+jogada\+\_\+jogador\+\_\+coluna}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, int num\+\_\+jogada, int jogador)
+\begin{DoxyCompactList}\small\item\em Coloca \char`\"{}\+B\+R\+A\+N\+C\+A\char`\"{} na casa da cordenada jogada e coloca \char`\"{}\+P\+R\+E\+T\+A\char`\"{} na casa jogada anteriormente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{obter__dados__estado_8h_aa078bc44de22b3c2f2bd5367fc06ffff}{obter\+\_\+jogada\+\_\+jogador\+\_\+linha}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, int num\+\_\+jogada, int jogador)
+\begin{DoxyCompactList}\small\item\em Obtem a cordenada da linha de uma jogada de um jogador. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definição das funçoes que obtem informação do estado 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{obter__dados__estado_8h_ad35fe177ba4902b4267925bdae8d8ea6}\label{obter__dados__estado_8h_ad35fe177ba4902b4267925bdae8d8ea6}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_casa@{obter\_casa}}
+\index{obter\_casa@{obter\_casa}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_casa()}{obter\_casa()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{inicializar__estado_8h_aba91601f16d4c485b2d9b8c429f27039}{C\+A\+SA}} obter\+\_\+casa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{int}]{coluna,  }\item[{int}]{linha }\end{DoxyParamCaption})}
+
+
+
+Devolve o valor de uma casa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+{\em coluna} & A coordenada da coluna da casa.~\newline
+\\
+\hline
+{\em linha} & A coordendanda da linha da casa.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O valor da casa. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obter__dados__estado_8h_a8ec08cd9bf9691ce65f1c5c12d2dd965}\label{obter__dados__estado_8h_a8ec08cd9bf9691ce65f1c5c12d2dd965}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_jogada\_jogador\_coluna@{obter\_jogada\_jogador\_coluna}}
+\index{obter\_jogada\_jogador\_coluna@{obter\_jogada\_jogador\_coluna}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_jogada\_jogador\_coluna()}{obter\_jogada\_jogador\_coluna()}}
+{\footnotesize\ttfamily int obter\+\_\+jogada\+\_\+jogador\+\_\+coluna (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{int}]{num\+\_\+jogada,  }\item[{int}]{jogador }\end{DoxyParamCaption})}
+
+
+
+Coloca \char`\"{}\+B\+R\+A\+N\+C\+A\char`\"{} na casa da cordenada jogada e coloca \char`\"{}\+P\+R\+E\+T\+A\char`\"{} na casa jogada anteriormente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Apontador para o estado.~\newline
+\\
+\hline
+{\em c} & A cordenada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{obter__dados__estado_8h_aa078bc44de22b3c2f2bd5367fc06ffff}\label{obter__dados__estado_8h_aa078bc44de22b3c2f2bd5367fc06ffff}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_jogada\_jogador\_linha@{obter\_jogada\_jogador\_linha}}
+\index{obter\_jogada\_jogador\_linha@{obter\_jogada\_jogador\_linha}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_jogada\_jogador\_linha()}{obter\_jogada\_jogador\_linha()}}
+{\footnotesize\ttfamily int obter\+\_\+jogada\+\_\+jogador\+\_\+linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{int}]{num\+\_\+jogada,  }\item[{int}]{jogador }\end{DoxyParamCaption})}
+
+
+
+Obtem a cordenada da linha de uma jogada de um jogador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+{\em num\+\_\+jogada} & O número da jogada.~\newline
+\\
+\hline
+{\em jogador} & O número do jogador.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A cordenada da linha dessa jogada desse jogado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obter__dados__estado_8h_adca88fda125fd06faefdf80ebbad48c1}\label{obter__dados__estado_8h_adca88fda125fd06faefdf80ebbad48c1}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_jogador\_atual@{obter\_jogador\_atual}}
+\index{obter\_jogador\_atual@{obter\_jogador\_atual}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_jogador\_atual()}{obter\_jogador\_atual()}}
+{\footnotesize\ttfamily int obter\+\_\+jogador\+\_\+atual (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Devolve o numero do jogador atual. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O numero do jogador atual. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obter__dados__estado_8h_a89fec6fb258b5278165d5d00a0d352e0}\label{obter__dados__estado_8h_a89fec6fb258b5278165d5d00a0d352e0}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_num\_jogadas@{obter\_num\_jogadas}}
+\index{obter\_num\_jogadas@{obter\_num\_jogadas}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_num\_jogadas()}{obter\_num\_jogadas()}}
+{\footnotesize\ttfamily int obter\+\_\+num\+\_\+jogadas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Devolve o numero de jogadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O numeoro de jogadas. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obter__dados__estado_8h_a904ac424419f4bb0ceeb934266039415}\label{obter__dados__estado_8h_a904ac424419f4bb0ceeb934266039415}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_ultima\_jogada\_coluna@{obter\_ultima\_jogada\_coluna}}
+\index{obter\_ultima\_jogada\_coluna@{obter\_ultima\_jogada\_coluna}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_ultima\_jogada\_coluna()}{obter\_ultima\_jogada\_coluna()}}
+{\footnotesize\ttfamily int obter\+\_\+ultima\+\_\+jogada\+\_\+coluna (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Devolve a coordendada da coluna da ultima jogada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A coordenada da coluna da ultima jogada. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obter__dados__estado_8h_a6fb04090c3e6a56e81bcd19780d22169}\label{obter__dados__estado_8h_a6fb04090c3e6a56e81bcd19780d22169}} 
+\index{obter\_dados\_estado.h@{obter\_dados\_estado.h}!obter\_ultima\_jogada\_linha@{obter\_ultima\_jogada\_linha}}
+\index{obter\_ultima\_jogada\_linha@{obter\_ultima\_jogada\_linha}!obter\_dados\_estado.h@{obter\_dados\_estado.h}}
+\doxysubsubsection{\texorpdfstring{obter\_ultima\_jogada\_linha()}{obter\_ultima\_jogada\_linha()}}
+{\footnotesize\ttfamily int obter\+\_\+ultima\+\_\+jogada\+\_\+linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Devolve a coordendada da linha da ultima jogada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A coordenada da linha da ultima jogada. 
+\end{DoxyReturn}

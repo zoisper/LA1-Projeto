@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_eb8800cb0c3fd4fa9d40306d6b83386d" kind="dir">
+    <compoundname>dados</compoundname>
+    <innerfile refid="inicializar__estado_8c">inicializar_estado.c</innerfile>
+    <innerfile refid="inicializar__estado_8h">inicializar_estado.h</innerfile>
+    <innerfile refid="lista_8c">lista.c</innerfile>
+    <innerfile refid="lista_8h">lista.h</innerfile>
+    <innerfile refid="mudar__estado_8c">mudar_estado.c</innerfile>
+    <innerfile refid="mudar__estado_8h">mudar_estado.h</innerfile>
+    <innerfile refid="obter__dados__estado_8c">obter_dados_estado.c</innerfile>
+    <innerfile refid="obter__dados__estado_8h">obter_dados_estado.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dados/"/>
+  </compounddef>
+</doxygen>
