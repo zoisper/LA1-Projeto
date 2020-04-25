@@ -2,7 +2,6 @@
 #include "interpretador.h"
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 #include "mostrar.h"
 #include "../logica/fazer_jogada.h"
 #include "../logica/ler_jogo.h"
@@ -16,7 +15,7 @@
 
 int interpretador(ESTADO *e)
 {
-    int num, controlo, vencedor;
+    int num, controlo;
     char linha[BUF_SIZE];
     char col[2], lin[2];
     char save[3], load[4], pos[4], nome_ficheiro[BUF_SIZE];
@@ -36,7 +35,7 @@ int interpretador(ESTADO *e)
         fprintf(fp,"\n");
         mostrar_movimentos(*e,fp);
         fclose(fp);
-        printf ("Jogo Gravado\n");
+        printf ("Jogo gravado\n");
         return 1;
 
     }
@@ -55,16 +54,15 @@ int interpretador(ESTADO *e)
         {
             ler_jogo (e, fp);
             fclose(fp);
-            mostrar_tabuleiro(*e, stdout, 1);
-            printf ("Jogo Retomado\n");
+            printf ("Jogo retomado\n");
             return 1;
         }
+        printf ("Ficheiro não encontrado\n");
         return 0;
     }
     else if(strlen (linha) == 6 && sscanf(linha, "%s %d",pos, &num ) == 2 && strncmp(pos, "pos",3) == 0)
     {
         controlo = pos_jogada(e, num);
-        mostrar_tabuleiro(*e, stdout, 1);
         return controlo;
     }
 
@@ -72,14 +70,6 @@ int interpretador(ESTADO *e)
     {
         coord = jog_random (*e);
         controlo = jogar(e,coord);
-        mostrar_tabuleiro(*e, stdout, 1);
-        vencedor = verificar_vencedor(*e);
-        if (vencedor != 0)
-        {
-            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
-            return 2;
-        }
-
         return controlo;
     }
 
@@ -87,18 +77,8 @@ int interpretador(ESTADO *e)
     {
         coord = jog_minimax(*e, 6);
         controlo = jogar(e,coord);
-        mostrar_tabuleiro(*e, stdout, 1);
-        vencedor = verificar_vencedor(*e);
-        if (vencedor != 0)
-        {
-            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
-            return 2;
-        }
-
         return controlo;
     }
-
-
 
     else if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2)
     {
@@ -107,15 +87,13 @@ int interpretador(ESTADO *e)
         coord.linha = ('8' - *lin);
         controlo = jogar(e, coord);
         if (controlo == 0)
-            printf("Jogada Invalida");
-        mostrar_tabuleiro(*e, stdout, 1);
-        vencedor = verificar_vencedor(*e);
-        if (vencedor != 0)
-        {
-            printf ("Parabens Jogador %d! \nVenceu o jogo!", vencedor);
-            return 2;
-        }
+            printf("Jogada invalida");
         return controlo;
     }
-    return 0;
+
+    else
+    {
+        printf ("Comando invalido\n");
+        return 0;
+    }
 }

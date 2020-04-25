@@ -1,7 +1,7 @@
 
 /**
 @file fazer_jogada.h
-As funções que adicionam uma jogada.
+As funções que adicionam uma jogada valida e verificam se ha vencedor.
 */
 #ifndef PROJETO_FAZER_JOGADA_H
 #define PROJETO_FAZER_JOGADA_H

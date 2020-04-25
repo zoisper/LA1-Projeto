@@ -17,7 +17,6 @@ int jogar(ESTADO *e, COORDENADA c)
         muda_jogador_atual(e);
         muda_ultima_jogada(e, c);
 
-
         return 1;
 
     }

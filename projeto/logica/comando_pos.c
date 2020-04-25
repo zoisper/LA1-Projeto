@@ -3,26 +3,26 @@
 #include "../dados/obter_dados_estado.h"
 #include "../dados/mudar_estado.h"
 #include "fazer_jogada.h"
-#define tamanho 32
+#define SIZE 32
 
 
 
 int pos_jogada (ESTADO *e, int num)
 {
-    static JOGADA JOGADAS_aux[tamanho] = {0}, JOGADAS_anterior[tamanho] = {0} ;
-    static int k=0;
+    static JOGADA JOGADAS_aux[SIZE] = {0}, JOGADAS_anterior[SIZE] = {0} ;
+    static int controlo=0;
     if (houve_jogada(*e, JOGADAS_aux))
     {
         if (num<0 || num > obter_num_jogadas(*e))
             return 0;
-        k = obter_num_jogadas(*e);
+        controlo = obter_num_jogadas(*e);
         clona_jogadas(*e,JOGADAS_aux,num);
         clona_jogadas(*e,JOGADAS_anterior,32);
         acede_jogada(e, JOGADAS_aux, num);
         return 1;
     }
     else
-        if (num>=0 && num <= k)
+        if (num>=0 && num <= controlo)
         {
             acede_jogada (e, JOGADAS_anterior, num);
             clona_jogadas(*e,JOGADAS_aux,num);
@@ -35,7 +35,7 @@ int pos_jogada (ESTADO *e, int num)
 void clona_jogadas(ESTADO e, JOGADA jogadas[], int num )
 {
     int i;
-    for (i=0; i<tamanho; i++)
+    for (i=0; i<SIZE; i++)
     {
         jogadas[i].jogador1.coluna = 0;
         jogadas[i].jogador1.linha = 0;
@@ -57,7 +57,7 @@ int houve_jogada (ESTADO e, JOGADA jogadas[])
 {
     int i, r;
     r=0;
-    for (i=0; i<tamanho; i++)
+    for (i=0; i<SIZE; i++)
     {
         if (jogadas[i].jogador1.coluna != obter_jogada_jogador_coluna(e,i, 1))
             r=1;
