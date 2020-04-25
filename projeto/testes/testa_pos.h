@@ -5,7 +5,7 @@
 #ifndef PROJETO_TESTA_POS_H
 #define PROJETO_TESTA_POS_H
 
-#include "../dados/inicializa_estado.h"
+#include "../dados/inicializar_estado.h"
 
 /**
  * Funçao que faz varias jogadas e verifica se o comando 'pos' esta a funcionar corretamente.\n

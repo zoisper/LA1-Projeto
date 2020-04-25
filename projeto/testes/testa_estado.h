@@ -5,7 +5,7 @@ Testes sobre as variaveis do estado.
 */
 #ifndef PROJETO_TESTA_ESTADO_H
 #define PROJETO_TESTA_ESTADO_H
-#include "../dados/inicializa_estado.h"
+#include "../dados/inicializar_estado.h"
 
 /**
  * \brief TFunçã que verifica se as variaves do estao no intervalo de valores esperado.\n

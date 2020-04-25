@@ -1,13 +1,13 @@
 
 /**
-@file muda_estado.h
+@file mudar_estado.h
 Definição das funçoes que manipulam o estado
 */
 
-#ifndef PROJETO_MUDA_ESTADO_H
-#define PROJETO_MUDA_ESTADO_H
+#ifndef PROJETO_MUDAR_ESTADO_H
+#define PROJETO_MUDAR_ESTADO_H
 
-#include "inicializa_estado.h"
+#include "inicializar_estado.h"
 #include <stdio.h>
 
 /**
@@ -44,7 +44,7 @@ void incrementa_num_jogadas (ESTADO *e);
  * \brief Reinicia o estado.\n
  * @param e Apontador para estado.\n
  */
-void reinicia_estado (ESTADO *e);
+void reiniciar_estado (ESTADO *e);
 
 /**
  * \brief Altera a casa para o valor que estava gravado no ficheiro lido.
@@ -58,5 +58,5 @@ void retoma_casa (ESTADO *e, int linha, int coluna, char carater);
 
 
 
-#endif //PROJETO_MUDA_ESTADO_H
+#endif //PROJETO_MUDAR_ESTADO_H
 

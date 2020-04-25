@@ -3,7 +3,7 @@
 #include "testa_jogar.h"
 #include "testa_vencedor.h"
 #include "testa_pos.h"
-#include "testa_jog.h"
+#include "testa_heuristica.h"
 
 void teste (ESTADO e)
 {
@@ -15,5 +15,7 @@ void teste (ESTADO e)
     testa_pos(e);
     testa_estado(e);
     testa_jog(e);
+    testa_estado(e);
+    testa_jog2(e);
     testa_estado(e);
 }

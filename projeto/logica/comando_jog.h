@@ -8,7 +8,7 @@ As funções que implementam o comando jog.
 #define PROJETO_COMANDO_JOG_H
 
 #include "../dados/lista.h"
-#include "../dados/inicializa_estado.h"
+#include "../dados/inicializar_estado.h"
 
 /**
  * \brief Cria uma lista ligada com todas as jogadas possiveis.\n

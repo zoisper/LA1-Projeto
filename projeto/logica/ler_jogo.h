@@ -7,7 +7,7 @@ As função que grava o jogo num ficheiro.
 #define PROJETO_LER_JOGO_H
 
 #include <stdio.h>
-#include "../dados/inicializa_estado.h"
+#include "../dados/inicializar_estado.h"
 
 /**
  * \brief Grava o jogo num fcheiro.\n

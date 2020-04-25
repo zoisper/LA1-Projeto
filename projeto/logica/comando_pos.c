@@ -1,7 +1,7 @@
 
 #include "comando_pos.h"
 #include "../dados/obter_dados_estado.h"
-#include "../dados/muda_estado.h"
+#include "../dados/mudar_estado.h"
 #include "fazer_jogada.h"
 #define tamanho 32
 
@@ -76,7 +76,7 @@ int houve_jogada (ESTADO e, JOGADA jogadas[])
 
 void acede_jogada (ESTADO *e,  JOGADA jogadas[], int num)
 {
-    reinicia_estado(e);
+    reiniciar_estado(e);
     COORDENADA coord;
     int i;
     for (i=0;i<num; i++)

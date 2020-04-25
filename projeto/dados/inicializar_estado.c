@@ -1,6 +1,6 @@
 
 
-#include "inicializa_estado.h"
+#include "inicializar_estado.h"
 #include <stdlib.h>
 int i,j;
 ESTADO *inicializar_estado()

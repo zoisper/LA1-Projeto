@@ -1,6 +1,6 @@
 #include "testa_vencedor.h"
 #include "../logica/fazer_jogada.h"
-#include "../dados/muda_estado.h"
+#include "../dados/mudar_estado.h"
 #include <assert.h>
 
 
@@ -19,7 +19,7 @@ void testa_vencedor(ESTADO e)
     vencedor = verificar_vencedor(e);
     assert(vencedor == 2);
 
-    reinicia_estado(&e);
+    reiniciar_estado(&e);
 
     coord.coluna = 3;
     coord.linha = 4;
@@ -36,7 +36,7 @@ void testa_vencedor(ESTADO e)
     vencedor = verificar_vencedor(e);
     assert(vencedor == 1);
 
-    reinicia_estado(&e);
+    reiniciar_estado(&e);
 
     coord.coluna = 4;
     coord.linha = 2;

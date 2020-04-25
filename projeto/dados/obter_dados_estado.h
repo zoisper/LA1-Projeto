@@ -5,7 +5,7 @@ Definição das funçoes que obtem informação do estado
 */
 #ifndef PROJETO_OBTER_DADOS_ESTADO_H
 #define PROJETO_OBTER_DADOS_ESTADO_H
-#include "inicializa_estado.h"
+#include "inicializar_estado.h"
 /**
  * \brief Devolve o valor de uma casa.
  * @param e O estado.\n

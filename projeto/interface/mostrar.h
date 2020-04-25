@@ -7,7 +7,7 @@ As função que imprimem o tabuleiro e os movimentos.
 #ifndef PROJETO_MOSTRAR_H
 #define PROJETO_MOSTRAR_H
 #include <stdio.h>
-#include "../dados/inicializa_estado.h"
+#include "../dados/inicializar_estado.h"
 
 /**
  * \brief Imprime o tabuleiro do jogo num ficheiro passado por parametro.\n

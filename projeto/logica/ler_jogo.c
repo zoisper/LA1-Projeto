@@ -2,7 +2,7 @@
 
 #include "ler_jogo.h"
 #include "../dados/obter_dados_estado.h"
-#include "../dados/muda_estado.h"
+#include "../dados/mudar_estado.h"
 
 
 void ler_jogo (ESTADO *e, FILE *fp)
@@ -10,7 +10,7 @@ void ler_jogo (ESTADO *e, FILE *fp)
     int i,j;
     char carater;
     COORDENADA coord = {0,0};
-
+    reiniciar_estado(e);
     for (i = 0; i < 8; i++)
         for (j = 0; j < 8; j++)
         {

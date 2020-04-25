@@ -2,7 +2,7 @@
 
 #include "fazer_jogada.h"
 #include "../dados/obter_dados_estado.h"
-#include "../dados/muda_estado.h"
+#include "../dados/mudar_estado.h"
 
 
 int jogar(ESTADO *e, COORDENADA c)

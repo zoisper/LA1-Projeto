@@ -5,7 +5,7 @@ As funções que adicionam uma jogada.
 */
 #ifndef PROJETO_FAZER_JOGADA_H
 #define PROJETO_FAZER_JOGADA_H
-#include "../dados/inicializa_estado.h"
+#include "../dados/inicializar_estado.h"
 /**
  * \brief Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\nVerfifica se algum jogador venceu o jogo.
  * @param estado Apontador para estado.\n

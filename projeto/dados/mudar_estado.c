@@ -41,7 +41,7 @@ void muda_ultima_jogada (ESTADO *e, COORDENADA coord)
     e->ultima_jogada.coluna= coord.coluna;
 }
 
-void reinicia_estado (ESTADO *e)
+void reiniciar_estado (ESTADO *e)
 {
     int i, j;
     for (i = 0; i < 8; i++)
