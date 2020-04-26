@@ -11,7 +11,6 @@
     <includedby refid="ler__jogo_8h" local="yes">logica/ler_jogo.h</includedby>
     <includedby refid="comando__pos_8h" local="yes">logica/comando_pos.h</includedby>
     <includedby refid="comando__jog_8h" local="yes">logica/comando_jog.h</includedby>
-    <includedby refid="prompt_8h" local="yes">interface/prompt.h</includedby>
     <includedby refid="main_8c" local="yes">main.c</includedby>
     <includedby refid="main__teste_8h" local="yes">testes/main_teste.h</includedby>
     <includedby refid="testa__estado_8h" local="yes">testes/testa_estado.h</includedby>
@@ -32,7 +31,7 @@
         <label>logica/comando_jog.h</label>
         <link refid="comando__jog_8h"/>
       </node>
-      <node id="12">
+      <node id="11">
         <label>testes/testa_estado.h</label>
         <link refid="testa__estado_8h"/>
       </node>
@@ -44,15 +43,11 @@
         <label>dados/mudar_estado.h</label>
         <link refid="mudar__estado_8h"/>
       </node>
-      <node id="10">
-        <label>interface/prompt.h</label>
-        <link refid="prompt_8h"/>
-      </node>
-      <node id="13">
+      <node id="12">
         <label>testes/testa_jogar.h</label>
         <link refid="testa__jogar_8h"/>
       </node>
-      <node id="14">
+      <node id="13">
         <label>testes/testa_vencedor.h</label>
         <link refid="testa__vencedor_8h"/>
       </node>
@@ -60,7 +55,7 @@
         <label>interface/interpretador.h</label>
         <link refid="interpretador_8h"/>
       </node>
-      <node id="15">
+      <node id="14">
         <label>testes/testa_pos.h</label>
         <link refid="testa__pos_8h"/>
       </node>
@@ -95,14 +90,12 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
       </node>
-      <node id="11">
+      <node id="10">
         <label>testes/main_teste.h</label>
         <link refid="main__teste_8h"/>
       </node>
-      <node id="16">
+      <node id="15">
         <label>testes/testa_heuristica.h</label>
         <link refid="testa__heuristica_8h"/>
       </node>

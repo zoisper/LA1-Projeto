@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="interface/interpretador.h" line="15" column="5" bodyfile="interface/interpretador.c" bodystart="17" bodyend="121" declfile="interface/interpretador.h" declline="15" declcolumn="5"/>
+        <location file="interface/interpretador.h" line="15" column="5" bodyfile="interface/interpretador.c" bodystart="16" bodyend="99" declfile="interface/interpretador.h" declline="15" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

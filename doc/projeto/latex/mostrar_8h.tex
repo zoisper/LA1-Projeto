@@ -5,15 +5,19 @@
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{mostrar_8h_a560a2cc9ea86129455425260b6dc688d}{mostrar\+\_\+tabuleiro}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, F\+I\+LE $\ast$fp, int legenda)
+void \mbox{\hyperlink{mostrar_8h_a4a482486cbcd9617acedb7150b8e3115}{mostrar\+\_\+tabuleiro}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, F\+I\+LE $\ast$fp, int grelha)
 \begin{DoxyCompactList}\small\item\em Imprime o tabuleiro do jogo num ficheiro passado por parametro.~\newline
 . \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{mostrar_8h_a3d96032d0a001c6741cb2f9e7b28a313}{mostrar\+\_\+movimentos}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, F\+I\+LE $\ast$fp)
+\item 
+void \mbox{\hyperlink{mostrar_8h_ae4dfbe3acd79cd3900c4b66b608f7cad}{prompt}} (\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}} e, int controlo)
+\begin{DoxyCompactList}\small\item\em Prompt com o número de comandos, o jogador atual e o número da jogada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mostrar_8h_aa5ca61490b88cba4e5f1baa8b01bf86a}{mostrar\+\_\+vencedor}} (int vencedor)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
-As função que imprimem o tabuleiro e os movimentos. 
+As funçoes responsavies por mostrar o tabuleiro, movimentos, prompt e vencedor. 
 
 \doxysubsection{Function Documentation}
 \mbox{\Hypertarget{mostrar_8h_a3d96032d0a001c6741cb2f9e7b28a313}\label{mostrar_8h_a3d96032d0a001c6741cb2f9e7b28a313}} 
@@ -31,11 +35,11 @@ Função que vai mostrar todos os movimentos realizados pelos jogadores num fich
 {\em fp} & Apontador para o ficheiro. \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{mostrar_8h_a560a2cc9ea86129455425260b6dc688d}\label{mostrar_8h_a560a2cc9ea86129455425260b6dc688d}} 
+\mbox{\Hypertarget{mostrar_8h_a4a482486cbcd9617acedb7150b8e3115}\label{mostrar_8h_a4a482486cbcd9617acedb7150b8e3115}} 
 \index{mostrar.h@{mostrar.h}!mostrar\_tabuleiro@{mostrar\_tabuleiro}}
 \index{mostrar\_tabuleiro@{mostrar\_tabuleiro}!mostrar.h@{mostrar.h}}
 \doxysubsubsection{\texorpdfstring{mostrar\_tabuleiro()}{mostrar\_tabuleiro()}}
-{\footnotesize\ttfamily void mostrar\+\_\+tabuleiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{F\+I\+LE $\ast$}]{fp,  }\item[{int}]{legenda }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void mostrar\+\_\+tabuleiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{F\+I\+LE $\ast$}]{fp,  }\item[{int}]{grelha }\end{DoxyParamCaption})}
 
 
 
@@ -50,6 +54,36 @@ Imprime o tabuleiro do jogo num ficheiro passado por parametro.~\newline
 {\em fp} & O eficheiro onde o tabuleiro vai ser imprimido.~\newline
 \\
 \hline
-{\em legenda} & Parametro que controla se anumeraçao das colunas e linhas são imprimidos. \\
+{\em grelha} & Parametro que controla se anumeraçao das colunas e linhas são imprimidos. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mostrar_8h_aa5ca61490b88cba4e5f1baa8b01bf86a}\label{mostrar_8h_aa5ca61490b88cba4e5f1baa8b01bf86a}} 
+\index{mostrar.h@{mostrar.h}!mostrar\_vencedor@{mostrar\_vencedor}}
+\index{mostrar\_vencedor@{mostrar\_vencedor}!mostrar.h@{mostrar.h}}
+\doxysubsubsection{\texorpdfstring{mostrar\_vencedor()}{mostrar\_vencedor()}}
+{\footnotesize\ttfamily void mostrar\+\_\+vencedor (\begin{DoxyParamCaption}\item[{int}]{vencedor }\end{DoxyParamCaption})}
+
+Função que mostra o vencedor do jogo.~\newline
+
+\begin{DoxyParams}{Parameters}
+{\em vencedor} & O numero (1 ou 2) do jogador que venceu. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mostrar_8h_ae4dfbe3acd79cd3900c4b66b608f7cad}\label{mostrar_8h_ae4dfbe3acd79cd3900c4b66b608f7cad}} 
+\index{mostrar.h@{mostrar.h}!prompt@{prompt}}
+\index{prompt@{prompt}!mostrar.h@{mostrar.h}}
+\doxysubsubsection{\texorpdfstring{prompt()}{prompt()}}
+{\footnotesize\ttfamily void prompt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structESTADO}{E\+S\+T\+A\+DO}}}]{e,  }\item[{int}]{controlo }\end{DoxyParamCaption})}
+
+
+
+Prompt com o número de comandos, o jogador atual e o número da jogada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & O estado.~\newline
+\\
+\hline
+{\em controlo} & Variavel que vai indicar se o nummero de comandos do prompt incrementa ou nao. \\
 \hline
 \end{DoxyParams}

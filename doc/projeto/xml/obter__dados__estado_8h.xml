@@ -6,7 +6,6 @@
     <includedby refid="mudar__estado_8c" local="yes">dados/mudar_estado.c</includedby>
     <includedby refid="obter__dados__estado_8c" local="yes">dados/obter_dados_estado.c</includedby>
     <includedby refid="mostrar_8c" local="yes">interface/mostrar.c</includedby>
-    <includedby refid="prompt_8c" local="yes">interface/prompt.c</includedby>
     <includedby refid="comando__jog_8c" local="yes">logica/comando_jog.c</includedby>
     <includedby refid="comando__pos_8c" local="yes">logica/comando_pos.c</includedby>
     <includedby refid="fazer__jogada_8c" local="yes">logica/fazer_jogada.c</includedby>

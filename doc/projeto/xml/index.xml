@@ -236,16 +236,14 @@
     <member refid="mostrar_8c_1a6821bafc3c88dfb2e433a095df9940c6" kind="define"><name>BUF_SIZE</name></member>
     <member refid="mostrar_8c_1a4a482486cbcd9617acedb7150b8e3115" kind="function"><name>mostrar_tabuleiro</name></member>
     <member refid="mostrar_8c_1a3d96032d0a001c6741cb2f9e7b28a313" kind="function"><name>mostrar_movimentos</name></member>
+    <member refid="mostrar_8c_1ae4dfbe3acd79cd3900c4b66b608f7cad" kind="function"><name>prompt</name></member>
+    <member refid="mostrar_8c_1aa5ca61490b88cba4e5f1baa8b01bf86a" kind="function"><name>mostrar_vencedor</name></member>
   </compound>
   <compound refid="mostrar_8h" kind="file"><name>mostrar.h</name>
-    <member refid="mostrar_8h_1a560a2cc9ea86129455425260b6dc688d" kind="function"><name>mostrar_tabuleiro</name></member>
+    <member refid="mostrar_8h_1a4a482486cbcd9617acedb7150b8e3115" kind="function"><name>mostrar_tabuleiro</name></member>
     <member refid="mostrar_8h_1a3d96032d0a001c6741cb2f9e7b28a313" kind="function"><name>mostrar_movimentos</name></member>
-  </compound>
-  <compound refid="prompt_8c" kind="file"><name>prompt.c</name>
-    <member refid="prompt_8c_1ae4dfbe3acd79cd3900c4b66b608f7cad" kind="function"><name>prompt</name></member>
-  </compound>
-  <compound refid="prompt_8h" kind="file"><name>prompt.h</name>
-    <member refid="prompt_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" kind="function"><name>prompt</name></member>
+    <member refid="mostrar_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" kind="function"><name>prompt</name></member>
+    <member refid="mostrar_8h_1aa5ca61490b88cba4e5f1baa8b01bf86a" kind="function"><name>mostrar_vencedor</name></member>
   </compound>
   <compound refid="comando__jog_8c" kind="file"><name>comando_jog.c</name>
     <member refid="comando__jog_8c_1a041c2caba4e06c4294acb91b82cc5f6e" kind="function"><name>jog_random</name></member>
@@ -274,7 +272,7 @@
     <member refid="comando__jog_8h_1a3a7d7f4c6a93ded84b758e9d677f06ab" kind="function"><name>max_index</name></member>
   </compound>
   <compound refid="comando__pos_8c" kind="file"><name>comando_pos.c</name>
-    <member refid="comando__pos_8c_1a260cc7cb68f4514baa84cd38fa49275a" kind="define"><name>tamanho</name></member>
+    <member refid="comando__pos_8c_1a70ed59adcb4159ac551058053e649640" kind="define"><name>SIZE</name></member>
     <member refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kind="function"><name>pos_jogada</name></member>
     <member refid="comando__pos_8c_1a541bbca61597f8dacc0dabd54f86a204" kind="function"><name>clona_jogadas</name></member>
     <member refid="comando__pos_8c_1ac8fb5926d53c2022a8c5482a7e309788" kind="function"><name>houve_jogada</name></member>

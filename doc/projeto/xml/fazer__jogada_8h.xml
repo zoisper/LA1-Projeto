@@ -7,6 +7,7 @@
     <includedby refid="comando__jog_8c" local="yes">logica/comando_jog.c</includedby>
     <includedby refid="comando__pos_8c" local="yes">logica/comando_pos.c</includedby>
     <includedby refid="fazer__jogada_8c" local="yes">logica/fazer_jogada.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
     <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
     <includedby refid="testa__jogar_8c" local="yes">testes/testa_jogar.c</includedby>
     <includedby refid="testa__pos_8c" local="yes">testes/testa_pos.c</includedby>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/fazer_jogada.h" line="15" column="5" bodyfile="logica/fazer_jogada.c" bodystart="8" bodyend="25" declfile="logica/fazer_jogada.h" declline="15" declcolumn="5"/>
+        <location file="logica/fazer_jogada.h" line="15" column="5" bodyfile="logica/fazer_jogada.c" bodystart="8" bodyend="24" declfile="logica/fazer_jogada.h" declline="15" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="fazer__jogada_8h_1aa0dff642c63d9b5bc5ba1a78b1933091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -110,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/fazer_jogada.h" line="22" column="5" bodyfile="logica/fazer_jogada.c" bodystart="27" bodyend="40" declfile="logica/fazer_jogada.h" declline="22" declcolumn="5"/>
+        <location file="logica/fazer_jogada.h" line="22" column="5" bodyfile="logica/fazer_jogada.c" bodystart="26" bodyend="39" declfile="logica/fazer_jogada.h" declline="22" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="fazer__jogada_8h_1ab0a0cac713e6a5566be4e2029a424dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -140,13 +141,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/fazer_jogada.h" line="28" column="5" bodyfile="logica/fazer_jogada.c" bodystart="42" bodyend="60" declfile="logica/fazer_jogada.h" declline="28" declcolumn="5"/>
+        <location file="logica/fazer_jogada.h" line="28" column="5" bodyfile="logica/fazer_jogada.c" bodystart="41" bodyend="59" declfile="logica/fazer_jogada.h" declline="28" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>As funções que adicionam uma jogada. </para>
+<para>As funções que adicionam uma jogada valida e verificam se ha vencedor. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="CMakeLists_8txt" kind="file" language="C++">
+    <compoundname>CMakeLists.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">cmake_minimum_required(VERSION<sp/>3.15)</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">project(Bot<sp/>C)</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">set(CMAKE_C_STANDARD<sp/>99)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">set(CMAKE_C_FLAGS<sp/></highlight><highlight class="stringliteral">&quot;-std=gnu11<sp/>-Wall<sp/>-Wextra<sp/>-pedantic-errors<sp/>-O&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">add_executable(Bot<sp/>main.c<sp/><ref refid="jogar_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>.c<sp/><ref refid="jogar_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>.h<sp/><ref refid="inicializar__estado_8h_1a7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>.c<sp/><ref refid="inicializar__estado_8h_1a7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>.h<sp/>obter_dados_estado.c<sp/>obter_dados_estado.h<sp/><ref refid="ler__jogo_8h_1a0270b4589e43cf0161b198532ffd29d5" kindref="member">ler_jogo</ref>.c<sp/><ref refid="ler__jogo_8h_1a0270b4589e43cf0161b198532ffd29d5" kindref="member">ler_jogo</ref>.h<sp/><ref refid="structlista" kindref="compound">lista</ref>.c<sp/><ref refid="structlista" kindref="compound">lista</ref>.h<sp/>jog.c<sp/>jog.h<sp/>gravar_jogo.h<sp/>gravar_jogo.c<sp/>mudar_estado.c<sp/>mudar_estado.h)</highlight></codeline>
+    </programlisting>
+    <location file="CMakeLists.txt"/>
+  </compounddef>
+</doxygen>

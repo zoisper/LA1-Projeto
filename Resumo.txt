@@ -20,4 +20,10 @@ Implementado:
  Implementado:
 - Comandos "jog" (heurística random).
 - Função que corre testes automaticos ao comando jog.
+Implementado:
+- Comandos "jog2" (heurística minimax).
+- Função que corre testes automaticos ao comando jog2.
+- Bot iniciado.
+
+
 

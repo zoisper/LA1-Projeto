@@ -78,15 +78,20 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a560a2cc9ea86129455425260b6dc688d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostrar_8h.html#a560a2cc9ea86129455425260b6dc688d">mostrar_tabuleiro</a> (<a class="el" href="structESTADO.html">ESTADO</a> e, FILE *fp, int legenda)</td></tr>
-<tr class="memdesc:a560a2cc9ea86129455425260b6dc688d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imprime o tabuleiro do jogo num ficheiro passado por parametro.<br  />
-.  <a href="mostrar_8h.html#a560a2cc9ea86129455425260b6dc688d">More...</a><br /></td></tr>
-<tr class="separator:a560a2cc9ea86129455425260b6dc688d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a482486cbcd9617acedb7150b8e3115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostrar_8h.html#a4a482486cbcd9617acedb7150b8e3115">mostrar_tabuleiro</a> (<a class="el" href="structESTADO.html">ESTADO</a> e, FILE *fp, int grelha)</td></tr>
+<tr class="memdesc:a4a482486cbcd9617acedb7150b8e3115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imprime o tabuleiro do jogo num ficheiro passado por parametro.<br  />
+.  <a href="mostrar_8h.html#a4a482486cbcd9617acedb7150b8e3115">More...</a><br /></td></tr>
+<tr class="separator:a4a482486cbcd9617acedb7150b8e3115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d96032d0a001c6741cb2f9e7b28a313"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostrar_8h.html#a3d96032d0a001c6741cb2f9e7b28a313">mostrar_movimentos</a> (<a class="el" href="structESTADO.html">ESTADO</a> e, FILE *fp)</td></tr>
 <tr class="separator:a3d96032d0a001c6741cb2f9e7b28a313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4dfbe3acd79cd3900c4b66b608f7cad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostrar_8h.html#ae4dfbe3acd79cd3900c4b66b608f7cad">prompt</a> (<a class="el" href="structESTADO.html">ESTADO</a> e, int controlo)</td></tr>
+<tr class="memdesc:ae4dfbe3acd79cd3900c4b66b608f7cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prompt com o número de comandos, o jogador atual e o número da jogada.  <a href="mostrar_8h.html#ae4dfbe3acd79cd3900c4b66b608f7cad">More...</a><br /></td></tr>
+<tr class="separator:ae4dfbe3acd79cd3900c4b66b608f7cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ca61490b88cba4e5f1baa8b01bf86a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mostrar_8h.html#aa5ca61490b88cba4e5f1baa8b01bf86a">mostrar_vencedor</a> (int vencedor)</td></tr>
+<tr class="separator:aa5ca61490b88cba4e5f1baa8b01bf86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>As função que imprimem o tabuleiro e os movimentos. </p>
+<div class="textblock"><p>As funçoes responsavies por mostrar o tabuleiro, movimentos, prompt e vencedor. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a3d96032d0a001c6741cb2f9e7b28a313"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d96032d0a001c6741cb2f9e7b28a313">&#9670;&nbsp;</a></span>mostrar_movimentos()</h2>
@@ -125,8 +130,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a560a2cc9ea86129455425260b6dc688d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a560a2cc9ea86129455425260b6dc688d">&#9670;&nbsp;</a></span>mostrar_tabuleiro()</h2>
+<a id="a4a482486cbcd9617acedb7150b8e3115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a482486cbcd9617acedb7150b8e3115">&#9670;&nbsp;</a></span>mostrar_tabuleiro()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,7 +152,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>legenda</em>&#160;</td>
+          <td class="paramname"><em>grelha</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -165,7 +170,70 @@ Functions</h2></td></tr>
 </td></tr>
     <tr><td class="paramname">fp</td><td>O eficheiro onde o tabuleiro vai ser imprimido.<br  />
 </td></tr>
-    <tr><td class="paramname">legenda</td><td>Parametro que controla se anumeraçao das colunas e linhas são imprimidos. </td></tr>
+    <tr><td class="paramname">grelha</td><td>Parametro que controla se anumeraçao das colunas e linhas são imprimidos. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa5ca61490b88cba4e5f1baa8b01bf86a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ca61490b88cba4e5f1baa8b01bf86a">&#9670;&nbsp;</a></span>mostrar_vencedor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mostrar_vencedor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>vencedor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Função que mostra o vencedor do jogo.<br  />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vencedor</td><td>O numero (1 ou 2) do jogador que venceu. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae4dfbe3acd79cd3900c4b66b608f7cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4dfbe3acd79cd3900c4b66b608f7cad">&#9670;&nbsp;</a></span>prompt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void prompt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structESTADO.html">ESTADO</a>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>controlo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prompt com o número de comandos, o jogador atual e o número da jogada. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>O estado.<br  />
+</td></tr>
+    <tr><td class="paramname">controlo</td><td>Variavel que vai indicar se o nummero de comandos do prompt incrementa ou nao. </td></tr>
   </table>
   </dd>
 </dl>

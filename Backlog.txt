@@ -6,7 +6,7 @@ Funcionalidades:
 Product Backlog:
  
 
-- Começar a implementar o bot.
+- Acabar o bot.
 
 
 Sprint Backlog:
@@ -22,6 +22,7 @@ Sprint Backlog:
 	- Criar um módulo de listas ligadas genérico - Concluido 12/04/2020
 	- Criar o comando jog (heurística random). - Concluido 17/04/2020
 	- Criar o comando jog (heurística minimax). - Concluido 25/04/2020
+	- Inicio do bot.
 
 - Vicente Castro
 	Historia:
