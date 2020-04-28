@@ -9,7 +9,7 @@
 
 int main()
 {
-
+    printf("%c\n", '0'+9/10);
     ESTADO *e;
     e = inicializar_estado();
     int controlo = 0;
