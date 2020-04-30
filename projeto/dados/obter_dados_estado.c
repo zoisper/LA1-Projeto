@@ -9,7 +9,7 @@ int obter_jogada_jogador_coluna(ESTADO e, int num_jogada,int jogador)
 {
     if (jogador ==1)
         return e.jogadas[num_jogada].jogador1.coluna;
-    //if (jogador ==2)
+
     else
         return e.jogadas[num_jogada].jogador2.coluna;
 
@@ -18,7 +18,7 @@ int obter_jogada_jogador_linha(ESTADO e, int num_jogada,int jogador)
 {
     if (jogador ==1)
         return e.jogadas[num_jogada].jogador1.linha;
-    //if (jogador ==2)
+
     else
         return e.jogadas[num_jogada].jogador2.linha;
 

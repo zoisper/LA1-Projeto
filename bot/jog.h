@@ -62,19 +62,23 @@ int min ( int array[],  int size  );
  * @param size O tamanho do array.\n
  * @return O maior elemento.
  */
-int max ( int array[],  int size  );
+int max ( int array[],  int size );
 /**
- * \brief Função que recebe um array de tamanho size e retorna o indice do menor elemento.\n
+ * \brief Função que recebe um array de tamanho size e a lista das jogadass possivies retorna o indice da jogada com o menor score alto.\n
+Caso duas jogadas tenham o mesmo score é retornado indice da joagada mais proxima da casa de vitoria do jogador .\n
  * @param array O array.\n
  * @param size O tamanho do array.\n
+ * @param jogadas_possiveis A lista com as jogadas possiveis.\n
  * @return O indice do menor elemento.
  */
-int min_index ( int array[],  int size  );
+int min_index ( int array[],  int size, LISTA jogadas_possiveis );
 /**
- * \brief Função que recebe um array de tamanho size e retorna o indice do maiorr elemento.\n
+ * \brief Função que recebe um array de tamanho size e a lista das jogadass possivies retorna o indice da jogada com maior score.\n
+Caso duas jogadas tenham o mesmo score é retornado indice da joagada mais proxima da casa de vitoria do jogador .\n
  * @param array O array.\n
  * @param size O tamanho do array.\n
+ * @param jogadas_possiveis A lista com as jogadas possiveis.\n
  * @return O indice do maiorr elemento.
  */
-int max_index ( int array[],  int size  );
+int max_index ( int array[],  int size , LISTA jogadas_possiveis );
 #endif //PROJETO_COMANDO_JOG_H

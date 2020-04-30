@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="mostrar_8h" kind="file" language="C++">
+    <compoundname>mostrar.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
+    <includedby refid="interpretador_8c" local="yes">interface/interpretador.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>interface/mostrar.h</label>
+        <link refid="mostrar_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>../dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="mostrar_8h_1a3df1f415753d598ee200c67fa5bd8ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_tabuleiro</definition>
+        <argsstring>(ESTADO e, FILE *fp, int estilo)</argsstring>
+        <name>mostrar_tabuleiro</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>fp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>estilo</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o tabuleiro do jogo num ficheiro passado por parametro.<linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o ficheiro onde o tabuleiro vai ser imprimido.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>estilo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parametro que controla se a numeraçao das colunas e linhas e o espaçamento entre colunas são imprimidos. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/mostrar.h" line="18" column="6" bodyfile="interface/mostrar.c" bodystart="7" bodyend="48" declfile="interface/mostrar.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mostrar_8h_1a3d96032d0a001c6741cb2f9e7b28a313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_movimentos</definition>
+        <argsstring>(ESTADO e, FILE *fp)</argsstring>
+        <name>mostrar_movimentos</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>fp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.<linebreak/>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o ficheiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/mostrar.h" line="25" column="6" bodyfile="interface/mostrar.c" bodystart="51" bodyend="84" declfile="interface/mostrar.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mostrar_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void prompt</definition>
+        <argsstring>(ESTADO e, int controlo)</argsstring>
+        <name>prompt</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>controlo</declname>
+        </param>
+        <briefdescription>
+<para>Prompt com o número de comandos, o jogador atual e o número da jogada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controlo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variavel que vai indicar se o nummero de comandos do prompt incrementa ou nao. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/mostrar.h" line="31" column="6" bodyfile="interface/mostrar.c" bodystart="86" bodyend="93" declfile="interface/mostrar.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="mostrar_8h_1aa5ca61490b88cba4e5f1baa8b01bf86a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_vencedor</definition>
+        <argsstring>(int vencedor)</argsstring>
+        <name>mostrar_vencedor</name>
+        <param>
+          <type>int</type>
+          <declname>vencedor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Função que mostra o vencedor do jogo.<linebreak/>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vencedor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O numero do jogador que venceu. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/mostrar.h" line="37" column="6" bodyfile="interface/mostrar.c" bodystart="95" bodyend="99" declfile="interface/mostrar.h" declline="37" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>As funçoes responsavies por mostrar o tabuleiro, movimentos, prompt e vencedor. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#ifndef<sp/>PROJETO_MOSTRAR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_MOSTRAR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1a3df1f415753d598ee200c67fa5bd8ce4" kindref="member">mostrar_tabuleiro</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/>FILE<sp/>*fp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>estilo);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1a3d96032d0a001c6741cb2f9e7b28a313" kindref="member">mostrar_movimentos</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,FILE<sp/>*fp);</highlight></codeline>
+<codeline lineno="31"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" kindref="member">prompt</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controlo);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1aa5ca61490b88cba4e5f1baa8b01bf86a" kindref="member">mostrar_vencedor</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vencedor);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MOSTRAR_H</highlight></codeline>
+    </programlisting>
+    <location file="interface/mostrar.h"/>
+  </compounddef>
+</doxygen>

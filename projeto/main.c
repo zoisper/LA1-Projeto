@@ -9,7 +9,6 @@
 
 int main()
 {
-    printf("%c\n", '0'+9/10);
     ESTADO *e;
     e = inicializar_estado();
     int controlo = 0;
@@ -24,7 +23,12 @@ int main()
         controlo = interpretador(e);
         vencedor = verificar_vencedor(*e);
         if(vencedor !=0)
+        {
             mostrar_vencedor(vencedor);
+            mostrar_tabuleiro(*e, stdout, 1);
+
+        }
+
     }
     return 0;
 }

@@ -54,9 +54,9 @@ COORDENADA jog_minimax (ESTADO e, int profundidade)
     scores_possiveis(scores, len , e, lista, profundidade);
 
     if (obter_jogador_atual(e) == 1)
-        index = max_index(scores, len);
+        index = max_index(scores, len, lista);
     else
-        index = min_index(scores, len);
+        index = min_index(scores, len, lista);
 
     COORDENADA coord = obter_coordenada_lista(lista, index);
     limpa_lista(&lista);
@@ -122,22 +122,47 @@ int max ( int array[],  int size  )
     return r;
 }
 
-int min_index ( int array[],  int size  )
+int min_index ( int array[],  int size, LISTA jogadas_possivies )
 {
     int i, r;
+    COORDENADA coord = obter_coordenada_lista(jogadas_possivies, 0);
+
     r = 0;
     for (i=0; i<size; i++)
+    {
+        COORDENADA aux = obter_coordenada_lista(jogadas_possivies, i);
         if (array[i]< array[r])
             r = i;
+        else
+        if (array[i]== array[r] && aux.coluna >= coord.coluna && aux.linha <= coord.linha)
+        {
+            r=i;
+            coord.coluna = aux.coluna;
+            coord.linha = aux.linha;
+        }
+    }
+
     return r;
 }
 
-int max_index ( int array[],  int size  )
+int max_index ( int array[],  int size, LISTA jogadas_possivies  )
 {
     int i, r;
+    COORDENADA coord = obter_coordenada_lista(jogadas_possivies, 0);
     r = 0;
     for (i=0; i<size; i++)
+    {
+        COORDENADA aux = obter_coordenada_lista(jogadas_possivies, i);
         if (array[i]> array[r])
             r= i;
+        else
+        if (array[i]== array[r] && aux.coluna <= coord.coluna && aux.linha >= coord.linha)
+        {
+            r=i;
+            coord.coluna = aux.coluna;
+            coord.linha = aux.linha;
+        }
+    }
+
     return r;
 }

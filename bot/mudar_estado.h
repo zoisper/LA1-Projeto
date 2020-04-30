@@ -17,7 +17,7 @@ Definição das funçoes que manipulam o estado
  */
 void muda_casa(ESTADO *e, COORDENADA coord);
 /**
- * \brief Acrescenta a cordenada jogada ás jogadas.
+ * \brief Acrescenta a cordenada jogada ao array das jogadas efetuadas até ao momento.
  * @param e Apontador para o estado.\n
  * @param coord A cordenada.
  */
@@ -29,7 +29,7 @@ void muda_jogadas(ESTADO *e, COORDENADA coord);
 void muda_jogador_atual (ESTADO *e);
 
 /**
- * \brief Altera a ultima jogada.
+ * \brief Altera o valor da  ultima jogada para o valor da coordenada jogada.
  * @param e Apontador para o estado.\n
  * @param coord A cordenada.
  */
@@ -41,7 +41,7 @@ void muda_ultima_jogada (ESTADO *e, COORDENADA coord);
 void incrementa_num_jogadas (ESTADO *e);
 
 /**
- * \brief Reinicia o estado.\n
+ * \brief Reinicia o estado colocando todos os valores no ponto de partida.\n
  * @param e Apontador para estado.\n
  */
 void reiniciar_estado (ESTADO *e);

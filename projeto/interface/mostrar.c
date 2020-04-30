@@ -4,15 +4,15 @@
 #define BUF_SIZE 1024
 
 
-void mostrar_tabuleiro (ESTADO e, FILE *fp, int grelha)
+void mostrar_tabuleiro (ESTADO e, FILE *fp, int estilo)
 {
     int coluna,linha;
     char carater = '\0';
-    if (grelha == 1)
+    if (estilo == 1)
         fprintf(fp,"\n");
     for(linha=0; linha<8; linha++)
     {
-        if(grelha==1)
+        if(estilo==1)
             fprintf(fp," %d ", (8-linha));
         for(coluna=0; coluna<8;coluna++)
         {
@@ -30,14 +30,14 @@ void mostrar_tabuleiro (ESTADO e, FILE *fp, int grelha)
                 if (obter_casa(e,linha,coluna) == PRETA)
                     carater = '#';
             }
-            if (grelha == 1)
+            if (estilo == 1)
                 fprintf(fp," ");
 
             fprintf(fp,"%c", carater);
         }
         fprintf(fp,"\n");
     }
-    if (grelha == 1)
+    if (estilo == 1)
     {
         fprintf(fp,"   ");
         for(coluna=0; coluna<8; coluna++)
@@ -49,36 +49,34 @@ void mostrar_tabuleiro (ESTADO e, FILE *fp, int grelha)
 
 
 void mostrar_movimentos (ESTADO e,FILE *fp) {
-    int i, c1,c2,l1,l2, num=1;
+    int i, linha, coluna, num=1, jogador, num_jogadas, jogada;
     char mov ;
-    for (i=0; i <=obter_num_jogadas(e); i++)
+    num_jogadas = obter_num_jogadas(e)*2 + obter_jogador_atual(e) -1;
+    jogada=0;
+
+    for (i=0, jogador = 1; i <num_jogadas; i++)
     {
-        c1 = obter_jogada_jogador_coluna(e,i,1);
-        c2 = obter_jogada_jogador_coluna(e,i,2);
-        l1 = obter_jogada_jogador_linha(e,i,1);
-        l2 = obter_jogada_jogador_linha(e,i,2);
+        coluna = obter_jogada_jogador_coluna(e,jogada,jogador);
+        linha = obter_jogada_jogador_linha(e,jogada,jogador);
 
+        if (jogador == 2)
+            jogada++;
 
-
-
-        if((c1 != 0 || l1 != 0)  && (c1 != 4|| l1 != 3))
+        if((coluna != 4|| linha != 3))
         {
+            if (jogador == 1)
+                fprintf(fp,"%02d: ", num++);
+            else
+                fprintf(fp," ");
+            mov = 'a' + coluna;
+            fprintf(fp,"%c", mov);
+            mov = '8' - linha ;
+            fprintf(fp,"%c", mov);
 
-            fprintf(fp,"%02d: ", num++);
-            mov = 'a' + c1;
-            fprintf(fp,"%c", mov);
-            mov = '8' - l1 ;
-            fprintf(fp,"%c", mov);
+            if (jogador == 2)
+                fprintf(fp,"\n");
         }
-        if((c2 != 0 || l2 != 0)  && (c2 != 4|| l2 != 3))
-        {
-            mov = 'a' + c2;
-            fprintf(fp," %c", mov);
-            mov = '8' - l2;
-            fprintf(fp,"%c", mov);
-            fprintf(fp,"\n");
-
-        }
+        jogador = (jogador ==1)? 2 : 1;
     }
     if (obter_jogador_atual(e) == 2)
         fprintf(fp,"\n");

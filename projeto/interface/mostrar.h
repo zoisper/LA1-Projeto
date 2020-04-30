@@ -11,15 +11,15 @@ As funçoes responsavies por mostrar o tabuleiro, movimentos, prompt e vencedor.
 
 /**
  * \brief Imprime o tabuleiro do jogo num ficheiro passado por parametro.\n
- * @param e O estado.\n
- * @param fp O eficheiro onde o tabuleiro vai ser imprimido.\n
- * @param grelha Parametro que controla se anumeraçao das colunas e linhas são imprimidos.
+ * @param e O valor do estado.\n
+ * @param fp Apontador para o ficheiro onde o tabuleiro vai ser imprimido.\n
+ * @param estilo Parametro que controla se a numeraçao das colunas e linhas e o espaçamento entre colunas são imprimidos.
  */
-void mostrar_tabuleiro (ESTADO e, FILE *fp, int grelha);
+void mostrar_tabuleiro (ESTADO e, FILE *fp, int estilo);
 
 /**
  * Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.\n
- * @param e Apontador para o estado.\n
+ * @param e O valor do  estado.\n
  * @param fp Apontador para o ficheiro.
  */
 void mostrar_movimentos (ESTADO e,FILE *fp);
@@ -32,7 +32,7 @@ void prompt (ESTADO e, int controlo);
 
 /**
  * Função que mostra o vencedor do jogo.\n
- * @param vencedor O numero (1 ou 2) do jogador que venceu.
+ * @param vencedor O numero do jogador que venceu.
  */
 void mostrar_vencedor (int vencedor);
 
