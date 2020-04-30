@@ -20,12 +20,7 @@ int jogar(ESTADO *e, COORDENADA c);
  * @return 1 se a jogada for valida e 0 se não for.
  */
 int validar_jogada(ESTADO e, COORDENADA coord);
-/**
- * \brief Verifica se algum jogador venceu o jogo.
- * @param e O valor do estado.
- * @return Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu.
- */
-int verificar_vencedor (ESTADO e);
+
 
 
 #endif //PROJETO_FAZER_JOGADA_H

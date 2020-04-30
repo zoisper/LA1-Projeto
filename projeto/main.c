@@ -4,7 +4,7 @@
 #include "interface/mostrar.h"
 #include "interface/interpretador.h"
 #include "testes/main_teste.h"
-#include "logica/fazer_jogada.h"
+#include "logica/fim_jogo.h"
 
 
 int main()

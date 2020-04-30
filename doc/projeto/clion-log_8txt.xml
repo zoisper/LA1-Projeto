@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="clion-log_8txt" kind="file" language="C++">
+    <compoundname>clion-log.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="clion-log_8txt_1a0326a7084df27c42cfc34fc778d84bdc" prot="public" static="no" mutable="no">
+        <type>home tiago Programs clion bin cmake linux bin cmake</type>
+        <definition>home tiago Programs clion bin cmake linux bin cmake DCMAKE_BUILD_TYPE</definition>
+        <argsstring></argsstring>
+        <name>DCMAKE_BUILD_TYPE</name>
+        <initializer>=Debug -G &quot;CodeBlocks - Unix Makefiles&quot; /home/tiago/Documents/LCC/LA/Rastros/projeto
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tiago/Documents/LCC/LA/Rastros/projeto/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	cc: error: unrecognized command line option &apos;-Wal&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cmake-build-debug/CMakeFiles/clion-log.txt" line="1" column="45" bodyfile="cmake-build-debug/CMakeFiles/clion-log.txt" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="clion-log_8txt_1ad8064ea4162af2840c65e7a1f28d5ed9" prot="public" static="no" mutable="no">
+        <type>did you mean</type>
+        <definition>did you mean Wa</definition>
+        <argsstring></argsstring>
+        <name>Wa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cmake-build-debug/CMakeFiles/clion-log.txt" line="7" column="15" bodyfile="cmake-build-debug/CMakeFiles/clion-log.txt" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">/home/tiago/Programs/clion-2019.3.3/bin/cmake/linux/bin/cmake<sp/>-DCMAKE_BUILD_TYPE=Debug<sp/>-G<sp/></highlight><highlight class="stringliteral">&quot;CodeBlocks<sp/>-<sp/>Unix<sp/>Makefiles&quot;</highlight><highlight class="normal"><sp/>/home/tiago/Documents/LCC/LA/Rastros/projeto</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">--<sp/>Configuring<sp/>done</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">--<sp/>Generating<sp/>done</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">--<sp/>Build<sp/>files<sp/>have<sp/>been<sp/>written<sp/>to:<sp/>/home/tiago/Documents/LCC/LA/Rastros/projeto/cmake-build-debug</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">Problems<sp/>were<sp/>encountered<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>collecting<sp/>compiler<sp/>information:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>cc:<sp/>error:<sp/>unrecognized<sp/>command<sp/>line<sp/>option<sp/></highlight><highlight class="stringliteral">&apos;-Wal&apos;</highlight><highlight class="normal">;<sp/>did<sp/>you<sp/>mean<sp/></highlight><highlight class="stringliteral">&apos;-Wa,&apos;</highlight><highlight class="normal">?</highlight></codeline>
+    </programlisting>
+    <location file="cmake-build-debug/CMakeFiles/clion-log.txt"/>
+  </compounddef>
+</doxygen>

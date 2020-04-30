@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="testa__heuristica_8h" kind="file" language="C++">
+    <compoundname>testa_heuristica.h</compoundname>
+    <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
+    <includedby refid="main__teste_8c" local="yes">testes/main_teste.c</includedby>
+    <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>../dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+      <node id="1">
+        <label>testes/testa_heuristica.h</label>
+        <link refid="testa__heuristica_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="testa__heuristica_8h_1a9e1830eba669d92ec321a8fb5ce5e28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testa_jog</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>testa_jog</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Funçao que faz varias jogadas utilizando o comando &apos;jog&apos; e verifica se este funciona corretamente.<linebreak/>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testes/testa_heuristica.h" line="14" column="6" bodyfile="testes/testa_heuristica.c" bodystart="11" bodyend="41" declfile="testes/testa_heuristica.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="testa__heuristica_8h_1aeca25ae4adb325af5ae0b607d1c204c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testa_jog2</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>testa_jog2</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Funçao que faz varias jogadas utilizando o comando &apos;jog2&apos; e verifica se este funciona corretamente.<linebreak/>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testes/testa_heuristica.h" line="20" column="6" bodyfile="testes/testa_heuristica.c" bodystart="43" bodyend="67" declfile="testes/testa_heuristica.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Testes aos comandos jog e jog2. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#ifndef<sp/>PROJETO_TESTA_HEURISTICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_TESTA_HEURISTICA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testa__heuristica_8h_1a9e1830eba669d92ec321a8fb5ce5e28b" kindref="member">testa_jog</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testa__heuristica_8h_1aeca25ae4adb325af5ae0b607d1c204c0" kindref="member">testa_jog2</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_TESTA_HEURISTICA_H</highlight></codeline>
+    </programlisting>
+    <location file="testes/testa_heuristica.h"/>
+  </compounddef>
+</doxygen>

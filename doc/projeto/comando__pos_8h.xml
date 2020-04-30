@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="comando__pos_8h" kind="file" language="C++">
+    <compoundname>comando_pos.h</compoundname>
+    <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
+    <includedby refid="interpretador_8c" local="yes">interface/interpretador.c</includedby>
+    <includedby refid="comando__pos_8c" local="yes">logica/comando_pos.c</includedby>
+    <includedby refid="testa__pos_8c" local="yes">testes/testa_pos.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>../dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+      <node id="1">
+        <label>logica/comando_pos.h</label>
+        <link refid="comando__pos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int pos_jogada</definition>
+        <argsstring>(ESTADO *e, int num)</argsstring>
+        <name>pos_jogada</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite aceder a uma jogada anterior.<linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O numero da jogada que queremos aceder.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 se for possivel aceder e 0 se não for possivel. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="logica/comando_pos.h" line="17" column="5" bodyfile="logica/comando_pos.c" bodystart="10" bodyend="33" declfile="logica/comando_pos.h" declline="17" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="comando__pos_8h_1a6d0fb62a77fd699232284a3f166ed094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void aceder_jogada</definition>
+        <argsstring>(ESTADO *e, JOGADA jogadas[], int num)</argsstring>
+        <name>aceder_jogada</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structJOGADA" kindref="compound">JOGADA</ref></type>
+          <declname>jogadas</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Função que reinica o estado do jogo, e chama a funçao jogar com as &apos;num&apos; coordenadas armazenadas num array auxiliar .<linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jogadas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array auxiliar .<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O numero da jogada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="logica/comando_pos.h" line="24" column="6" bodyfile="logica/comando_pos.c" bodystart="77" bodyend="89" declfile="logica/comando_pos.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="comando__pos_8h_1abf7d07d13ef2f19715c7b54c64ece152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void clonar_jogadas</definition>
+        <argsstring>(ESTADO e, JOGADA jogadas[], int num)</argsstring>
+        <name>clonar_jogadas</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structJOGADA" kindref="compound">JOGADA</ref></type>
+          <declname>jogadas</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Função que copia &apos;num&apos; jogadas realizadas para um array auxiliar <linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jogadas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array auxiliar .<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O numero da jogada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="logica/comando_pos.h" line="31" column="6" bodyfile="logica/comando_pos.c" bodystart="35" bodyend="54" declfile="logica/comando_pos.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="comando__pos_8h_1ac8fb5926d53c2022a8c5482a7e309788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int houve_jogada</definition>
+        <argsstring>(ESTADO e, JOGADA jogadas[])</argsstring>
+        <name>houve_jogada</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structJOGADA" kindref="compound">JOGADA</ref></type>
+          <declname>jogadas</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Função que compara as jogadas realizadas com as jogadas armazenadas num array auxiliar.<linebreak/>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jogadas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array auxiliar .<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 se forem difrentes e 0 se forem iguais. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="logica/comando_pos.h" line="38" column="5" bodyfile="logica/comando_pos.c" bodystart="56" bodyend="74" declfile="logica/comando_pos.h" declline="38" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Funçãoes que vao realizar o comando pos </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>PROJETO_COMANDO_POS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_COMANDO_POS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="comando__pos_8h_1a6d0fb62a77fd699232284a3f166ed094" kindref="member">aceder_jogada</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref><sp/>jogadas[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="31"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="comando__pos_8h_1abf7d07d13ef2f19715c7b54c64ece152" kindref="member">clonar_jogadas</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref><sp/>jogadas[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="comando__pos_8h_1ac8fb5926d53c2022a8c5482a7e309788" kindref="member">houve_jogada</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref><sp/>jogadas[]);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_COMANDO_POS_H</highlight></codeline>
+    </programlisting>
+    <location file="logica/comando_pos.h"/>
+  </compounddef>
+</doxygen>

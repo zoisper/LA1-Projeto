@@ -2,6 +2,7 @@
 #include <assert.h>
 #include "testa_heuristica.h"
 #include "../logica/fazer_jogada.h"
+#include "../logica/fim_jogo.h"
 #include "../logica/comando_jog.h"
 #include "../dados/obter_dados_estado.h"
 #include "../dados/mudar_estado.h"

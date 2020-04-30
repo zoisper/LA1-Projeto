@@ -9,30 +9,31 @@ Funçãoes que vao realizar o comando pos
 #include "../dados/inicializar_estado.h"
 
 /**
- * \brief Função que coloca o jogo numa jogada anterior passada por parametro.
+ * \brief Função que permite aceder a uma jogada anterior.\n
  * @param e Apontador para estado.\n
- * @param num O numero da jogada.\n
- * @return 1 se o numero da jogada for valida e 0 se for invalida.
+ * @param num O numero da jogada que queremos aceder.\n
+ * @return 1 se for possivel aceder e 0 se não for possivel.
  */
 int pos_jogada (ESTADO *e, int num);
 /**
- * \brief Função auxliar que reinica o estado, e chama a funçao jogar com as 'num' coordenadas armazenadas num array auxiliar  \n.
+ * \brief Função que reinica o estado do jogo, e chama a funçao jogar com as 'num' coordenadas armazenadas num array auxiliar .\n
  * @param e Apontador para estado.\n
  * @param jogadas Array auxiliar .\n
  * @param num O numero da jogada.
  */
-void acede_jogada (ESTADO *e, JOGADA jogadas[], int num);
+void aceder_jogada (ESTADO *e, JOGADA jogadas[], int num);
 /**
-* \brief Função auxliar que copia 'num' jogadas realizadas para um array auxiliar \n.
+* \brief Função que copia 'num' jogadas realizadas para um array auxiliar \n.
 * @param e Apontador para estado.\n
 * @param jogadas Array auxiliar .\n
 * @param num O numero da jogada.
 */
-void clona_jogadas(ESTADO e, JOGADA jogadas[], int num );
+void clonar_jogadas(ESTADO e, JOGADA jogadas[], int num );
 /**
-* \brief Função auxliar que compara as jogadas realizadas com as jogadas armazenadas num array auxiliar\n.
-* @param e Apontador para estado.\n
+* \brief Função que compara as jogadas realizadas com as jogadas armazenadas num array auxiliar.\n.
+* @param e O valor do estado.\n
 * @param jogadas Array auxiliar .\n
+* @return 1 se forem difrentes e 0 se forem iguais.
 */
 int houve_jogada (ESTADO e, JOGADA jogadas[]);
 #endif //PROJETO_COMANDO_POS_H

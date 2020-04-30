@@ -8,8 +8,8 @@ Testes sobre as variaveis do estado.
 #include "../dados/inicializar_estado.h"
 
 /**
- * \brief TFunçã que verifica se as variaves do estao no intervalo de valores esperado.\n
- * @param e O estado.\n
+ * \brief Função que verifica se as variaves do estão no intervalo de valores esperado.\n
+ * @param e O valor do estado.\n
  */
 void testa_estado (ESTADO e);
 

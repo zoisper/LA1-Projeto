@@ -2,6 +2,7 @@
 #include "interpretador.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "mostrar.h"
 #include "../logica/fazer_jogada.h"
 #include "../logica/ler_jogo.h"
@@ -15,9 +16,9 @@
 
 int interpretador(ESTADO *e)
 {
-    int num, controlo;
+    int  controlo, num;
     char linha[BUF_SIZE];
-    char col[2], lin[2];
+    char col[2], lin[2], pos_num[3];
     char save[3], load[4], pos[4], nome_ficheiro[BUF_SIZE];
     FILE *fp;
     COORDENADA coord;
@@ -42,6 +43,7 @@ int interpretador(ESTADO *e)
 
     else if(strlen (linha) == 5 && strncmp(linha, "movs",4) == 0)
     {
+        printf("\n");
         mostrar_movimentos(*e, stdout);
         return 1;
     }
@@ -60,8 +62,9 @@ int interpretador(ESTADO *e)
         printf ("Ficheiro não encontrado\n");
         return 0;
     }
-    else if(strlen (linha) == 6 && sscanf(linha, "%s %d",pos, &num ) == 2 && strncmp(pos, "pos",3) == 0)
+    else if((strlen (linha)== 6 || strlen(linha) == 7)  && sscanf(linha, "%s %[0-9]",pos, pos_num) == 2 && strncmp(pos, "pos",3) == 0)
     {
+        num = atoi(pos_num);
         controlo = pos_jogada(e, num);
         return controlo;
     }

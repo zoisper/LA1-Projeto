@@ -16,23 +16,23 @@ int pos_jogada (ESTADO *e, int num)
         if (num<0 || num > obter_num_jogadas(*e))
             return 0;
         controlo = obter_num_jogadas(*e);
-        clona_jogadas(*e,JOGADAS_aux,num);
-        clona_jogadas(*e,JOGADAS_anterior,32);
-        acede_jogada(e, JOGADAS_aux, num);
+        clonar_jogadas(*e,JOGADAS_aux,num);
+        clonar_jogadas(*e,JOGADAS_anterior,32);
+        aceder_jogada(e, JOGADAS_aux, num);
         return 1;
     }
     else
         if (num>=0 && num <= controlo)
         {
-            acede_jogada (e, JOGADAS_anterior, num);
-            clona_jogadas(*e,JOGADAS_aux,num);
+            aceder_jogada (e, JOGADAS_anterior, num);
+            clonar_jogadas(*e,JOGADAS_aux,num);
             return 1;
         }
     return 0;
 
 }
 
-void clona_jogadas(ESTADO e, JOGADA jogadas[], int num )
+void clonar_jogadas(ESTADO e, JOGADA jogadas[], int num )
 {
     int i;
     for (i=0; i<SIZE; i++)
@@ -74,7 +74,7 @@ int houve_jogada (ESTADO e, JOGADA jogadas[])
 }
 
 
-void acede_jogada (ESTADO *e,  JOGADA jogadas[], int num)
+void aceder_jogada (ESTADO *e,  JOGADA jogadas[], int num)
 {
     reiniciar_estado(e);
     COORDENADA coord;

@@ -8,7 +8,7 @@ Testes que verificam se a função jogar funciona corretamente.
 #include "../dados/inicializar_estado.h"
 
 /**
-* \brief Função que realiza varias jogadas validas e invalidas e analisa o resultado.\n
+* \brief Função que realiza varias jogadas validas e invalidas para testar a função jogar o resultado.\n
 * @param e O estado.\n
 */
 void testa_jogar (ESTADO e);

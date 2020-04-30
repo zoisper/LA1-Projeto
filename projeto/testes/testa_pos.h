@@ -8,7 +8,7 @@
 #include "../dados/inicializar_estado.h"
 
 /**
- * Funçao que faz varias jogadas e verifica se o comando 'pos' esta a funcionar corretamente.\n
+ * Funçao que faz varias jogadas e e utiliza o comando 'pos' para verificar se este funciona corretamente.\n
  * @param e O valor do estado.
  */
 void testa_pos(ESTADO e);

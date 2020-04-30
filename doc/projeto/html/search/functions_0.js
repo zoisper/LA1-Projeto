@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['acede_5fjogada_106',['acede_jogada',['../comando__pos_8h.html#a5d47335392f8e9af8e85ccbc6a56ec8f',1,'comando_pos.c']]]
+  ['aceder_5fjogada_105',['aceder_jogada',['../comando__pos_8h.html#a6d0fb62a77fd699232284a3f166ed094',1,'comando_pos.c']]]
 ];

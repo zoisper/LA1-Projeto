@@ -24,9 +24,9 @@ void mostrar_tabuleiro (ESTADO e, FILE *fp, int estilo);
  */
 void mostrar_movimentos (ESTADO e,FILE *fp);
 /**
- * \brief Prompt com o número de comandos, o jogador atual e o número da jogada.
- * @param e O estado.\n
- * @param controlo Variavel que vai indicar se o nummero de comandos do prompt incrementa ou nao.
+ * \brief Prompt com o número de comandos realizados até ao momento, o jogador atual e o número da jogada atual.\n
+ * @param e O valor do estado.\n
+ * @param controlo Variavel que controla o incremento do numero de comandos realizados ate ao momento prompt.
  */
 void prompt (ESTADO e, int controlo);
 

@@ -3,6 +3,7 @@
 #include "comando_jog.h"
 #include "../dados/obter_dados_estado.h"
 #include "fazer_jogada.h"
+#include "fim_jogo.h"
 #include <time.h>
 #include <stdlib.h>
 
@@ -57,7 +58,7 @@ COORDENADA obter_coordenada_lista (LISTA lista, int num_nodo)
 int obter_num_random (int min, int max)
 {
     int random;
-    long ultime;
+    long int ultime;
     time (&ultime);
     srand(ultime);
     random = min + (rand() % (max-min+1));

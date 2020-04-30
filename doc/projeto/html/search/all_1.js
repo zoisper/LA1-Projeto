@@ -1,7 +1,7 @@
 var searchData=
 [
   ['casa_1',['CASA',['../inicializar__estado_8h.html#aba91601f16d4c485b2d9b8c429f27039',1,'inicializar_estado.h']]],
-  ['clona_5fjogadas_2',['clona_jogadas',['../comando__pos_8h.html#a541bbca61597f8dacc0dabd54f86a204',1,'comando_pos.c']]],
+  ['clonar_5fjogadas_2',['clonar_jogadas',['../comando__pos_8h.html#abf7d07d13ef2f19715c7b54c64ece152',1,'comando_pos.c']]],
   ['coluna_3',['coluna',['../structCOORDENADA.html#adfbc8d4856ce807139fdf62e00aed29a',1,'COORDENADA']]],
   ['comando_5fjog_2eh_4',['comando_jog.h',['../comando__jog_8h.html',1,'']]],
   ['comando_5fpos_2eh_5',['comando_pos.h',['../comando__pos_8h.html',1,'']]],

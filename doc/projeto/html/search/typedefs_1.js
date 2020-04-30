@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nodo_171',['Nodo',['../lista_8h.html#a3351b25531ebf23fac09c369c4e4bcc9',1,'lista.h']]]
+  ['nodo_169',['Nodo',['../lista_8h.html#a3351b25531ebf23fac09c369c4e4bcc9',1,'lista.h']]]
 ];

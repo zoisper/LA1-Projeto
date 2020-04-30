@@ -13,7 +13,7 @@ void mostrar_tabuleiro (ESTADO e, FILE *fp, int estilo)
     for(linha=0; linha<8; linha++)
     {
         if(estilo==1)
-            fprintf(fp," %d ", (8-linha));
+            fprintf(fp,"%d ", (8-linha));
         for(coluna=0; coluna<8;coluna++)
         {
             if (linha == 0 && coluna == 7 && obter_casa(e,linha,coluna) == VAZIO)
@@ -58,10 +58,8 @@ void mostrar_movimentos (ESTADO e,FILE *fp) {
     {
         coluna = obter_jogada_jogador_coluna(e,jogada,jogador);
         linha = obter_jogada_jogador_linha(e,jogada,jogador);
-
         if (jogador == 2)
             jogada++;
-
         if((coluna != 4|| linha != 3))
         {
             if (jogador == 1)
@@ -72,7 +70,6 @@ void mostrar_movimentos (ESTADO e,FILE *fp) {
             fprintf(fp,"%c", mov);
             mov = '8' - linha ;
             fprintf(fp,"%c", mov);
-
             if (jogador == 2)
                 fprintf(fp,"\n");
         }
