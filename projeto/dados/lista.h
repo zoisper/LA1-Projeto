@@ -24,49 +24,49 @@ LISTA criar_lista();
 
 /**
 \brief Insere um nodo no inicio da lista.\n
-@param L A lista.
+@param L A lista.\n
 @param valor Apontador para o elemento que vai ser inserido na lista.\n
-@return A lista l com o valor inserido na  cabeça.\n
+@return A lista l com o valor inserido na  cabeça.
 */
 LISTA insere_cabeca(LISTA L, void *valor);
 
 /**
 \brief Devolve o elemento que esta na cabeça da lista.\n
 @param L A lista.\n
-@return o elemento que esta na cabeça da lista.\n
+@return o elemento que esta na cabeça da lista.
 */
 void *devolve_cabeca(LISTA L);
 
 /**
 \brief Devolve a cauda da lista.\n
 @param L A lista.\n
-@return A cauda da lista.\n
+@return A cauda da lista.
 */
 LISTA proximo(LISTA L);
 
 /**
 \brief Remove a cabeça da lista (libertando o espaço ocupado) e devolve a cauda.\n
 @param L A lista.\n
-@return A cauda da lista.\n
+@return A cauda da lista.
 */
 LISTA remove_cabeca(LISTA L);
 
 /**
 \brief Verifica se a lista está vazia.\n
 @param L A lista.\n
-@return 1 se a lista está vazia e 0 se não está vazia.\n
+@return 1 se a lista está vazia e 0 se não está vazia.
 */
 int lista_esta_vazia(LISTA L);
 
 /**
 \brief Devolve o cumprimento da lista.\n
 @param L A lista.\n
-@return O número de elementos da lista.\n
+@return O número de elementos da lista.
 */
 int comprimento_lista (LISTA L);
 /**
-\brief Liberta o espaço ocupado pela lista.\n
-@param L Apontador para a  lista.\n
+\brief Liberta o espaço ocupado em memoria pela lista.\n
+@param L Apontador para a  lista.
 */
 void limpa_lista(LISTA *L);
 

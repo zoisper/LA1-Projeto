@@ -28,8 +28,7 @@
         <argsstring>()</argsstring>
         <name>criar_lista</name>
         <briefdescription>
-<para>Cria uma lista.<linebreak/>
-. </para>
+<para>Cria uma lista. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>Uma lista vazia, isto é, a apontar para NULL. </para>
@@ -54,8 +53,7 @@
           <declname>valor</declname>
         </param>
         <briefdescription>
-<para>Insere um nodo no inicio da lista.<linebreak/>
-. </para>
+<para>Insere um nodo no inicio da lista. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -63,7 +61,8 @@
 <parametername>L</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A lista. </para>
+<para>A lista.<linebreak/>
+</para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -76,8 +75,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>A lista l com o valor inserido na cabeça.<linebreak/>
-</para>
+<simplesect kind="return"><para>A lista l com o valor inserido na cabeça. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -95,8 +93,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Devolve o elemento que esta na cabeça da lista.<linebreak/>
-. </para>
+<para>Devolve o elemento que esta na cabeça da lista. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -109,8 +106,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>o elemento que esta na cabeça da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>o elemento que esta na cabeça da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -128,8 +124,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Devolve a cauda da lista.<linebreak/>
-. </para>
+<para>Devolve a cauda da lista. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -142,8 +137,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>A cauda da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>A cauda da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -161,8 +155,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Remove a cabeça da lista (libertando o espaço ocupado) e devolve a cauda.<linebreak/>
-. </para>
+<para>Remove a cabeça da lista (libertando o espaço ocupado) e devolve a cauda. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -175,8 +168,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>A cauda da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>A cauda da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -194,8 +186,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Verifica se a lista está vazia.<linebreak/>
-. </para>
+<para>Verifica se a lista está vazia. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -208,8 +199,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>1 se a lista está vazia e 0 se não está vazia.<linebreak/>
-</para>
+<simplesect kind="return"><para>1 se a lista está vazia e 0 se não está vazia. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -227,8 +217,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Devolve o cumprimento da lista.<linebreak/>
-. </para>
+<para>Devolve o cumprimento da lista. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -241,8 +230,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O número de elementos da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>O número de elementos da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -260,8 +248,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Liberta o espaço ocupado pela lista.<linebreak/>
-. </para>
+<para>Liberta o espaço ocupado em memoria pela lista. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -269,8 +256,7 @@
 <parametername>L</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para a lista.<linebreak/>
-</para>
+<para>Apontador para a lista. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

@@ -6,7 +6,7 @@
     <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
     <includedby refid="interpretador_8c" local="yes">interface/interpretador.c</includedby>
     <includedby refid="comando__jog_8c" local="yes">logica/comando_jog.c</includedby>
-    <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
+    <includedby refid="testar__heuristica_8c" local="yes">testes/testar_heuristica.c</includedby>
     <incdepgraph>
       <node id="1">
         <label>logica/comando_jog.h</label>
@@ -72,7 +72,7 @@
           <declname>num_nodo</declname>
         </param>
         <briefdescription>
-<para>Acede à lista e obtem a coordendada guardada no nodo passado por parametro.<linebreak/>
+<para>Função que acede à lista das jogadas possivies e obtem a coordendada guardada no nodo passado por parametro.<linebreak/>
 . </para>
         </briefdescription>
         <detaileddescription>
@@ -117,8 +117,7 @@
           <declname>max</declname>
         </param>
         <briefdescription>
-<para>Função que obtem um numero random dentro de um intervalo .<linebreak/>
-. </para>
+<para>Obtem um número random dentro de um intervalo. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -158,8 +157,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Função que chama as funçoes jogadas_possiveis, obter_num_random e obter_coordenada_lista para obter uma jogada aleatoria.<linebreak/>
-. </para>
+<para>Obtem as coordenadas de uma jogada geradas aleatoriamente. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -194,8 +192,7 @@
           <declname>profundidade</declname>
         </param>
         <briefdescription>
-<para>Função que obtem a melhor jogada com base no algoritmo minimax.<linebreak/>
-. </para>
+<para>Obtem a melhor jogada com base no algoritmo minimax. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -252,8 +249,7 @@
           <declname>profundidade</declname>
         </param>
         <briefdescription>
-<para>Função que obtem o score de todas as jogadas possiveis com base no algoritmo minimax.<linebreak/>
-. </para>
+<para>Obtem o score de todas as jogadas possiveis com base no algoritmo minimax. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -326,8 +322,7 @@
           <declname>profundidade</declname>
         </param>
         <briefdescription>
-<para>Função que obtem o score de cada jogada com base no algoritmo minimax.<linebreak/>
-. </para>
+<para>Obtem o score de uma jogada com base no algoritmo minimax. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -381,8 +376,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Função que recebe um array de tamanho size e retorna o menor elemento.<linebreak/>
-. </para>
+<para>Função que recebe um array de tamanho size e retorna o menor elemento. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -427,8 +421,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Função que recebe um array de tamanho size e retorna o maior elemento.<linebreak/>
-. </para>
+<para>Função que recebe um array de tamanho size e retorna o maior elemento. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -473,8 +466,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Função que recebe um array de tamanho size e retorna o indice do menor elemento.<linebreak/>
-. </para>
+<para>Função que recebe um array de tamanho size e retorna o indice do menor elemento. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -519,8 +511,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Função que recebe um array de tamanho size e retorna o indice do maiorr elemento.<linebreak/>
-. </para>
+<para>Função que recebe um array de tamanho size e retorna o indice do maior elemento. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -542,7 +533,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O indice do maiorr elemento. </para>
+<simplesect kind="return"><para>O indice do maior elemento. </para>
 </simplesect>
 </para>
         </detaileddescription>

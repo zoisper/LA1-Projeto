@@ -28,8 +28,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Função que realiza varios testes automaticos<linebreak/>
-. </para>
+<para>Função que realiza vários testes automaticos. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>

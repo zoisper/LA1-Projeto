@@ -53,7 +53,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A cordenada. </para>
+<para>A coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -94,7 +94,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A cordenada. </para>
+<para>A coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -192,7 +192,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A cordenada. </para>
+<para>A coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -212,8 +212,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Reinicia o estado colocando todos os valores no ponto de partida.<linebreak/>
-. </para>
+<para>Reinicia o estado colocando o tabuleiro na posição inicial e todos os campos do estado no valor por omissão. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -254,7 +253,7 @@
           <declname>carater</declname>
         </param>
         <briefdescription>
-<para>Altera a casa para o valor que estava gravado no ficheiro lido. </para>
+<para>Altera a casa do tabuleiro para o valor do caracter lido do ficheiro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -289,7 +288,7 @@
 <parametername>carater</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O carater que estava gravado no ficheiro.<linebreak/>
+<para>O carater lido do ficheiro.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>

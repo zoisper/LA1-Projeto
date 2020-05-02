@@ -45,39 +45,7 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O estado. </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="gravar_jogo.h" line="16" column="6" bodyfile="gravar_jogo.c" bodystart="6" bodyend="34" declfile="gravar_jogo.h" declline="16" declcolumn="6"/>
-      </memberdef>
-      <memberdef kind="function" id="gravar__jogo_8h_1a6ec061cf0117955738e64a3778029738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void imprime_movimentos</definition>
-        <argsstring>(ESTADO e, FILE *fp)</argsstring>
-        <name>imprime_movimentos</name>
-        <param>
-          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
-          <declname>e</declname>
-        </param>
-        <param>
-          <type>FILE *</type>
-          <declname>fp</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Função que vai imprimi todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.<linebreak/>
-<parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>e</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Apontador para o estado.<linebreak/>
+<para>O valor do estado.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -94,7 +62,48 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="gravar_jogo.h" line="23" column="6" bodyfile="gravar_jogo.c" bodystart="35" bodyend="68" declfile="gravar_jogo.h" declline="23" declcolumn="6"/>
+        <location file="gravar_jogo.h" line="17" column="6" bodyfile="gravar_jogo.c" bodystart="6" bodyend="34" declfile="gravar_jogo.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="gravar__jogo_8h_1a6ec061cf0117955738e64a3778029738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void imprime_movimentos</definition>
+        <argsstring>(ESTADO e, FILE *fp)</argsstring>
+        <name>imprime_movimentos</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>fp</declname>
+        </param>
+        <briefdescription>
+<para>Imprime todos os movimentos realizados pelos jogadores num ficheiro passado por parametro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o ficheiro. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="gravar_jogo.h" line="24" column="6" bodyfile="gravar_jogo.c" bodystart="35" bodyend="68" declfile="gravar_jogo.h" declline="24" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -110,11 +119,11 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="inicializar__estado_8h" kindref="compound">inicializar_estado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gravar__jogo_8h_1a50076dc93b4f65ab108d773526a5bbf3" kindref="member">imprime_tabuleiro</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,FILE<sp/>*fp);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gravar__jogo_8h_1a6ec061cf0117955738e64a3778029738" kindref="member">imprime_movimentos</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,FILE<sp/>*fp);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MOSTRA_H</highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gravar__jogo_8h_1a50076dc93b4f65ab108d773526a5bbf3" kindref="member">imprime_tabuleiro</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,FILE<sp/>*fp);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gravar__jogo_8h_1a6ec061cf0117955738e64a3778029738" kindref="member">imprime_movimentos</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,FILE<sp/>*fp);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MOSTRA_H</highlight></codeline>
     </programlisting>
     <location file="gravar_jogo.h"/>
   </compounddef>

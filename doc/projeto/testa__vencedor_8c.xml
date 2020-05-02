@@ -57,7 +57,7 @@
       </node>
       <node id="7">
         <label>../logica/fim_jogo.h</label>
-        <link refid="fim__jogo_8h_source"/>
+        <link refid="fim__jogo_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
@@ -123,7 +123,7 @@
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>vencedor<sp/>=<sp/>verificar_vencedor(e);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>vencedor<sp/>=<sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref>(e);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(vencedor<sp/>==<sp/>2);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="mudar__estado_8h_1a46db10fbc55ab619c37705b8998eb645" kindref="member">reiniciar_estado</ref>(&amp;e);</highlight></codeline>
@@ -140,7 +140,7 @@
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>7;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>vencedor<sp/>=<sp/>verificar_vencedor(e);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>vencedor<sp/>=<sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref>(e);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(vencedor<sp/>==<sp/>1);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="mudar__estado_8h_1a46db10fbc55ab619c37705b8998eb645" kindref="member">reiniciar_estado</ref>(&amp;e);</highlight></codeline>
@@ -184,7 +184,7 @@
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>4;</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>4;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>vencedor<sp/>=<sp/>verificar_vencedor(e);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>vencedor<sp/>=<sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref>(e);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(vencedor<sp/>==<sp/>2);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>

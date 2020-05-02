@@ -56,11 +56,10 @@
         <argsstring>()</argsstring>
         <name>inicializar_estado</name>
         <briefdescription>
-<para>Inicializa o valor do estado.<linebreak/>
-Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocado na posição inicial e todos os campos do estado estarem com o valor por omissão. </para>
+<para>Inicializa o valor do estado. Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocado na posição inicial e todos os campos do estado estarem com o valor por omissão. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>O novo estado </para>
+<para><simplesect kind="return"><para>O novo estado. </para>
 </simplesect>
 </para>
         </detaileddescription>

@@ -59,7 +59,7 @@
 <parametername>coluna</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O valor da coluna da casa que se pretende obter.<linebreak/>
+<para>O número da coluna da casa que se pretende obter.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -68,7 +68,7 @@
 <parametername>linha</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O valor da linha da casa que se pretende obter.<linebreak/>
+<para>O número da linha da casa que se pretende obter.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -99,7 +99,7 @@
           <declname>jogador</declname>
         </param>
         <briefdescription>
-<para>Obtem o valor da coluna de uma jogada de um jogador. </para>
+<para>Obtem o número da coluna de uma jogada de um jogador passados por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -130,7 +130,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da coluna da jogada prentendido. </para>
+<simplesect kind="return"><para>O número da coluna da jogada prentendido. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -156,7 +156,7 @@
           <declname>jogador</declname>
         </param>
         <briefdescription>
-<para>Obtem o valor da linha de uma jogada de um jogador. </para>
+<para>Obtem o número da linha de uma jogada de um jogador passados por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -187,7 +187,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da linha da jogada prentendido. </para>
+<simplesect kind="return"><para>O número da linha da jogada prentendido. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -218,7 +218,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O numero do jogador atual. </para>
+<simplesect kind="return"><para>O número do jogador atual. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -249,7 +249,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O numero de jogadas. </para>
+<simplesect kind="return"><para>O número de jogadas. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -267,7 +267,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Devolve o valor da coluna da ultima jogada. </para>
+<para>Devolve o número da coluna da ultima jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -280,7 +280,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da coluna da ultima jogada. </para>
+<simplesect kind="return"><para>O número da coluna da ultima jogada. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -298,7 +298,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Devolve o valor da linha da ultima jogada. </para>
+<para>Devolve o número da linha da ultima jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -311,7 +311,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da linha da ultima jogada. </para>
+<simplesect kind="return"><para>O número da linha da ultima jogada. </para>
 </simplesect>
 </para>
         </detaileddescription>

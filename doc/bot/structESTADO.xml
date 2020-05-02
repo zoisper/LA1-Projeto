@@ -12,7 +12,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>O tabuleiro </para>
+<para>O tabuleiro. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -26,7 +26,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>As jogadas </para>
+<para>As jogadas. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -40,7 +40,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>A coordenada da última jogada </para>
+<para>A coordenada da última jogada. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -54,7 +54,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>O número das jogadas, usado no prompt </para>
+<para>O número das jogadas, usado no prompt. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -68,7 +68,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>O jogador atual </para>
+<para>O jogador atual. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

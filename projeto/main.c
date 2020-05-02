@@ -24,8 +24,9 @@ int main()
         vencedor = verificar_vencedor(*e);
         if(vencedor !=0)
         {
-            mostrar_vencedor(vencedor);
             mostrar_tabuleiro(*e, stdout, 1);
+            mostrar_vencedor(vencedor);
+
 
         }
 

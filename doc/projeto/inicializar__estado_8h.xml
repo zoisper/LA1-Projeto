@@ -14,12 +14,16 @@
     <includedby refid="fim__jogo_8h" local="yes">logica/fim_jogo.h</includedby>
     <includedby refid="main_8c" local="yes">main.c</includedby>
     <includedby refid="main__teste_8h" local="yes">testes/main_teste.h</includedby>
-    <includedby refid="testa__estado_8h" local="yes">testes/testa_estado.h</includedby>
-    <includedby refid="testa__jogar_8h" local="yes">testes/testa_jogar.h</includedby>
-    <includedby refid="testa__vencedor_8h" local="yes">testes/testa_vencedor.h</includedby>
-    <includedby refid="testa__pos_8h" local="yes">testes/testa_pos.h</includedby>
-    <includedby refid="testa__heuristica_8h" local="yes">testes/testa_heuristica.h</includedby>
+    <includedby refid="testar__estado_8h" local="yes">testes/testar_estado.h</includedby>
+    <includedby refid="testar__jogar_8h" local="yes">testes/testar_jogar.h</includedby>
+    <includedby refid="testar__vencedor_8h" local="yes">testes/testar_vencedor.h</includedby>
+    <includedby refid="testar__pos_8h" local="yes">testes/testar_pos.h</includedby>
+    <includedby refid="testar__heuristica_8h" local="yes">testes/testar_heuristica.h</includedby>
     <invincdepgraph>
+      <node id="12">
+        <label>testes/testar_estado.h</label>
+        <link refid="testar__estado_8h"/>
+      </node>
       <node id="6">
         <label>interface/mostrar.h</label>
         <link refid="mostrar_8h"/>
@@ -32,9 +36,9 @@
         <label>logica/comando_jog.h</label>
         <link refid="comando__jog_8h"/>
       </node>
-      <node id="12">
-        <label>testes/testa_estado.h</label>
-        <link refid="testa__estado_8h"/>
+      <node id="13">
+        <label>testes/testar_jogar.h</label>
+        <link refid="testar__jogar_8h"/>
       </node>
       <node id="2">
         <label>dados/obter_dados_estado.h</label>
@@ -46,21 +50,9 @@
         <label>dados/mudar_estado.h</label>
         <link refid="mudar__estado_8h"/>
       </node>
-      <node id="13">
-        <label>testes/testa_jogar.h</label>
-        <link refid="testa__jogar_8h"/>
-      </node>
-      <node id="14">
-        <label>testes/testa_vencedor.h</label>
-        <link refid="testa__vencedor_8h"/>
-      </node>
       <node id="5">
         <label>interface/interpretador.h</label>
         <link refid="interpretador_8h"/>
-      </node>
-      <node id="15">
-        <label>testes/testa_pos.h</label>
-        <link refid="testa__pos_8h"/>
       </node>
       <node id="1">
         <label>dados/inicializar_estado.h</label>
@@ -100,13 +92,13 @@
         <label>testes/main_teste.h</label>
         <link refid="main__teste_8h"/>
       </node>
+      <node id="16">
+        <label>testes/testar_heuristica.h</label>
+        <link refid="testar__heuristica_8h"/>
+      </node>
       <node id="3">
         <label>logica/fim_jogo.h</label>
-        <link refid="fim__jogo_8h_source"/>
-      </node>
-      <node id="16">
-        <label>testes/testa_heuristica.h</label>
-        <link refid="testa__heuristica_8h"/>
+        <link refid="fim__jogo_8h"/>
       </node>
       <node id="8">
         <label>logica/ler_jogo.h</label>
@@ -115,6 +107,14 @@
       <node id="9">
         <label>logica/comando_pos.h</label>
         <link refid="comando__pos_8h"/>
+      </node>
+      <node id="15">
+        <label>testes/testar_pos.h</label>
+        <link refid="testar__pos_8h"/>
+      </node>
+      <node id="14">
+        <label>testes/testar_vencedor.h</label>
+        <link refid="testar__vencedor_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structCOORDENADA" prot="public">COORDENADA</innerclass>
@@ -182,7 +182,7 @@
 Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocado na posição inicial e todos os campos do estado estarem com o valor por omissão. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>O novo estado </para>
+<para><simplesect kind="return"><para>O novo estado. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -194,7 +194,7 @@ Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocad
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Definição do estado e da função que o inicializa </para>
+<para>Definição do estado e da função que o inicializa. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>

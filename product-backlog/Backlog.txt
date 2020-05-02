@@ -1,0 +1,27 @@
+Funcionalidades:
+
+- Bot automatico
+
+Product Backlog:
+ 
+
+
+
+Sprint Backlog:
+
+- Rui Gonçalves
+	Historia:
+	- Adicionar o comando pos ao interpretador. - Concluido 05/03/20220
+
+- Tiago Leite
+	Historia: 
+	- Implementar uma função (pos_jogada) na camada de  lógica  que recebe o estado e o número da jogada e retorna o jogo para o momento dessa jogada. - Concluido 02/03/2020
+	- Criar funções que correm  testes automaticos. - Concluido 04/03/2020
+	- Criar um módulo de listas ligadas genérico - Concluido 12/04/2020
+	- Criar o comando jog (heurística random). - Concluido 17/04/2020
+	- Criar o comando jog (heurística minimax). - Concluido 25/04/2020
+	- Bot impelmentado - Concluido 02/05/2020.
+
+- Vicente Castro
+	Historia:
+	

@@ -22,7 +22,7 @@
       </node>
       <node id="2">
         <label>fim_jogo.h</label>
-        <link refid="fim__jogo_8h_source"/>
+        <link refid="fim__jogo_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -48,11 +48,12 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O valor do estado. </para>
+<para>O valor do estado.<linebreak/>
+</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu. </para>
+<simplesect kind="return"><para>Retorna 0 se nao houver vencedor ou retorna o número (1 ou 2) do jogador que venceu. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -70,8 +71,8 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>tiago<sp/>on<sp/>30/04/20.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;fim_jogo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>verificar_vencedor<sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fim__jogo_8h" kindref="compound">fim_jogo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ultima_coluna<sp/>=<sp/><ref refid="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e);</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ultima_linha<sp/>=<sp/><ref refid="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e);</highlight></codeline>

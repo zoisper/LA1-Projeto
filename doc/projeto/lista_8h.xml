@@ -89,7 +89,8 @@
 <parametername>L</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A lista. </para>
+<para>A lista.<linebreak/>
+</para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -102,8 +103,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>A lista l com o valor inserido na cabeça.<linebreak/>
-</para>
+<simplesect kind="return"><para>A lista l com o valor inserido na cabeça. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -135,8 +135,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>o elemento que esta na cabeça da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>o elemento que esta na cabeça da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -168,8 +167,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>A cauda da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>A cauda da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -201,8 +199,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>A cauda da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>A cauda da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -234,8 +231,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>1 se a lista está vazia e 0 se não está vazia.<linebreak/>
-</para>
+<simplesect kind="return"><para>1 se a lista está vazia e 0 se não está vazia. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -267,8 +263,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O número de elementos da lista.<linebreak/>
-</para>
+<simplesect kind="return"><para>O número de elementos da lista. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -286,7 +281,7 @@
           <declname>L</declname>
         </param>
         <briefdescription>
-<para>Liberta o espaço ocupado pela lista.<linebreak/>
+<para>Liberta o espaço ocupado em memoria pela lista.<linebreak/>
 . </para>
         </briefdescription>
         <detaileddescription>
@@ -295,8 +290,7 @@
 <parametername>L</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para a lista.<linebreak/>
-</para>
+<para>Apontador para a lista. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

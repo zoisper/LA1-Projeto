@@ -63,7 +63,16 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O estado. </para>
+<para>O valor do estado.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para o ficheiro. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -87,15 +96,15 @@
           <declname>fp</declname>
         </param>
         <briefdescription>
+<para>Imprime todos os movimentos realizados pelos jogadores num ficheiro passado por parametro. </para>
         </briefdescription>
         <detaileddescription>
-<para>Função que vai imprimi todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.<linebreak/>
-<parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para o estado.<linebreak/>
+<para>O valor do estado.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>

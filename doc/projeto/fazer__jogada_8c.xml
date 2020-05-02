@@ -59,7 +59,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\nVerfifica se algum jogador venceu o jogo. </para>
+<para>Coloca, se a jogada for valida, uma peça branca na coordendada escolhida e uma peça preta na ultima jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -73,10 +73,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>c</parametername>
+<parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A coordendad.<linebreak/>
+<para>A coordenada onde queremos jogar.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -120,7 +120,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A coordenada.<linebreak/>
+<para>A coordenada onde queremos jogar.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>

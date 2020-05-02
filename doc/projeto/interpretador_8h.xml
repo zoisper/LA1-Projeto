@@ -53,7 +53,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Funçao que interpreta os comandos </para>
+<para>Funçao que interpreta os comandos eviados pelo utilizador. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>

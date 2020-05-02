@@ -6,7 +6,7 @@ Testes Automaticos
 #define PROJETO_MAIN_TESTE_H
 #include "../dados/inicializar_estado.h"
 /**
- * \brief Função que realiza varios testes automaticos\n.
+ * \brief Função que realiza vários testes automaticos.
  * @param e O valor do estado.
  */
 void teste (ESTADO e);

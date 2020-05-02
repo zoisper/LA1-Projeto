@@ -4,16 +4,16 @@
     <compoundname>testes</compoundname>
     <innerfile refid="main__teste_8c">main_teste.c</innerfile>
     <innerfile refid="main__teste_8h">main_teste.h</innerfile>
-    <innerfile refid="testa__estado_8c">testa_estado.c</innerfile>
-    <innerfile refid="testa__estado_8h">testa_estado.h</innerfile>
-    <innerfile refid="testa__heuristica_8c">testa_heuristica.c</innerfile>
-    <innerfile refid="testa__heuristica_8h">testa_heuristica.h</innerfile>
-    <innerfile refid="testa__jogar_8c">testa_jogar.c</innerfile>
-    <innerfile refid="testa__jogar_8h">testa_jogar.h</innerfile>
-    <innerfile refid="testa__pos_8c">testa_pos.c</innerfile>
-    <innerfile refid="testa__pos_8h">testa_pos.h</innerfile>
-    <innerfile refid="testa__vencedor_8c">testa_vencedor.c</innerfile>
-    <innerfile refid="testa__vencedor_8h">testa_vencedor.h</innerfile>
+    <innerfile refid="testar__estado_8c">testar_estado.c</innerfile>
+    <innerfile refid="testar__estado_8h">testar_estado.h</innerfile>
+    <innerfile refid="testar__heuristica_8c">testar_heuristica.c</innerfile>
+    <innerfile refid="testar__heuristica_8h">testar_heuristica.h</innerfile>
+    <innerfile refid="testar__jogar_8c">testar_jogar.c</innerfile>
+    <innerfile refid="testar__jogar_8h">testar_jogar.h</innerfile>
+    <innerfile refid="testar__pos_8c">testar_pos.c</innerfile>
+    <innerfile refid="testar__pos_8h">testar_pos.h</innerfile>
+    <innerfile refid="testar__vencedor_8c">testar_vencedor.c</innerfile>
+    <innerfile refid="testar__vencedor_8h">testar_vencedor.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

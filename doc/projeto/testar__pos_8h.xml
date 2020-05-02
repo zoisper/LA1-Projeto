@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="testar__pos_8h" kind="file" language="C++">
+    <compoundname>testar_pos.h</compoundname>
+    <includes refid="inicializar__estado_8h" local="yes">../dados/inicializar_estado.h</includes>
+    <includedby refid="main__teste_8c" local="yes">testes/main_teste.c</includedby>
+    <includedby refid="testar__pos_8c" local="yes">testes/testar_pos.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>../dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+      </node>
+      <node id="1">
+        <label>testes/testar_pos.h</label>
+        <link refid="testar__pos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="testar__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void testa_pos</definition>
+        <argsstring>(ESTADO e)</argsstring>
+        <name>testa_pos</name>
+        <param>
+          <type><ref refid="structESTADO" kindref="compound">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Funçao que faz varias jogadas e e utiliza o comando &apos;pos&apos; para verificar se este funciona corretamente.<linebreak/>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor do estado. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testes/testar_pos.h" line="14" column="6" bodyfile="testes/testar_pos.c" bodystart="7" bodyend="40" declfile="testes/testar_pos.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Testes ao comandos pos. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#ifndef<sp/>PROJETO_TESTAR_POS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_TESTAR_POS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testar__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" kindref="member">testa_pos</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_TESTAR_POS_H</highlight></codeline>
+    </programlisting>
+    <location file="testes/testar_pos.h"/>
+  </compounddef>
+</doxygen>

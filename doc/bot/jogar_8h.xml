@@ -3,7 +3,7 @@
   <compounddef id="jogar_8h" kind="file" language="C++">
     <compoundname>jogar.h</compoundname>
     <includes refid="inicializar__estado_8h" local="yes">inicializar_estado.h</includes>
-    <includedby refid="jog_8c" local="yes">jog.c</includedby>
+    <includedby refid="escolher__jogada_8c" local="yes">escolher_jogada.c</includedby>
     <includedby refid="jogar_8c" local="yes">jogar.c</includedby>
     <includedby refid="main_8c" local="yes">main.c</includedby>
     <incdepgraph>
@@ -33,7 +33,7 @@
           <declname>c</declname>
         </param>
         <briefdescription>
-<para>Coloca, se a jogada for valida, uma peça branca na coordendada jogada e uma peça preta na ultima jogada.\nVerfifica se algum jogador venceu o jogo. </para>
+<para>Coloca, se a jogada for valida, uma peça branca na coordendada escolhida e uma peça preta na ultima jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -47,10 +47,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>c</parametername>
+<parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A coordendad.<linebreak/>
+<para>A coordenada onde queremos jogar.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -94,7 +94,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A coordenada.<linebreak/>
+<para>A coordenada onde queremos jogar.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -129,7 +129,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu. </para>
+<simplesect kind="return"><para>Retorna 0 se nao houver vencedor ou retorna o número (1 ou 2) do jogador que venceu. </para>
 </simplesect>
 </para>
         </detaileddescription>

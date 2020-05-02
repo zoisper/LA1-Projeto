@@ -7,8 +7,8 @@
     <includedby refid="comando__jog_8c" local="yes">logica/comando_jog.c</includedby>
     <includedby refid="fim__jogo_8c" local="yes">logica/fim_jogo.c</includedby>
     <includedby refid="main_8c" local="yes">main.c</includedby>
-    <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
-    <includedby refid="testa__vencedor_8c" local="yes">testes/testa_vencedor.c</includedby>
+    <includedby refid="testar__heuristica_8c" local="yes">testes/testar_heuristica.c</includedby>
+    <includedby refid="testar__vencedor_8c" local="yes">testes/testar_vencedor.c</includedby>
     <incdepgraph>
       <node id="3">
         <label>../dados/obter_dados_estado.h</label>
@@ -48,11 +48,12 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O valor do estado. </para>
+<para>O valor do estado.<linebreak/>
+</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Retorna 0 se nao houver vencedor ou retorna 1 ou 2 consoante o jogador que venceu. </para>
+<simplesect kind="return"><para>Retorna 0 se nao houver vencedor ou retorna o número (1 ou 2) do jogador que venceu. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -64,6 +65,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>A função que deteta o fim do jogo. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
@@ -73,7 +75,7 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_FIM_JOGO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/obter_dados_estado.h&quot;</highlight></codeline>
-<codeline lineno="17"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>verificar_vencedor<sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_FIM_JOGO_H</highlight></codeline>
     </programlisting>
     <location file="logica/fim_jogo.h"/>

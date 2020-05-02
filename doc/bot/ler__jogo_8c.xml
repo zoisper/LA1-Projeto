@@ -58,12 +58,10 @@
         </param>
         <param>
           <type>FILE *</type>
-          <declname>FP</declname>
-          <defname>fp</defname>
+          <declname>fp</declname>
         </param>
         <briefdescription>
-<para>Le o estado de um ficheiro.<linebreak/>
-. </para>
+<para>Lê o tabuleiro e os movimentos de um ficheiro passado por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -80,7 +78,7 @@
 <parametername>fp</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontaor para o ficheiro onde o tabuleiro está guardado. </para>
+<para>Apontador para o ficheiro. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -104,7 +102,7 @@
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ler__jogo_8h_1a0270b4589e43cf0161b198532ffd29d5" kindref="member">ler_jogo</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*fp)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="ler__jogo_8h_1a075e738e418b474b9356cee3efd5b1a8" kindref="member">ler_jogo</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*e,<sp/>FILE<sp/>*fp)</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,j;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>carater;</highlight></codeline>

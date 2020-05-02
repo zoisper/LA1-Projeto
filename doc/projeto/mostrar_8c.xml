@@ -59,8 +59,7 @@
           <declname>estilo</declname>
         </param>
         <briefdescription>
-<para>Imprime o tabuleiro do jogo num ficheiro passado por parametro.<linebreak/>
-. </para>
+<para>Imprime o tabuleiro do jogo num ficheiro passado por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -77,7 +76,7 @@
 <parametername>fp</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para o ficheiro onde o tabuleiro vai ser imprimido.<linebreak/>
+<para>Apontador para o ficheiro.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -110,10 +109,10 @@
           <declname>fp</declname>
         </param>
         <briefdescription>
+<para>Mostra todos os movimentos realizados pelos jogadores num ficheiro passado por parametro. </para>
         </briefdescription>
         <detaileddescription>
-<para>Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.<linebreak/>
-<parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>e</parametername>
 </parameternamelist>
@@ -127,7 +126,8 @@
 <parametername>fp</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para o ficheiro. </para>
+<para>Apontador para o ficheiro.<linebreak/>
+</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -151,8 +151,7 @@
           <declname>controlo</declname>
         </param>
         <briefdescription>
-<para>Prompt com o número de comandos realizados até ao momento, o jogador atual e o número da jogada atual.<linebreak/>
-. </para>
+<para>Prompt com o número de comandos realizados até ao momento, o jogador atual e o número da jogada atual. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -169,7 +168,7 @@
 <parametername>controlo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variavel que controla o incremento do numero de comandos realizados ate ao momento prompt. </para>
+<para>Variavel que controla o número de comandos realizados ate ao momento mostrados no prompt. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -189,10 +188,10 @@
           <declname>vencedor</declname>
         </param>
         <briefdescription>
+<para>Função que mostra o vencedor do jogo. </para>
         </briefdescription>
         <detaileddescription>
-<para>Função que mostra o vencedor do jogo.<linebreak/>
-<parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>vencedor</parametername>
 </parameternamelist>
@@ -254,7 +253,7 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(estilo<sp/>==<sp/>1)</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,</highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,</highlight><highlight class="stringliteral">&quot;<sp/><sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(coluna=0;<sp/>coluna&lt;8;<sp/>coluna++)</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,</highlight><highlight class="stringliteral">&quot;<sp/>%c&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">+<sp/>coluna<sp/>));</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(fp,</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>

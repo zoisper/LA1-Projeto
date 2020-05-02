@@ -1,7 +1,7 @@
 
 /**
 @file ler_jogo.h
-As função que grava o jogo num ficheiro.
+A função que lê o jogo de um ficheiro.
 */
 #ifndef PROJETO_LER_JOGO_H
 #define PROJETO_LER_JOGO_H
@@ -9,18 +9,11 @@ As função que grava o jogo num ficheiro.
 #include <stdio.h>
 #include "../dados/inicializar_estado.h"
 
+
 /**
- * \brief Grava o jogo num fcheiro.\n
+ * \brief Lê o tabuleiro e os movimentos de um ficheiro passado por parametro.
  * @param e Apontador para estado.\n
  * @param fp Apontador para o ficheiro.
  */
-
-void grava_jogo(ESTADO e, FILE *fp);
-
-/**
- * \brief Le o estado de um ficheiro.\n
- * @param e Apontador para estado.\n
- * @param fp Apontaor para o ficheiro onde o tabuleiro está guardado.
- */
-void ler_jogo (ESTADO *e, FILE *FP);
+void ler_jogo (ESTADO *e, FILE *fp);
 #endif //PROJETO_LER_JOGO_H

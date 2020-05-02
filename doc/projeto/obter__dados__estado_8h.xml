@@ -11,9 +11,9 @@
     <includedby refid="comando__pos_8c" local="yes">logica/comando_pos.c</includedby>
     <includedby refid="fazer__jogada_8c" local="yes">logica/fazer_jogada.c</includedby>
     <includedby refid="ler__jogo_8c" local="yes">logica/ler_jogo.c</includedby>
-    <includedby refid="testa__estado_8c" local="yes">testes/testa_estado.c</includedby>
-    <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
-    <includedby refid="testa__pos_8c" local="yes">testes/testa_pos.c</includedby>
+    <includedby refid="testar__estado_8c" local="yes">testes/testar_estado.c</includedby>
+    <includedby refid="testar__heuristica_8c" local="yes">testes/testar_heuristica.c</includedby>
+    <includedby refid="testar__pos_8c" local="yes">testes/testar_pos.c</includedby>
     <incdepgraph>
       <node id="1">
         <label>dados/obter_dados_estado.h</label>
@@ -35,7 +35,7 @@
       </node>
       <node id="2">
         <label>logica/fim_jogo.h</label>
-        <link refid="fim__jogo_8h_source"/>
+        <link refid="fim__jogo_8h"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="func">
@@ -74,7 +74,7 @@
 <parametername>coluna</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O valor da coluna da casa que se pretende obter.<linebreak/>
+<para>O número da coluna da casa que se pretende obter.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -83,7 +83,7 @@
 <parametername>linha</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O valor da linha da casa que se pretende obter.<linebreak/>
+<para>O número da linha da casa que se pretende obter.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -106,7 +106,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Devolve o numero do jogador atual. </para>
+<para>Devolve o número do jogador atual. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -119,7 +119,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O numero do jogador atual. </para>
+<simplesect kind="return"><para>O número do jogador atual. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -137,7 +137,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Devolve o numero de jogadas. </para>
+<para>Devolve o número de jogadas. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -150,7 +150,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O numero de jogadas. </para>
+<simplesect kind="return"><para>O número de jogadas. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -168,7 +168,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Devolve o valor da coluna da ultima jogada. </para>
+<para>Devolve o número da coluna da ultima jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -181,7 +181,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da coluna da ultima jogada. </para>
+<simplesect kind="return"><para>O número da coluna da ultima jogada. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -199,7 +199,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Devolve o valor da linha da ultima jogada. </para>
+<para>Devolve o número da linha da ultima jogada. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -212,7 +212,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da linha da ultima jogada. </para>
+<simplesect kind="return"><para>O número da linha da ultima jogada. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -238,7 +238,7 @@
           <declname>jogador</declname>
         </param>
         <briefdescription>
-<para>Obtem o valor da coluna de uma jogada de um jogador. </para>
+<para>Obtem o número da coluna de uma jogada de um jogador passados por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -269,7 +269,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da coluna da jogada prentendido. </para>
+<simplesect kind="return"><para>O número da coluna da jogada prentendido. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -295,7 +295,7 @@
           <declname>jogador</declname>
         </param>
         <briefdescription>
-<para>Obtem o valor da linha de uma jogada de um jogador. </para>
+<para>Obtem o número da linha de uma jogada de um jogador passados por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -326,7 +326,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>O valor da linha da jogada prentendido. </para>
+<simplesect kind="return"><para>O número da linha da jogada prentendido. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -338,7 +338,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Definição das funçoes que obtem informação do estado </para>
+<para>Definição das funçoes que obtem informação do estado. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>

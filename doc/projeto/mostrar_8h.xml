@@ -42,8 +42,7 @@
           <declname>estilo</declname>
         </param>
         <briefdescription>
-<para>Imprime o tabuleiro do jogo num ficheiro passado por parametro.<linebreak/>
-. </para>
+<para>Imprime o tabuleiro do jogo num ficheiro passado por parametro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -60,7 +59,7 @@
 <parametername>fp</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para o ficheiro onde o tabuleiro vai ser imprimido.<linebreak/>
+<para>Apontador para o ficheiro.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -93,10 +92,10 @@
           <declname>fp</declname>
         </param>
         <briefdescription>
+<para>Mostra todos os movimentos realizados pelos jogadores num ficheiro passado por parametro. </para>
         </briefdescription>
         <detaileddescription>
-<para>Função que vai mostrar todos os movimentos realizados pelos jogadores num ficheiro passado por parametro.<linebreak/>
-<parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>e</parametername>
 </parameternamelist>
@@ -110,7 +109,8 @@
 <parametername>fp</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Apontador para o ficheiro. </para>
+<para>Apontador para o ficheiro.<linebreak/>
+</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -134,8 +134,7 @@
           <declname>controlo</declname>
         </param>
         <briefdescription>
-<para>Prompt com o número de comandos realizados até ao momento, o jogador atual e o número da jogada atual.<linebreak/>
-. </para>
+<para>Prompt com o número de comandos realizados até ao momento, o jogador atual e o número da jogada atual. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -152,7 +151,7 @@
 <parametername>controlo</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variavel que controla o incremento do numero de comandos realizados ate ao momento prompt. </para>
+<para>Variavel que controla o número de comandos realizados ate ao momento mostrados no prompt. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -172,10 +171,10 @@
           <declname>vencedor</declname>
         </param>
         <briefdescription>
+<para>Função que mostra o vencedor do jogo. </para>
         </briefdescription>
         <detaileddescription>
-<para>Função que mostra o vencedor do jogo.<linebreak/>
-<parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>vencedor</parametername>
 </parameternamelist>
@@ -188,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="interface/mostrar.h" line="37" column="6" bodyfile="interface/mostrar.c" bodystart="92" bodyend="96" declfile="interface/mostrar.h" declline="37" declcolumn="6"/>
+        <location file="interface/mostrar.h" line="36" column="6" bodyfile="interface/mostrar.c" bodystart="92" bodyend="96" declfile="interface/mostrar.h" declline="36" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -208,11 +207,10 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1a3d96032d0a001c6741cb2f9e7b28a313" kindref="member">mostrar_movimentos</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,FILE<sp/>*fp);</highlight></codeline>
 <codeline lineno="31"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" kindref="member">prompt</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controlo);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1aa5ca61490b88cba4e5f1baa8b01bf86a" kindref="member">mostrar_vencedor</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vencedor);</highlight></codeline>
+<codeline lineno="36"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mostrar_8h_1aa5ca61490b88cba4e5f1baa8b01bf86a" kindref="member">mostrar_vencedor</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vencedor);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MOSTRAR_H</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_MOSTRAR_H</highlight></codeline>
     </programlisting>
     <location file="interface/mostrar.h"/>
   </compounddef>

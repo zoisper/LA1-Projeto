@@ -47,7 +47,7 @@
       </node>
       <node id="6">
         <label>../logica/fim_jogo.h</label>
-        <link refid="fim__jogo_8h_source"/>
+        <link refid="fim__jogo_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -212,7 +212,7 @@
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>coord<sp/>=<sp/><ref refid="comando__jog_8h_1a029c7551125c7c3ee231733809e90ce8" kindref="member">jog_minimax</ref>(e,5);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(verificar_vencedor(e)<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>assert<sp/>(<ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal">}</highlight></codeline>
     </programlisting>

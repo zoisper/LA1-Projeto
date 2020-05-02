@@ -1,9 +1,9 @@
 #include "main_teste.h"
-#include "testa_estado.h"
-#include "testa_jogar.h"
-#include "testa_vencedor.h"
-#include "testa_pos.h"
-#include "testa_heuristica.h"
+#include "testar_estado.h"
+#include "testar_jogar.h"
+#include "testar_vencedor.h"
+#include "testar_pos.h"
+#include "testar_heuristica.h"
 
 void teste (ESTADO e)
 {

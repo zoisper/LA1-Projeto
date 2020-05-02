@@ -2,11 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
   <compounddef id="inicializar__estado_8h" kind="file" language="C++">
     <compoundname>inicializar_estado.h</compoundname>
+    <includedby refid="escolher__jogada_8h" local="yes">escolher_jogada.h</includedby>
     <includedby refid="obter__dados__estado_8h" local="yes">obter_dados_estado.h</includedby>
+    <includedby refid="jogar_8h" local="yes">jogar.h</includedby>
     <includedby refid="gravar__jogo_8h" local="yes">gravar_jogo.h</includedby>
     <includedby refid="inicializar__estado_8c" local="yes">inicializar_estado.c</includedby>
-    <includedby refid="jog_8h" local="yes">jog.h</includedby>
-    <includedby refid="jogar_8h" local="yes">jogar.h</includedby>
     <includedby refid="mudar__estado_8h" local="yes">mudar_estado.h</includedby>
     <includedby refid="ler__jogo_8h" local="yes">ler_jogo.h</includedby>
     <includedby refid="main_8c" local="yes">main.c</includedby>
@@ -15,11 +15,11 @@
         <label>mudar_estado.h</label>
         <link refid="mudar__estado_8h"/>
       </node>
-      <node id="5">
+      <node id="4">
         <label>jogar.h</label>
         <link refid="jogar_8h"/>
       </node>
-      <node id="2">
+      <node id="3">
         <label>obter_dados_estado.h</label>
         <link refid="obter__dados__estado_8h"/>
       </node>
@@ -27,9 +27,9 @@
         <label>ler_jogo.h</label>
         <link refid="ler__jogo_8h"/>
       </node>
-      <node id="4">
-        <label>jog.h</label>
-        <link refid="jog_8h"/>
+      <node id="2">
+        <label>escolher_jogada.h</label>
+        <link refid="escolher__jogada_8h"/>
       </node>
       <node id="1">
         <label>inicializar_estado.h</label>
@@ -47,7 +47,7 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="5">
         <label>gravar_jogo.h</label>
         <link refid="gravar__jogo_8h"/>
       </node>
@@ -113,11 +113,10 @@
         <argsstring>()</argsstring>
         <name>inicializar_estado</name>
         <briefdescription>
-<para>Inicializa o valor do estado.<linebreak/>
-Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocado na posição inicial e todos os campos do estado estarem com o valor por omissão. </para>
+<para>Inicializa o valor do estado. Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocado na posição inicial e todos os campos do estado estarem com o valor por omissão. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>O novo estado </para>
+<para><simplesect kind="return"><para>O novo estado. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -129,7 +128,7 @@ Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocad
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Definição do estado e da função que o inicializa </para>
+<para>Definição do estado e da função que o inicializa. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>

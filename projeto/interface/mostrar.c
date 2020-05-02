@@ -39,7 +39,7 @@ void mostrar_tabuleiro (ESTADO e, FILE *fp, int estilo)
     }
     if (estilo == 1)
     {
-        fprintf(fp,"   ");
+        fprintf(fp,"  ");
         for(coluna=0; coluna<8; coluna++)
             fprintf(fp," %c", ('a'+ coluna ));
         fprintf(fp,"\n");

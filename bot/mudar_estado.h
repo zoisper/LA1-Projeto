@@ -1,7 +1,7 @@
 
 /**
 @file mudar_estado.h
-Definição das funçoes que manipulam o estado
+Definição das funçoes que manipulam o estado.
 */
 
 #ifndef PROJETO_MUDA_ESTADO_H
@@ -11,15 +11,15 @@ Definição das funçoes que manipulam o estado
 #include <stdio.h>
 
 /**
- * \brief Coloca "BRANCA" na casa da cordenada jogada e coloca "PRETA" na casa jogada anteriormente.
+ * \brief Coloca "BRANCA" na casa da coordenada jogada e coloca "PRETA" na casa jogada anteriormente.
  * @param e Apontador para o estado.\n
- * @param coord A cordenada.
+ * @param coord A coordenada.
  */
 void muda_casa(ESTADO *e, COORDENADA coord);
 /**
  * \brief Acrescenta a cordenada jogada ao array das jogadas efetuadas até ao momento.
  * @param e Apontador para o estado.\n
- * @param coord A cordenada.
+ * @param coord A coordenada.
  */
 void muda_jogadas(ESTADO *e, COORDENADA coord);
 /**
@@ -31,7 +31,7 @@ void muda_jogador_atual (ESTADO *e);
 /**
  * \brief Altera o valor da  ultima jogada para o valor da coordenada jogada.
  * @param e Apontador para o estado.\n
- * @param coord A cordenada.
+ * @param coord A coordenada.
  */
 void muda_ultima_jogada (ESTADO *e, COORDENADA coord);
 /**
@@ -41,17 +41,17 @@ void muda_ultima_jogada (ESTADO *e, COORDENADA coord);
 void incrementa_num_jogadas (ESTADO *e);
 
 /**
- * \brief Reinicia o estado colocando todos os valores no ponto de partida.\n
+ * \brief Reinicia o estado colocando o tabuleiro na posição inicial e todos os campos do estado no valor por omissão.
  * @param e Apontador para estado.\n
  */
 void reiniciar_estado (ESTADO *e);
 
 /**
- * \brief Altera a casa para o valor que estava gravado no ficheiro lido.
+ * \brief Altera a casa do tabuleiro para o valor do caracter lido do ficheiro.
  * @param e Apontador para o estado.\n
  * @param linha A linha do tabuleiro.\n
  * @param coluna A coluna do tabuleiro.\n
- * @param carater O carater que estava gravado no ficheiro.\n
+ * @param carater O carater lido do ficheiro.\n
  */
 void retoma_casa (ESTADO *e, int linha, int coluna, char carater);
 

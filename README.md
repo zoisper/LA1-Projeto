@@ -2,7 +2,7 @@
 
 UC Laboratório de Algoritmia I
 
-Turno Prático 2 
+Turno Prático PL2 
 
 Grupo 6
  

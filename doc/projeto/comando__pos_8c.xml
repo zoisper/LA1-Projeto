@@ -81,8 +81,7 @@
           <declname>num</declname>
         </param>
         <briefdescription>
-<para>Função que permite aceder a uma jogada anterior.<linebreak/>
-. </para>
+<para>Função que permite aceder a uma jogada anterior. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -131,8 +130,7 @@
           <declname>num</declname>
         </param>
         <briefdescription>
-<para>Função que copia &apos;num&apos; jogadas realizadas para um array auxiliar <linebreak/>
-. </para>
+<para>Copia um número (num) de jogadas realizadas para um array auxiliar. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -149,7 +147,7 @@
 <parametername>jogadas</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Array auxiliar .<linebreak/>
+<para>Array auxiliar.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -183,8 +181,7 @@
           <array>[]</array>
         </param>
         <briefdescription>
-<para>Função que compara as jogadas realizadas com as jogadas armazenadas num array auxiliar.<linebreak/>
-. </para>
+<para>Compara o array do estado que contem as jogadas realizadas com as jogadas armazenadas num array auxiliar. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -206,7 +203,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>1 se forem difrentes e 0 se forem iguais. </para>
+<simplesect kind="return"><para>1 se forem diferentes e 0 se forem iguais. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -233,8 +230,7 @@
           <declname>num</declname>
         </param>
         <briefdescription>
-<para>Função que reinica o estado do jogo, e chama a funçao jogar com as &apos;num&apos; coordenadas armazenadas num array auxiliar .<linebreak/>
-. </para>
+<para>Reinica o estado do jogo, e chama a funçao jogar sequencialmente com um número (num) de coordenadas armazenadas previamente num array auxiliar. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -251,7 +247,7 @@
 <parametername>jogadas</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Array auxiliar .<linebreak/>
+<para>Array auxiliar.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>

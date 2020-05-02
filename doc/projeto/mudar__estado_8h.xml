@@ -7,8 +7,8 @@
     <includedby refid="comando__pos_8c" local="yes">logica/comando_pos.c</includedby>
     <includedby refid="fazer__jogada_8c" local="yes">logica/fazer_jogada.c</includedby>
     <includedby refid="ler__jogo_8c" local="yes">logica/ler_jogo.c</includedby>
-    <includedby refid="testa__heuristica_8c" local="yes">testes/testa_heuristica.c</includedby>
-    <includedby refid="testa__vencedor_8c" local="yes">testes/testa_vencedor.c</includedby>
+    <includedby refid="testar__heuristica_8c" local="yes">testes/testar_heuristica.c</includedby>
+    <includedby refid="testar__vencedor_8c" local="yes">testes/testar_vencedor.c</includedby>
     <incdepgraph>
       <node id="1">
         <label>dados/mudar_estado.h</label>
@@ -58,7 +58,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A cordenada. </para>
+<para>A coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -99,7 +99,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A cordenada. </para>
+<para>A coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -168,7 +168,7 @@
 <parametername>coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>A cordenada. </para>
+<para>A coordenada. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -217,8 +217,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Reinicia o estado colocando todos os valores no ponto de partida.<linebreak/>
-. </para>
+<para>Reinicia o estado colocando o tabuleiro na posição inicial e todos os campos do estado no valor por omissão. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -259,7 +258,7 @@
           <declname>carater</declname>
         </param>
         <briefdescription>
-<para>Altera a casa para o valor que estava gravado no ficheiro lido. </para>
+<para>Altera a casa do tabuleiro para o valor do caracter lido do ficheiro. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -294,7 +293,7 @@
 <parametername>carater</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>O carater que estava gravado no ficheiro.<linebreak/>
+<para>O carater lido do ficheiro.<linebreak/>
 </para>
 </parameterdescription>
 </parameteritem>
@@ -309,7 +308,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Definição das funçoes que manipulam o estado </para>
+<para>Definição das funçoes que manipulam o estado. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>

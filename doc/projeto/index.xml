@@ -145,8 +145,6 @@
   <compound refid="clion-environment_8txt" kind="file"><name>clion-environment.txt</name>
   </compound>
   <compound refid="clion-log_8txt" kind="file"><name>clion-log.txt</name>
-    <member refid="clion-log_8txt_1a0326a7084df27c42cfc34fc778d84bdc" kind="variable"><name>DCMAKE_BUILD_TYPE</name></member>
-    <member refid="clion-log_8txt_1ad8064ea4162af2840c65e7a1f28d5ed9" kind="variable"><name>Wa</name></member>
   </compound>
   <compound refid="link_8txt" kind="file"><name>link.txt</name>
   </compound>
@@ -304,8 +302,7 @@
     <member refid="ler__jogo_8c_1a075e738e418b474b9356cee3efd5b1a8" kind="function"><name>ler_jogo</name></member>
   </compound>
   <compound refid="ler__jogo_8h" kind="file"><name>ler_jogo.h</name>
-    <member refid="ler__jogo_8h_1a074574235df8bf5ae4cde4aad7428004" kind="function"><name>grava_jogo</name></member>
-    <member refid="ler__jogo_8h_1a0270b4589e43cf0161b198532ffd29d5" kind="function"><name>ler_jogo</name></member>
+    <member refid="ler__jogo_8h_1a075e738e418b474b9356cee3efd5b1a8" kind="function"><name>ler_jogo</name></member>
   </compound>
   <compound refid="main_8c" kind="file"><name>main.c</name>
     <member refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
@@ -316,37 +313,37 @@
   <compound refid="main__teste_8h" kind="file"><name>main_teste.h</name>
     <member refid="main__teste_8h_1a8f6e5f65c7e881551930ee0177897c63" kind="function"><name>teste</name></member>
   </compound>
-  <compound refid="testa__estado_8c" kind="file"><name>testa_estado.c</name>
-    <member refid="testa__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kind="function"><name>testa_estado</name></member>
+  <compound refid="testar__estado_8c" kind="file"><name>testar_estado.c</name>
+    <member refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kind="function"><name>testa_estado</name></member>
   </compound>
-  <compound refid="testa__estado_8h" kind="file"><name>testa_estado.h</name>
-    <member refid="testa__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kind="function"><name>testa_estado</name></member>
+  <compound refid="testar__estado_8h" kind="file"><name>testar_estado.h</name>
+    <member refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kind="function"><name>testa_estado</name></member>
   </compound>
-  <compound refid="testa__heuristica_8c" kind="file"><name>testa_heuristica.c</name>
-    <member refid="testa__heuristica_8c_1a9e1830eba669d92ec321a8fb5ce5e28b" kind="function"><name>testa_jog</name></member>
-    <member refid="testa__heuristica_8c_1aeca25ae4adb325af5ae0b607d1c204c0" kind="function"><name>testa_jog2</name></member>
+  <compound refid="testar__heuristica_8c" kind="file"><name>testar_heuristica.c</name>
+    <member refid="testar__heuristica_8c_1a9e1830eba669d92ec321a8fb5ce5e28b" kind="function"><name>testa_jog</name></member>
+    <member refid="testar__heuristica_8c_1aeca25ae4adb325af5ae0b607d1c204c0" kind="function"><name>testa_jog2</name></member>
   </compound>
-  <compound refid="testa__heuristica_8h" kind="file"><name>testa_heuristica.h</name>
-    <member refid="testa__heuristica_8h_1a9e1830eba669d92ec321a8fb5ce5e28b" kind="function"><name>testa_jog</name></member>
-    <member refid="testa__heuristica_8h_1aeca25ae4adb325af5ae0b607d1c204c0" kind="function"><name>testa_jog2</name></member>
+  <compound refid="testar__heuristica_8h" kind="file"><name>testar_heuristica.h</name>
+    <member refid="testar__heuristica_8h_1a9e1830eba669d92ec321a8fb5ce5e28b" kind="function"><name>testa_jog</name></member>
+    <member refid="testar__heuristica_8h_1aeca25ae4adb325af5ae0b607d1c204c0" kind="function"><name>testa_jog2</name></member>
   </compound>
-  <compound refid="testa__jogar_8c" kind="file"><name>testa_jogar.c</name>
-    <member refid="testa__jogar_8c_1af1d018e2433b78c4430cfcea6630ca97" kind="function"><name>testa_jogar</name></member>
+  <compound refid="testar__jogar_8c" kind="file"><name>testar_jogar.c</name>
+    <member refid="testar__jogar_8c_1af1d018e2433b78c4430cfcea6630ca97" kind="function"><name>testa_jogar</name></member>
   </compound>
-  <compound refid="testa__jogar_8h" kind="file"><name>testa_jogar.h</name>
-    <member refid="testa__jogar_8h_1af1d018e2433b78c4430cfcea6630ca97" kind="function"><name>testa_jogar</name></member>
+  <compound refid="testar__jogar_8h" kind="file"><name>testar_jogar.h</name>
+    <member refid="testar__jogar_8h_1af1d018e2433b78c4430cfcea6630ca97" kind="function"><name>testa_jogar</name></member>
   </compound>
-  <compound refid="testa__pos_8c" kind="file"><name>testa_pos.c</name>
-    <member refid="testa__pos_8c_1acbd34061ccfd19882abecdc8a6a7ccb4" kind="function"><name>testa_pos</name></member>
+  <compound refid="testar__pos_8c" kind="file"><name>testar_pos.c</name>
+    <member refid="testar__pos_8c_1acbd34061ccfd19882abecdc8a6a7ccb4" kind="function"><name>testa_pos</name></member>
   </compound>
-  <compound refid="testa__pos_8h" kind="file"><name>testa_pos.h</name>
-    <member refid="testa__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" kind="function"><name>testa_pos</name></member>
+  <compound refid="testar__pos_8h" kind="file"><name>testar_pos.h</name>
+    <member refid="testar__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" kind="function"><name>testa_pos</name></member>
   </compound>
-  <compound refid="testa__vencedor_8c" kind="file"><name>testa_vencedor.c</name>
-    <member refid="testa__vencedor_8c_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kind="function"><name>testa_vencedor</name></member>
+  <compound refid="testar__vencedor_8c" kind="file"><name>testar_vencedor.c</name>
+    <member refid="testar__vencedor_8c_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kind="function"><name>testa_vencedor</name></member>
   </compound>
-  <compound refid="testa__vencedor_8h" kind="file"><name>testa_vencedor.h</name>
-    <member refid="testa__vencedor_8h_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kind="function"><name>testa_vencedor</name></member>
+  <compound refid="testar__vencedor_8h" kind="file"><name>testar_vencedor.h</name>
+    <member refid="testar__vencedor_8h_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kind="function"><name>testa_vencedor</name></member>
   </compound>
   <compound refid="dir_f942a7a73394fda25d4213a70555b3f8" kind="dir"><name>cmake-build-debug/CMakeFiles/3.15.3</name>
   </compound>

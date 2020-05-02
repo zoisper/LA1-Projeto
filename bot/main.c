@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "inicializar_estado.h"
 #include "ler_jogo.h"
-#include "jog.h"
+#include "escolher_jogada.h"
 #include "jogar.h"
 #include "gravar_jogo.h"
 

@@ -1,7 +1,7 @@
 
 /**
 @file interpretador.h
-Funçao que interpreta os comandos
+Funçao que interpreta os comandos eviados pelo utilizador.
 */
 #ifndef PROJETO_INTERPRETADOR_H
 #define PROJETO_INTERPRETADOR_H
