@@ -153,8 +153,6 @@
   <compound refid="CMakeLists_8txt" kind="file"><name>CMakeLists.txt</name>
   </compound>
   <compound refid="inicializar__estado_8c" kind="file"><name>inicializar_estado.c</name>
-    <member refid="inicializar__estado_8c_1acb559820d9ca11295b4500f179ef6392" kind="variable"><name>i</name></member>
-    <member refid="inicializar__estado_8c_1a37d972ae0b47b9099e30983131d31916" kind="variable"><name>j</name></member>
     <member refid="inicializar__estado_8c_1a7e0c7e26fb685d9ab501e19b05e6954f" kind="function"><name>inicializar_estado</name></member>
   </compound>
   <compound refid="inicializar__estado_8h" kind="file"><name>inicializar_estado.h</name>
@@ -233,7 +231,6 @@
     <member refid="interpretador_8h_1a24da95ebeede4a540e37790ce8be359b" kind="function"><name>interpretador</name></member>
   </compound>
   <compound refid="mostrar_8c" kind="file"><name>mostrar.c</name>
-    <member refid="mostrar_8c_1a6821bafc3c88dfb2e433a095df9940c6" kind="define"><name>BUF_SIZE</name></member>
     <member refid="mostrar_8c_1a3df1f415753d598ee200c67fa5bd8ce4" kind="function"><name>mostrar_tabuleiro</name></member>
     <member refid="mostrar_8c_1a3d96032d0a001c6741cb2f9e7b28a313" kind="function"><name>mostrar_movimentos</name></member>
     <member refid="mostrar_8c_1ae4dfbe3acd79cd3900c4b66b608f7cad" kind="function"><name>prompt</name></member>

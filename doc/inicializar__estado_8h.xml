@@ -367,7 +367,7 @@ Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/inicializar_estado.h" line="62" column="8" bodyfile="dados/inicializar_estado.c" bodystart="10" bodyend="29" declfile="dados/inicializar_estado.h" declline="62" declcolumn="8"/>
+        <location file="dados/inicializar_estado.h" line="62" column="8" bodyfile="dados/inicializar_estado.c" bodystart="10" bodyend="30" declfile="dados/inicializar_estado.h" declline="62" declcolumn="8"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

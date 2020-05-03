@@ -74,7 +74,7 @@
       </node>
       <node id="12">
         <label>../dados/lista.h</label>
-        <link refid="lista_8h_source"/>
+        <link refid="lista_8h"/>
       </node>
       <node id="9">
         <label>../logica/ler_jogo.h</label>

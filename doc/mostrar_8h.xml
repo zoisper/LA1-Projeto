@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="interface/mostrar.h" line="18" column="6" bodyfile="interface/mostrar.c" bodystart="10" bodyend="51" declfile="interface/mostrar.h" declline="18" declcolumn="6"/>
+        <location file="interface/mostrar.h" line="18" column="6" bodyfile="interface/mostrar.c" bodystart="9" bodyend="50" declfile="interface/mostrar.h" declline="18" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mostrar_8h_1a3d96032d0a001c6741cb2f9e7b28a313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="interface/mostrar.h" line="25" column="6" bodyfile="interface/mostrar.c" bodystart="54" bodyend="84" declfile="interface/mostrar.h" declline="25" declcolumn="6"/>
+        <location file="interface/mostrar.h" line="25" column="6" bodyfile="interface/mostrar.c" bodystart="53" bodyend="83" declfile="interface/mostrar.h" declline="25" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mostrar_8h_1ae4dfbe3acd79cd3900c4b66b608f7cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="interface/mostrar.h" line="31" column="6" bodyfile="interface/mostrar.c" bodystart="86" bodyend="93" declfile="interface/mostrar.h" declline="31" declcolumn="6"/>
+        <location file="interface/mostrar.h" line="31" column="6" bodyfile="interface/mostrar.c" bodystart="85" bodyend="92" declfile="interface/mostrar.h" declline="31" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mostrar_8h_1aa5ca61490b88cba4e5f1baa8b01bf86a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="interface/mostrar.h" line="36" column="6" bodyfile="interface/mostrar.c" bodystart="95" bodyend="99" declfile="interface/mostrar.h" declline="36" declcolumn="6"/>
+        <location file="interface/mostrar.h" line="36" column="6" bodyfile="interface/mostrar.c" bodystart="94" bodyend="98" declfile="interface/mostrar.h" declline="36" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -18,12 +18,12 @@
       </node>
       <node id="2">
         <label>lista.h</label>
-        <link refid="lista_8h_source"/>
+        <link refid="lista_8h"/>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="lista_8c_1ae3b99323b6f8f35d80bb69ff1a27985e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+        <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
         <definition>LISTA criar_lista</definition>
         <argsstring>()</argsstring>
         <name>criar_lista</name>
@@ -41,12 +41,12 @@
         <location file="dados/lista.c" line="9" column="7" bodyfile="dados/lista.c" bodystart="9" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="lista_8c_1a37ba5fc3cfddb6bc94d4b54b00bc696e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+        <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
         <definition>LISTA insere_cabeca</definition>
         <argsstring>(LISTA L, void *valor)</argsstring>
         <name>insere_cabeca</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>L</declname>
         </param>
         <param>
@@ -91,7 +91,7 @@
         <argsstring>(LISTA L)</argsstring>
         <name>devolve_cabeca</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>L</declname>
         </param>
         <briefdescription>
@@ -118,12 +118,12 @@
         <location file="dados/lista.c" line="32" column="6" bodyfile="dados/lista.c" bodystart="32" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="lista_8c_1ad9380152361127432c55c1c6067e05ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+        <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
         <definition>LISTA proximo</definition>
         <argsstring>(LISTA L)</argsstring>
         <name>proximo</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>L</declname>
         </param>
         <briefdescription>
@@ -150,12 +150,12 @@
         <location file="dados/lista.c" line="40" column="7" bodyfile="dados/lista.c" bodystart="40" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="lista_8c_1a9026a681a68322b5ec7f07137b864cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+        <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
         <definition>LISTA remove_cabeca</definition>
         <argsstring>(LISTA L)</argsstring>
         <name>remove_cabeca</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>L</declname>
         </param>
         <briefdescription>
@@ -187,7 +187,7 @@
         <argsstring>(LISTA L)</argsstring>
         <name>lista_esta_vazia</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>L</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <argsstring>(LISTA L)</argsstring>
         <name>comprimento_lista</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>L</declname>
         </param>
         <briefdescription>
@@ -251,7 +251,7 @@
         <argsstring>(LISTA *L)</argsstring>
         <name>limpa_lista</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref> *</type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref> *</type>
           <declname>L</declname>
         </param>
         <briefdescription>
@@ -278,12 +278,11 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Funções que manipulam listas</para>
-<para>Definição de lista e das funções que manipulam listas </para>
+<para>Funções que manipulam listas </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>
-<codeline lineno="5"><highlight class="preprocessor">#include<sp/>&quot;lista.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="lista_8h" kindref="compound">lista.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -295,7 +294,7 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><ref refid="structlista" kindref="compound">LISTA</ref><sp/><ref refid="lista_8c_1a37ba5fc3cfddb6bc94d4b54b00bc696e" kindref="member">insere_cabeca</ref>(<ref refid="structlista" kindref="compound">LISTA</ref><sp/>L,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*valor)</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlista" kindref="compound">LISTA</ref><sp/>r<sp/>=<sp/>(<ref refid="structlista" kindref="compound">LISTA</ref>)<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structlista" kindref="compound">Nodo</ref>));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlista" kindref="compound">LISTA</ref><sp/>r<sp/>=<sp/>(<ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref>)<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structlista" kindref="compound">Nodo</ref>));</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!L)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;<ref refid="structlista_1a185bf2f5d7beeec38e7fa345b1620b45" kindref="member">dado</ref><sp/>=<sp/>valor;</highlight></codeline>

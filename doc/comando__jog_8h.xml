@@ -22,7 +22,7 @@
       </node>
       <node id="2">
         <label>../dados/lista.h</label>
-        <link refid="lista_8h_source"/>
+        <link refid="lista_8h"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -51,7 +51,7 @@
     </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="comando__jog_8h_1a55ff32fdb2588a5a80f10d4902841c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+        <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
         <definition>LISTA jogadas_possiveis</definition>
         <argsstring>(ESTADO e)</argsstring>
         <name>jogadas_possiveis</name>
@@ -88,7 +88,7 @@
         <argsstring>(LISTA lista, int num_nodo)</argsstring>
         <name>obter_coordenada_lista</name>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>lista</declname>
         </param>
         <param>
@@ -265,7 +265,7 @@
           <declname>e</declname>
         </param>
         <param>
-          <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
+          <type><ref refid="lista_8h_1ac9930a9e6e5179e1480d57ed49fb6eda" kindref="member">LISTA</ref></type>
           <declname>lista</declname>
         </param>
         <param>
