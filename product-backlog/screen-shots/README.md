@@ -12,5 +12,12 @@
 
 ## Comando jog
 ![](Imagens/comando_jog.png)
+
 ## Comando jog2
 ![](Imagens/comando_jog2.png)
+
+## Bot Jogo
+![](Imagens/bot_jogo.png)
+
+## Bot Torneio
+![](Imagens/bot_torneio.png)
