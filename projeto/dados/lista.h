@@ -1,6 +1,6 @@
 
 /**
-@file lista.c
+@file lista.h
 Definição de lista e das funções que manipulam listas
 */
 #ifndef PROJETO_LISTA_H

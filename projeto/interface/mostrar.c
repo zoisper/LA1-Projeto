@@ -4,7 +4,6 @@ Funçoes responsavies por mostrar o tabuleiro, movimentos, prompt e vencedor.
 */
 #include <stdio.h>
 #include "../dados/obter_dados_estado.h"
-#define BUF_SIZE 1024
 
 
 void mostrar_tabuleiro (ESTADO e, FILE *fp, int estilo)

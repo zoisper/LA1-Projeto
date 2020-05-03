@@ -6,9 +6,10 @@ Função que inicializa o estado.
 
 #include "inicializar_estado.h"
 #include <stdlib.h>
-int i,j;
+
 ESTADO *inicializar_estado()
 {
+    int i,j;
     ESTADO *e = (ESTADO *) malloc(sizeof(ESTADO));
     for(i=0;i<8;i++)
         for(j=0;j<8;j++)
