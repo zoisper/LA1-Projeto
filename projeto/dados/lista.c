@@ -1,4 +1,7 @@
-
+/**
+@file lista.c
+Funções que manipulam listas
+*/
 #include "lista.h"
 #include <stdlib.h>
 

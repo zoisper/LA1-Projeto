@@ -1,3 +1,8 @@
+/**
+@file testar_vencedor.c
+Função que realiza varias jogadas e verifica se o vencedor é o correto.
+*/
+
 #include "testar_vencedor.h"
 #include "../logica/fazer_jogada.h"
 #include "../dados/mudar_estado.h"

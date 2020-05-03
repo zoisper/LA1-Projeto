@@ -1,4 +1,7 @@
-
+/**
+@file obter_dados_estado.c
+Funçoes que obtem informação do estado.
+*/
 #include "obter_dados_estado.h"
 CASA obter_casa(ESTADO e, int linha, int coluna)
 {

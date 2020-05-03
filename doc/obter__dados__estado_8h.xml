@@ -27,15 +27,97 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="14">
+        <label>testes/testar_estado.c</label>
+        <link refid="testar__estado_8c"/>
+      </node>
+      <node id="4">
+        <label>interface/mostrar.c</label>
+        <link refid="mostrar_8c"/>
+      </node>
+      <node id="12">
+        <label>logica/fazer_jogada.c</label>
+        <link refid="fazer__jogada_8c"/>
+      </node>
+      <node id="5">
+        <label>logica/comando_jog.c</label>
+        <link refid="comando__jog_8c"/>
+      </node>
+      <node id="3">
+        <label>dados/obter_dados_estado.c</label>
+        <link refid="obter__dados__estado_8c"/>
+      </node>
       <node id="1">
         <label>dados/obter_dados_estado.h</label>
         <link refid="obter__dados__estado_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
       <node id="2">
+        <label>dados/mudar_estado.c</label>
+        <link refid="mudar__estado_8c"/>
+      </node>
+      <node id="9">
+        <label>testes/testar_heuristica.c</label>
+        <link refid="testar__heuristica_8c"/>
+      </node>
+      <node id="8">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="7">
+        <label>logica/fim_jogo.c</label>
+        <link refid="fim__jogo_8c"/>
+      </node>
+      <node id="6">
         <label>logica/fim_jogo.h</label>
         <link refid="fim__jogo_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>logica/ler_jogo.c</label>
+        <link refid="ler__jogo_8c"/>
+      </node>
+      <node id="11">
+        <label>logica/comando_pos.c</label>
+        <link refid="comando__pos_8c"/>
+      </node>
+      <node id="15">
+        <label>testes/testar_pos.c</label>
+        <link refid="testar__pos_8c"/>
+      </node>
+      <node id="10">
+        <label>testes/testar_vencedor.c</label>
+        <link refid="testar__vencedor_8c"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="func">
@@ -94,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="16" column="6" bodyfile="dados/obter_dados_estado.c" bodystart="3" bodyend="6" declfile="dados/obter_dados_estado.h" declline="16" declcolumn="6"/>
+        <location file="dados/obter_dados_estado.h" line="16" column="6" bodyfile="dados/obter_dados_estado.c" bodystart="6" bodyend="9" declfile="dados/obter_dados_estado.h" declline="16" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="obter__dados__estado_8h_1adca88fda125fd06faefdf80ebbad48c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -125,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="22" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="27" bodyend="30" declfile="dados/obter_dados_estado.h" declline="22" declcolumn="5"/>
+        <location file="dados/obter_dados_estado.h" line="22" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="30" bodyend="33" declfile="dados/obter_dados_estado.h" declline="22" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -156,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="29" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="31" bodyend="34" declfile="dados/obter_dados_estado.h" declline="29" declcolumn="5"/>
+        <location file="dados/obter_dados_estado.h" line="29" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="34" bodyend="37" declfile="dados/obter_dados_estado.h" declline="29" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -187,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="35" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="35" bodyend="38" declfile="dados/obter_dados_estado.h" declline="35" declcolumn="5"/>
+        <location file="dados/obter_dados_estado.h" line="35" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="38" bodyend="41" declfile="dados/obter_dados_estado.h" declline="35" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -218,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="41" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="39" bodyend="42" declfile="dados/obter_dados_estado.h" declline="41" declcolumn="5"/>
+        <location file="dados/obter_dados_estado.h" line="41" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="42" bodyend="45" declfile="dados/obter_dados_estado.h" declline="41" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="obter__dados__estado_8h_1a8ec08cd9bf9691ce65f1c5c12d2dd965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -275,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="49" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="8" bodyend="16" declfile="dados/obter_dados_estado.h" declline="49" declcolumn="5"/>
+        <location file="dados/obter_dados_estado.h" line="49" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="11" bodyend="19" declfile="dados/obter_dados_estado.h" declline="49" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="obter__dados__estado_8h_1aa078bc44de22b3c2f2bd5367fc06ffff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -332,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/obter_dados_estado.h" line="57" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="17" bodyend="25" declfile="dados/obter_dados_estado.h" declline="57" declcolumn="5"/>
+        <location file="dados/obter_dados_estado.h" line="57" column="5" bodyfile="dados/obter_dados_estado.c" bodystart="20" bodyend="28" declfile="dados/obter_dados_estado.h" declline="57" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

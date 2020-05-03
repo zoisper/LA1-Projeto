@@ -26,6 +26,42 @@
         <label>stdio.h</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>logica/fazer_jogada.c</label>
+        <link refid="fazer__jogada_8c"/>
+      </node>
+      <node id="1">
+        <label>dados/mudar_estado.h</label>
+        <link refid="mudar__estado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>testes/testar_heuristica.c</label>
+        <link refid="testar__heuristica_8c"/>
+      </node>
+      <node id="4">
+        <label>logica/ler_jogo.c</label>
+        <link refid="ler__jogo_8c"/>
+      </node>
+      <node id="2">
+        <label>logica/comando_pos.c</label>
+        <link refid="comando__pos_8c"/>
+      </node>
+      <node id="6">
+        <label>testes/testar_vencedor.c</label>
+        <link refid="testar__vencedor_8c"/>
+      </node>
+    </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="mudar__estado_8h_1ae821d10232eb163ea9f752d8ab2d280f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -66,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="18" column="6" bodyfile="dados/mudar_estado.c" bodystart="5" bodyend="9" declfile="dados/mudar_estado.h" declline="18" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="18" column="6" bodyfile="dados/mudar_estado.c" bodystart="9" bodyend="13" declfile="dados/mudar_estado.h" declline="18" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mudar__estado_8h_1a37b332da122e14b0e2be85e65ad52160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -107,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="24" column="6" bodyfile="dados/mudar_estado.c" bodystart="11" bodyend="26" declfile="dados/mudar_estado.h" declline="24" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="24" column="6" bodyfile="dados/mudar_estado.c" bodystart="15" bodyend="30" declfile="dados/mudar_estado.h" declline="24" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mudar__estado_8h_1af22f187947c882b27c063664453bc867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="29" column="6" bodyfile="dados/mudar_estado.c" bodystart="33" bodyend="36" declfile="dados/mudar_estado.h" declline="29" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="29" column="6" bodyfile="dados/mudar_estado.c" bodystart="37" bodyend="40" declfile="dados/mudar_estado.h" declline="29" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mudar__estado_8h_1aa5c51d4e7476689e120126dc3336f9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="36" column="6" bodyfile="dados/mudar_estado.c" bodystart="38" bodyend="42" declfile="dados/mudar_estado.h" declline="36" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="36" column="6" bodyfile="dados/mudar_estado.c" bodystart="42" bodyend="46" declfile="dados/mudar_estado.h" declline="36" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mudar__estado_8h_1a9e452d73246e3db9d9b4cc4d458ed056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -205,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="41" column="6" bodyfile="dados/mudar_estado.c" bodystart="28" bodyend="31" declfile="dados/mudar_estado.h" declline="41" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="41" column="6" bodyfile="dados/mudar_estado.c" bodystart="32" bodyend="35" declfile="dados/mudar_estado.h" declline="41" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mudar__estado_8h_1a46db10fbc55ab619c37705b8998eb645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -234,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="47" column="6" bodyfile="dados/mudar_estado.c" bodystart="44" bodyend="61" declfile="dados/mudar_estado.h" declline="47" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="47" column="6" bodyfile="dados/mudar_estado.c" bodystart="48" bodyend="65" declfile="dados/mudar_estado.h" declline="47" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="mudar__estado_8h_1a6a66a7c4cf0dfc7215ff945e1a25030f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -302,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/mudar_estado.h" line="56" column="6" bodyfile="dados/mudar_estado.c" bodystart="64" bodyend="69" declfile="dados/mudar_estado.h" declline="56" declcolumn="6"/>
+        <location file="dados/mudar_estado.h" line="56" column="6" bodyfile="dados/mudar_estado.c" bodystart="68" bodyend="73" declfile="dados/mudar_estado.h" declline="56" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

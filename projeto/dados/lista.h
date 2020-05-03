@@ -1,12 +1,12 @@
 
 /**
-@file lista.h
+@file lista.c
 Definição de lista e das funções que manipulam listas
 */
 #ifndef PROJETO_LISTA_H
 #define PROJETO_LISTA_H
 /**
-\brief Tipo de dados para a lista.\n
+\brief Tipo de dados para a lista.
 */
 typedef struct lista
 {
@@ -14,7 +14,9 @@ typedef struct lista
     void * dado;
     /** Apontador para o nodo seguinte */
     struct lista  *prox;
-}Nodo, *LISTA;
+}Nodo,
+/** Tipo de dado apontador para lista */
+*LISTA;
 
 /**
 \brief Cria uma lista.\n

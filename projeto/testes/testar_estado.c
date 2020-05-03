@@ -1,4 +1,7 @@
-
+/**
+@file testar_estado.c
+Função que faz testes sobre as variaveis do estado.
+*/
 #include "testar_estado.h"
 #include <assert.h>
 #include "../dados/obter_dados_estado.h"

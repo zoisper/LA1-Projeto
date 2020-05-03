@@ -1,3 +1,7 @@
+/**
+@file main_teste.c
+Função que faz varios testes automaticos
+ */
 #include "main_teste.h"
 #include "testar_estado.h"
 #include "testar_jogar.h"

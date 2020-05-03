@@ -1,3 +1,7 @@
+/**
+@file mudar_estado.c
+Funçoes que manipulam o estado.
+*/
 
 #include "obter_dados_estado.h"
 

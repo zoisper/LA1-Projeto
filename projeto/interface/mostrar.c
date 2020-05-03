@@ -1,4 +1,7 @@
-
+/**
+@file mostrar.c
+Funçoes responsavies por mostrar o tabuleiro, movimentos, prompt e vencedor.
+*/
 #include <stdio.h>
 #include "../dados/obter_dados_estado.h"
 #define BUF_SIZE 1024

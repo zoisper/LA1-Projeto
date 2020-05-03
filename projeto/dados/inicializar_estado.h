@@ -8,7 +8,14 @@ Definição do estado e da função que o inicializa.
 /**
 \brief Tipo de dados para a casa
 */
-typedef enum {VAZIO, BRANCA, PRETA} CASA;
+typedef enum {
+    /** Casa do tabuleiro vazia. */
+    VAZIO,
+    /** Ultima casa do tabuleiro ocupada e apartir de onde jogamos. */
+    BRANCA,
+    /** Casa do tabuleiro ocupada. */
+    PRETA
+} CASA;
 /**
 \brief Tipo de dados para as coordenadas.
 */
@@ -22,7 +29,9 @@ typedef struct {
 \brief Tipo de dados para a jogada.
 */
 typedef struct {
+    /** A coordenda do jogador 1 */
     COORDENADA jogador1;
+    /** A coordenda do jogador 2 */
     COORDENADA jogador2;
 } JOGADA;
 /**

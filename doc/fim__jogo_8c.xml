@@ -59,38 +59,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/fim_jogo.c" line="6" column="5" bodyfile="logica/fim_jogo.c" bodystart="6" bodyend="24"/>
+        <location file="logica/fim_jogo.c" line="7" column="5" bodyfile="logica/fim_jogo.c" bodystart="7" bodyend="25"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Função que deteta o fim do jogo. </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>tiago<sp/>on<sp/>30/04/20.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fim__jogo_8h" kindref="compound">fim_jogo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
-<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ultima_coluna<sp/>=<sp/><ref refid="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ultima_linha<sp/>=<sp/><ref refid="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controlo<sp/>=<sp/>(<ref refid="obter__dados__estado_8h_1adca88fda125fd06faefdf80ebbad48c1" kindref="member">obter_jogador_atual</ref>(e)<sp/>==<sp/>1)<sp/>?<sp/>2<sp/>:<sp/>1;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="obter__dados__estado_8h_1ad35fe177ba4902b4267925bdae8d8ea6" kindref="member">obter_casa</ref>(e,<sp/>0,<sp/>7)==<sp/>BRANCA)</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="obter__dados__estado_8h_1ad35fe177ba4902b4267925bdae8d8ea6" kindref="member">obter_casa</ref>(e,<sp/>7,<sp/>0)==<sp/>BRANCA)</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l<sp/>=<sp/>ultima_linha-1;<sp/>l<sp/>&lt;=<sp/>ultima_linha<sp/>+1;<sp/>l++)</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>ultima_coluna-1;<sp/>c<sp/>&lt;=<sp/>ultima_coluna+1;<sp/>c++)</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="obter__dados__estado_8h_1ad35fe177ba4902b4267925bdae8d8ea6" kindref="member">obter_casa</ref>(e,<sp/>l,c)<sp/>==<sp/>VAZIO)<sp/>&amp;&amp;<sp/>l<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>l<sp/>&lt;<sp/>8<sp/>&amp;&amp;<sp/>c<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>c<sp/>&lt;<sp/>8)</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>controlo<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>controlo;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fim__jogo_8h" kindref="compound">fim_jogo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fim__jogo_8c_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ultima_coluna<sp/>=<sp/><ref refid="obter__dados__estado_8c_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ultima_linha<sp/>=<sp/><ref refid="obter__dados__estado_8c_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>controlo<sp/>=<sp/>(<ref refid="obter__dados__estado_8c_1adca88fda125fd06faefdf80ebbad48c1" kindref="member">obter_jogador_atual</ref>(e)<sp/>==<sp/>1)<sp/>?<sp/>2<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="obter__dados__estado_8c_1a2a590ab3e3b5c8af145c60dd1eb83d4d" kindref="member">obter_casa</ref>(e,<sp/>0,<sp/>7)==<sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" kindref="member">BRANCA</ref>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="obter__dados__estado_8c_1a2a590ab3e3b5c8af145c60dd1eb83d4d" kindref="member">obter_casa</ref>(e,<sp/>7,<sp/>0)==<sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" kindref="member">BRANCA</ref>)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l<sp/>=<sp/>ultima_linha-1;<sp/>l<sp/>&lt;=<sp/>ultima_linha<sp/>+1;<sp/>l++)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>ultima_coluna-1;<sp/>c<sp/>&lt;=<sp/>ultima_coluna+1;<sp/>c++)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="obter__dados__estado_8c_1a2a590ab3e3b5c8af145c60dd1eb83d4d" kindref="member">obter_casa</ref>(e,<sp/>l,c)<sp/>==<sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039abc711f491a56ec7af7a688be508c5113" kindref="member">VAZIO</ref>)<sp/>&amp;&amp;<sp/>l<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>l<sp/>&lt;<sp/>8<sp/>&amp;&amp;<sp/>c<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>c<sp/>&lt;<sp/>8)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>controlo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>controlo;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="logica/fim_jogo.c"/>
   </compounddef>

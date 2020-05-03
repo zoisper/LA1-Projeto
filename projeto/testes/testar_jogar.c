@@ -1,4 +1,7 @@
-
+/**
+@file testar_jogar.c
+Função que testa se a função jogar funciona corretamente.
+*/
 #include "testar_jogar.h"
 #include "../logica/fazer_jogada.h"
 #include <assert.h>

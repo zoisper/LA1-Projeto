@@ -1,7 +1,7 @@
 
 /**
 @file comando_pos.h
-Funçãoes que vao realizar o comando pos
+Funções que vao realizar o comando pos
 */
 #ifndef PROJETO_COMANDO_POS_H
 #define PROJETO_COMANDO_POS_H

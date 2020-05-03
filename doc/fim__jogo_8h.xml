@@ -29,6 +29,42 @@
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>logica/comando_jog.c</label>
+        <link refid="comando__jog_8c"/>
+      </node>
+      <node id="5">
+        <label>testes/testar_heuristica.c</label>
+        <link refid="testar__heuristica_8c"/>
+      </node>
+      <node id="4">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>logica/fim_jogo.c</label>
+        <link refid="fim__jogo_8c"/>
+      </node>
+      <node id="1">
+        <label>logica/fim_jogo.h</label>
+        <link refid="fim__jogo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>testes/testar_vencedor.c</label>
+        <link refid="testar__vencedor_8c"/>
+      </node>
+    </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -59,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/fim_jogo.h" line="17" column="5" bodyfile="logica/fim_jogo.c" bodystart="6" bodyend="24" declfile="logica/fim_jogo.h" declline="17" declcolumn="5"/>
+        <location file="logica/fim_jogo.h" line="15" column="5" bodyfile="logica/fim_jogo.c" bodystart="7" bodyend="25" declfile="logica/fim_jogo.h" declline="15" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -68,15 +104,13 @@
 <para>A função que deteta o fim do jogo. </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>tiago<sp/>on<sp/>30/04/20.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
-<codeline lineno="8"><highlight class="comment"></highlight><highlight class="preprocessor">#ifndef<sp/>PROJETO_FIM_JOGO_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_FIM_JOGO_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/obter_dados_estado.h&quot;</highlight></codeline>
-<codeline lineno="17"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_FIM_JOGO_H</highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>PROJETO_FIM_JOGO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_FIM_JOGO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/inicializar_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/obter_dados_estado.h&quot;</highlight></codeline>
+<codeline lineno="15"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fim__jogo_8h_1ab0a0cac713e6a5566be4e2029a424dbe" kindref="member">verificar_vencedor</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_FIM_JOGO_H</highlight></codeline>
     </programlisting>
     <location file="logica/fim_jogo.h"/>
   </compounddef>

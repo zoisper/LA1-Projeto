@@ -1,6 +1,6 @@
 /**
 @file main_teste.h
-Testes Automaticos
+Função que faz varios testes automaticos
  */
 #ifndef PROJETO_MAIN_TESTE_H
 #define PROJETO_MAIN_TESTE_H

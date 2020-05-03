@@ -22,9 +22,33 @@
       </node>
       <node id="2">
         <label>../dados/lista.h</label>
-        <link refid="lista_8h"/>
+        <link refid="lista_8h_source"/>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>logica/comando_jog.c</label>
+        <link refid="comando__jog_8c"/>
+      </node>
+      <node id="1">
+        <label>logica/comando_jog.h</label>
+        <link refid="comando__jog_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>interface/interpretador.c</label>
+        <link refid="interpretador_8c"/>
+      </node>
+      <node id="4">
+        <label>testes/testar_heuristica.c</label>
+        <link refid="testar__heuristica_8c"/>
+      </node>
+    </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="comando__jog_8h_1a55ff32fdb2588a5a80f10d4902841c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structlista" kindref="compound">LISTA</ref></type>
@@ -56,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="18" column="7" bodyfile="logica/comando_jog.c" bodystart="26" bodyend="45" declfile="logica/comando_jog.h" declline="18" declcolumn="7"/>
+        <location file="logica/comando_jog.h" line="18" column="7" bodyfile="logica/comando_jog.c" bodystart="29" bodyend="48" declfile="logica/comando_jog.h" declline="18" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a919d82cec6eda01075f9280e408d60e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref></type>
@@ -101,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="25" column="12" bodyfile="logica/comando_jog.c" bodystart="46" bodyend="57" declfile="logica/comando_jog.h" declline="25" declcolumn="12"/>
+        <location file="logica/comando_jog.h" line="25" column="12" bodyfile="logica/comando_jog.c" bodystart="49" bodyend="60" declfile="logica/comando_jog.h" declline="25" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1ad1ee8ea407289e3e192cda36f83b4484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -145,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="33" column="5" bodyfile="logica/comando_jog.c" bodystart="58" bodyend="66" declfile="logica/comando_jog.h" declline="33" declcolumn="5"/>
+        <location file="logica/comando_jog.h" line="33" column="5" bodyfile="logica/comando_jog.c" bodystart="61" bodyend="69" declfile="logica/comando_jog.h" declline="33" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a041c2caba4e06c4294acb91b82cc5f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref></type>
@@ -176,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="39" column="12" bodyfile="logica/comando_jog.c" bodystart="11" bodyend="24" declfile="logica/comando_jog.h" declline="39" declcolumn="12"/>
+        <location file="logica/comando_jog.h" line="39" column="12" bodyfile="logica/comando_jog.c" bodystart="14" bodyend="27" declfile="logica/comando_jog.h" declline="39" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a029c7551125c7c3ee231733809e90ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref></type>
@@ -220,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="46" column="12" bodyfile="logica/comando_jog.c" bodystart="68" bodyend="87" declfile="logica/comando_jog.h" declline="46" declcolumn="12"/>
+        <location file="logica/comando_jog.h" line="46" column="12" bodyfile="logica/comando_jog.c" bodystart="71" bodyend="90" declfile="logica/comando_jog.h" declline="46" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a18dcd168761725dea5501dd8064704cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -302,7 +326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="55" column="6" bodyfile="logica/comando_jog.c" bodystart="88" bodyend="99" declfile="logica/comando_jog.h" declline="55" declcolumn="6"/>
+        <location file="logica/comando_jog.h" line="55" column="6" bodyfile="logica/comando_jog.c" bodystart="91" bodyend="102" declfile="logica/comando_jog.h" declline="55" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a48ada26515bf455b2b00c4a5441f6018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -359,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="64" column="5" bodyfile="logica/comando_jog.c" bodystart="101" bodyend="125" declfile="logica/comando_jog.h" declline="64" declcolumn="5"/>
+        <location file="logica/comando_jog.h" line="64" column="5" bodyfile="logica/comando_jog.c" bodystart="104" bodyend="128" declfile="logica/comando_jog.h" declline="64" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a25fdce1fbc1958c87da723af53a437b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -404,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="71" column="5" bodyfile="logica/comando_jog.c" bodystart="127" bodyend="135" declfile="logica/comando_jog.h" declline="71" declcolumn="5"/>
+        <location file="logica/comando_jog.h" line="71" column="5" bodyfile="logica/comando_jog.c" bodystart="130" bodyend="138" declfile="logica/comando_jog.h" declline="71" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a943abc380d4d0a7e79e322f0f8172d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -449,7 +473,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="78" column="5" bodyfile="logica/comando_jog.c" bodystart="137" bodyend="145" declfile="logica/comando_jog.h" declline="78" declcolumn="5"/>
+        <location file="logica/comando_jog.h" line="78" column="5" bodyfile="logica/comando_jog.c" bodystart="140" bodyend="148" declfile="logica/comando_jog.h" declline="78" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1abd587d6a9bbebe5e49510b50ec8036d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -494,7 +518,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="85" column="5" bodyfile="logica/comando_jog.c" bodystart="147" bodyend="155" declfile="logica/comando_jog.h" declline="85" declcolumn="5"/>
+        <location file="logica/comando_jog.h" line="85" column="5" bodyfile="logica/comando_jog.c" bodystart="150" bodyend="158" declfile="logica/comando_jog.h" declline="85" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="comando__jog_8h_1a3a7d7f4c6a93ded84b758e9d677f06ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -539,7 +563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_jog.h" line="92" column="5" bodyfile="logica/comando_jog.c" bodystart="157" bodyend="165" declfile="logica/comando_jog.h" declline="92" declcolumn="5"/>
+        <location file="logica/comando_jog.h" line="92" column="5" bodyfile="logica/comando_jog.c" bodystart="160" bodyend="168" declfile="logica/comando_jog.h" declline="92" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

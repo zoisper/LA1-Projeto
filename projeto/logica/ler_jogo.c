@@ -1,5 +1,8 @@
 
-
+/**
+@file ler_jogo.c
+Função que lê o jogo de um ficheiro.
+*/
 #include "ler_jogo.h"
 #include "../dados/obter_dados_estado.h"
 #include "../dados/mudar_estado.h"

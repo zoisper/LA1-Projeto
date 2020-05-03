@@ -81,54 +81,56 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="testes/testar_pos.c" line="7" column="6" bodyfile="testes/testar_pos.c" bodystart="7" bodyend="40"/>
+        <location file="testes/testar_pos.c" line="11" column="6" bodyfile="testes/testar_pos.c" bodystart="11" bodyend="44"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Função que testa o comandos pos. </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__pos_8h" kindref="compound">testar_pos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../logica/fazer_jogada.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../logica/comando_pos.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/obter_dados_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testar__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" kindref="member">testa_pos</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
-<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>coord<sp/>=<sp/>{5,2};</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>6;</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>2;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>1);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>1);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>0);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>0);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>1);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8h_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>1);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e)<sp/>==<sp/>1<sp/>&amp;&amp;<sp/><ref refid="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e)<sp/>==<sp/>7);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>1);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>1);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8h_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e)<sp/>==<sp/>1<sp/>&amp;&amp;<sp/><ref refid="obter__dados__estado_8h_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e)<sp/>==<sp/>6);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__pos_8h" kindref="compound">testar_pos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../logica/fazer_jogada.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../logica/comando_pos.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dados/obter_dados_estado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testar__pos_8c_1acbd34061ccfd19882abecdc8a6a7ccb4" kindref="member">testa_pos</ref>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>coord<sp/>=<sp/>{5,2};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8c_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8c_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8c_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8c_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>1);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>1);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>0);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>1);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref><sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>coord.<ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fazer__jogada_8c_1ac313d7e553b1e2b5f266acb9bfff8141" kindref="member">jogar</ref>(&amp;e,<sp/>coord);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>2);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>1);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e)<sp/>==<sp/>1<sp/>&amp;&amp;<sp/><ref refid="obter__dados__estado_8c_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e)<sp/>==<sp/>7);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="comando__pos_8c_1a86c811a5cae6d95a57f4e54f3d1e1f87" kindref="member">pos_jogada</ref>(&amp;e,<sp/><sp/>1);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a89fec6fb258b5278165d5d00a0d352e0" kindref="member">obter_num_jogadas</ref>(e)<sp/>==<sp/>1);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<ref refid="obter__dados__estado_8c_1a6fb04090c3e6a56e81bcd19780d22169" kindref="member">obter_ultima_jogada_linha</ref>(e)<sp/>==<sp/>1<sp/>&amp;&amp;<sp/><ref refid="obter__dados__estado_8c_1a904ac424419f4bb0ceeb934266039415" kindref="member">obter_ultima_jogada_coluna</ref>(e)<sp/>==<sp/>6);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="testes/testar_pos.c"/>
   </compounddef>

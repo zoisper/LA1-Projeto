@@ -1,12 +1,17 @@
 
-
+/**
+@file main.c
+A função principal.
+*/
 #include "dados/inicializar_estado.h"
 #include "interface/mostrar.h"
 #include "interface/interpretador.h"
 #include "testes/main_teste.h"
 #include "logica/fim_jogo.h"
 
-
+/**
+ * \brief A função principal.
+ */
 int main()
 {
     ESTADO *e;

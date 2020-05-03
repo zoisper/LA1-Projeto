@@ -1,4 +1,7 @@
-
+/**
+@file interpretador.c
+Funçao que interpreta os comandos eviados pelo utilizador.
+*/
 #include "interpretador.h"
 #include <stdio.h>
 #include <string.h>
@@ -10,7 +13,7 @@
 #include "../logica/comando_jog.h"
 
 
-
+/** Tamanho maximo da linha lida do buffer */
 #define BUF_SIZE 1024
 
 

@@ -1,4 +1,7 @@
-
+/**
+@file comando_jog.c
+Funções que implementam o comando jog.
+*/
 
 #include "comando_jog.h"
 #include "../dados/obter_dados_estado.h"

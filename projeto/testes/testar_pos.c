@@ -1,3 +1,7 @@
+/**
+@file testar_pos.c
+Função que testa o comandos pos.
+ */
 #include "testar_pos.h"
 #include "../logica/fazer_jogada.h"
 #include "../logica/comando_pos.h"

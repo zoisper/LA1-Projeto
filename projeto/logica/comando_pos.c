@@ -1,8 +1,13 @@
-
+/**
+@file comando_pos.c
+Funções que vao realizar o comando pos
+*/
 #include "comando_pos.h"
 #include "../dados/obter_dados_estado.h"
 #include "../dados/mudar_estado.h"
 #include "fazer_jogada.h"
+
+/** O tamnaho do array jogadas*/
 #define SIZE 32
 
 

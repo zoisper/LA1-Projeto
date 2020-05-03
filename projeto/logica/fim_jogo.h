@@ -1,6 +1,4 @@
-//
-// Created by tiago on 30/04/20.
-//
+
 /**
 @file fim_jogo.h
 A função que deteta o fim do jogo.

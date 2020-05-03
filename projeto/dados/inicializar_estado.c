@@ -1,4 +1,8 @@
 
+/**
+@file inicializar_estado.c
+Função que inicializa o estado.
+*/
 
 #include "inicializar_estado.h"
 #include <stdlib.h>

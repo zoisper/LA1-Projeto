@@ -1,5 +1,8 @@
 
-
+/**
+@file fazer_jogada.c
+Funções que adicionam uma jogada valida e verificam se ha vencedor.
+*/
 #include "fazer_jogada.h"
 #include "../dados/obter_dados_estado.h"
 #include "../dados/mudar_estado.h"

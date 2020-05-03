@@ -1,4 +1,7 @@
-
+/**
+@file testar_heuristica.c
+Funções de testes aos comandos jog e jog2.
+ */
 #include <assert.h>
 #include "testar_heuristica.h"
 #include "../logica/fazer_jogada.h"

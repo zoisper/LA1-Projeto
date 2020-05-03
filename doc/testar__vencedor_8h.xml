@@ -17,6 +17,24 @@
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>testes/main_teste.c</label>
+        <link refid="main__teste_8c"/>
+      </node>
+      <node id="3">
+        <label>testes/testar_vencedor.c</label>
+        <link refid="testar__vencedor_8c"/>
+      </node>
+      <node id="1">
+        <label>testes/testar_vencedor.h</label>
+        <link refid="testar__vencedor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="testar__vencedor_8h_1aeb6bd83fb58928a32a0dd9ddfa8339e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -44,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="testes/testar_vencedor.h" line="16" column="6" bodyfile="testes/testar_vencedor.c" bodystart="9" bodyend="87" declfile="testes/testar_vencedor.h" declline="16" declcolumn="6"/>
+        <location file="testes/testar_vencedor.h" line="16" column="6" bodyfile="testes/testar_vencedor.c" bodystart="14" bodyend="92" declfile="testes/testar_vencedor.h" declline="16" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

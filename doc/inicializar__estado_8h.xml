@@ -20,45 +20,87 @@
     <includedby refid="testar__pos_8h" local="yes">testes/testar_pos.h</includedby>
     <includedby refid="testar__heuristica_8h" local="yes">testes/testar_heuristica.h</includedby>
     <invincdepgraph>
-      <node id="12">
+      <node id="16">
+        <label>testes/testar_estado.c</label>
+        <link refid="testar__estado_8c"/>
+      </node>
+      <node id="29">
         <label>testes/testar_estado.h</label>
         <link refid="testar__estado_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
       <node id="6">
+        <label>interface/mostrar.c</label>
+        <link refid="mostrar_8c"/>
+      </node>
+      <node id="21">
         <label>interface/mostrar.h</label>
         <link refid="mostrar_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="14">
+        <label>logica/fazer_jogada.c</label>
+        <link refid="fazer__jogada_8c"/>
+      </node>
+      <node id="22">
         <label>logica/fazer_jogada.h</label>
         <link refid="fazer__jogada_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
-      <node id="10">
+      <node id="7">
+        <label>logica/comando_jog.c</label>
+        <link refid="comando__jog_8c"/>
+      </node>
+      <node id="26">
         <label>logica/comando_jog.h</label>
         <link refid="comando__jog_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="13">
+      <node id="23">
+        <label>testes/testar_jogar.c</label>
+        <link refid="testar__jogar_8c"/>
+      </node>
+      <node id="30">
         <label>testes/testar_jogar.h</label>
         <link refid="testar__jogar_8h"/>
-      </node>
-      <node id="2">
-        <label>dados/obter_dados_estado.h</label>
-        <link refid="obter__dados__estado_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>dados/mudar_estado.h</label>
-        <link refid="mudar__estado_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
       <node id="5">
-        <label>interface/interpretador.h</label>
-        <link refid="interpretador_8h"/>
+        <label>dados/obter_dados_estado.c</label>
+        <link refid="obter__dados__estado_8c"/>
       </node>
-      <node id="1">
-        <label>dados/inicializar_estado.h</label>
-        <link refid="inicializar__estado_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="3">
+        <label>dados/obter_dados_estado.h</label>
+        <link refid="obter__dados__estado_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -69,16 +111,6 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
@@ -87,34 +119,178 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="11">
+      <node id="4">
+        <label>dados/mudar_estado.c</label>
+        <link refid="mudar__estado_8c"/>
+      </node>
+      <node id="18">
+        <label>dados/mudar_estado.h</label>
+        <link refid="mudar__estado_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>interface/interpretador.c</label>
+        <link refid="interpretador_8c"/>
+      </node>
+      <node id="19">
+        <label>interface/interpretador.h</label>
+        <link refid="interpretador_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dados/inicializar_estado.c</label>
+        <link refid="inicializar__estado_8c"/>
+      </node>
+      <node id="1">
+        <label>dados/inicializar_estado.h</label>
+        <link refid="inicializar__estado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>testes/main_teste.c</label>
+        <link refid="main__teste_8c"/>
+      </node>
+      <node id="27">
         <label>testes/main_teste.h</label>
         <link refid="main__teste_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="11">
+        <label>testes/testar_heuristica.c</label>
+        <link refid="testar__heuristica_8c"/>
+      </node>
+      <node id="33">
         <label>testes/testar_heuristica.h</label>
         <link refid="testar__heuristica_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="3">
-        <label>logica/fim_jogo.h</label>
-        <link refid="fim__jogo_8h"/>
-      </node>
-      <node id="8">
-        <label>logica/ler_jogo.h</label>
-        <link refid="ler__jogo_8h"/>
+      <node id="10">
+        <label>main.c</label>
+        <link refid="main_8c"/>
       </node>
       <node id="9">
-        <label>logica/comando_pos.h</label>
-        <link refid="comando__pos_8h"/>
+        <label>logica/fim_jogo.c</label>
+        <link refid="fim__jogo_8c"/>
+      </node>
+      <node id="8">
+        <label>logica/fim_jogo.h</label>
+        <link refid="fim__jogo_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="15">
+        <label>logica/ler_jogo.c</label>
+        <link refid="ler__jogo_8c"/>
+      </node>
+      <node id="24">
+        <label>logica/ler_jogo.h</label>
+        <link refid="ler__jogo_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>logica/comando_pos.c</label>
+        <link refid="comando__pos_8c"/>
+      </node>
+      <node id="25">
+        <label>logica/comando_pos.h</label>
+        <link refid="comando__pos_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>testes/testar_pos.c</label>
+        <link refid="testar__pos_8c"/>
+      </node>
+      <node id="32">
         <label>testes/testar_pos.h</label>
         <link refid="testar__pos_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="14">
+      <node id="12">
+        <label>testes/testar_vencedor.c</label>
+        <link refid="testar__vencedor_8c"/>
+      </node>
+      <node id="31">
         <label>testes/testar_vencedor.h</label>
         <link refid="testar__vencedor_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structCOORDENADA" prot="public">COORDENADA</innerclass>
@@ -129,6 +305,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
+<para>Casa do tabuleiro vazia. </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" prot="public">
@@ -136,6 +313,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
+<para>Ultima casa do tabuleiro ocupada e apartir de onde jogamos. </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d" prot="public">
@@ -143,6 +321,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
+<para>Casa do tabuleiro ocupada. </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -152,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/inicializar_estado.h" line="11" column="1" bodyfile="dados/inicializar_estado.h" bodystart="11" bodyend="11"/>
+        <location file="dados/inicializar_estado.h" line="11" column="1" bodyfile="dados/inicializar_estado.h" bodystart="11" bodyend="18"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -168,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/inicializar_estado.h" line="31" column="16" bodyfile="dados/inicializar_estado.h" bodystart="31" bodyend="-1"/>
+        <location file="dados/inicializar_estado.h" line="40" column="16" bodyfile="dados/inicializar_estado.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -188,7 +367,7 @@ Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dados/inicializar_estado.h" line="53" column="8" bodyfile="dados/inicializar_estado.c" bodystart="6" bodyend="25" declfile="dados/inicializar_estado.h" declline="53" declcolumn="8"/>
+        <location file="dados/inicializar_estado.h" line="62" column="8" bodyfile="dados/inicializar_estado.c" bodystart="10" bodyend="29" declfile="dados/inicializar_estado.h" declline="62" declcolumn="8"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -201,26 +380,30 @@ Esta função inicializa o valor do estado. Isso implica o tabuleiro ser colocad
 <codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>PROJETO_INICIALIZAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJETO_INICIALIZAR_ESTADO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{VAZIO,<sp/>BRANCA,<sp/>PRETA}<sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" kindref="member">CASA</ref>;</highlight></codeline>
-<codeline lineno="15" refid="structCOORDENADA" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17" refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref>;</highlight></codeline>
-<codeline lineno="19" refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}<sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref>;</highlight></codeline>
-<codeline lineno="24" refid="structJOGADA" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>jogador1;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/>jogador2;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}<sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref>;</highlight></codeline>
-<codeline lineno="31" refid="inicializar__estado_8h_1a94c221d29a1760f008b7834093259b7d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref><sp/><ref refid="inicializar__estado_8h_1a94c221d29a1760f008b7834093259b7d" kindref="member">JOGADAS</ref>[32];</highlight></codeline>
-<codeline lineno="35" refid="structESTADO" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="37" refid="structESTADO_1ab56f0f1be16954d3768b4174d14c087d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" kindref="member">CASA</ref><sp/>tab[8][8];</highlight></codeline>
-<codeline lineno="39" refid="structESTADO_1afae43b87a488fad0f2b56a18bad31d18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1a94c221d29a1760f008b7834093259b7d" kindref="member">JOGADAS</ref><sp/><ref refid="structESTADO_1afae43b87a488fad0f2b56a18bad31d18" kindref="member">jogadas</ref>;</highlight></codeline>
-<codeline lineno="41" refid="structESTADO_1a4896a5c5c1f40b43fb795623327e3f47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/><ref refid="structESTADO_1a4896a5c5c1f40b43fb795623327e3f47" kindref="member">ultima_jogada</ref>;</highlight></codeline>
-<codeline lineno="43" refid="structESTADO_1a261495728744647e618b4e623f5a4b7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structESTADO_1a261495728744647e618b4e623f5a4b7a" kindref="member">num_jogadas</ref>;</highlight></codeline>
-<codeline lineno="45" refid="structESTADO_1a5dd28e2e68b7aef2b6b7ea88e02eff58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structESTADO_1a5dd28e2e68b7aef2b6b7ea88e02eff58" kindref="member">jogador_atual</ref>;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}<sp/><ref refid="structESTADO" kindref="compound">ESTADO</ref>;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*<ref refid="inicializar__estado_8h_1a7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_INICIALIZAR_ESTADO_H</highlight></codeline>
+<codeline lineno="11" refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039abc711f491a56ec7af7a688be508c5113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039abc711f491a56ec7af7a688be508c5113" kindref="member">VAZIO</ref>,</highlight></codeline>
+<codeline lineno="15" refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039ad24485fddec75419fd4a0cc9edda0ca5" kindref="member">BRANCA</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d" kindref="member">PRETA</ref></highlight></codeline>
+<codeline lineno="18" refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039a007278eb3827d19891b47cdd3ac8846d" refkind="member"><highlight class="normal">}<sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" kindref="member">CASA</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structCOORDENADA" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structCOORDENADA_1adfbc8d4856ce807139fdf62e00aed29a" kindref="member">coluna</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structCOORDENADA_1aefe14bcc5a066ac3b21500cc3d28c06f" kindref="member">linha</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref>;</highlight></codeline>
+<codeline lineno="31" refid="structJOGADA" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33" refid="structJOGADA_1a93d9306cb0c49b66b7d9a615bffe0149" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/><ref refid="structJOGADA_1a93d9306cb0c49b66b7d9a615bffe0149" kindref="member">jogador1</ref>;</highlight></codeline>
+<codeline lineno="35" refid="structJOGADA_1ab46b16dfbdc7f2af9430c8dcdac0914b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/><ref refid="structJOGADA_1ab46b16dfbdc7f2af9430c8dcdac0914b" kindref="member">jogador2</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref>;</highlight></codeline>
+<codeline lineno="40" refid="inicializar__estado_8h_1a94c221d29a1760f008b7834093259b7d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structJOGADA" kindref="compound">JOGADA</ref><sp/><ref refid="inicializar__estado_8h_1a94c221d29a1760f008b7834093259b7d" kindref="member">JOGADAS</ref>[32];</highlight></codeline>
+<codeline lineno="44" refid="structESTADO" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46" refid="structESTADO_1ab56f0f1be16954d3768b4174d14c087d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1aba91601f16d4c485b2d9b8c429f27039" kindref="member">CASA</ref><sp/>tab[8][8];</highlight></codeline>
+<codeline lineno="48" refid="structESTADO_1afae43b87a488fad0f2b56a18bad31d18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="inicializar__estado_8h_1a94c221d29a1760f008b7834093259b7d" kindref="member">JOGADAS</ref><sp/><ref refid="structESTADO_1afae43b87a488fad0f2b56a18bad31d18" kindref="member">jogadas</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structESTADO_1a4896a5c5c1f40b43fb795623327e3f47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structCOORDENADA" kindref="compound">COORDENADA</ref><sp/><ref refid="structESTADO_1a4896a5c5c1f40b43fb795623327e3f47" kindref="member">ultima_jogada</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structESTADO_1a261495728744647e618b4e623f5a4b7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structESTADO_1a261495728744647e618b4e623f5a4b7a" kindref="member">num_jogadas</ref>;</highlight></codeline>
+<codeline lineno="54" refid="structESTADO_1a5dd28e2e68b7aef2b6b7ea88e02eff58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structESTADO_1a5dd28e2e68b7aef2b6b7ea88e02eff58" kindref="member">jogador_atual</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}<sp/><ref refid="structESTADO" kindref="compound">ESTADO</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>*<ref refid="inicializar__estado_8h_1a7e0c7e26fb685d9ab501e19b05e6954f" kindref="member">inicializar_estado</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PROJETO_INICIALIZAR_ESTADO_H</highlight></codeline>
     </programlisting>
     <location file="dados/inicializar_estado.h"/>
   </compounddef>

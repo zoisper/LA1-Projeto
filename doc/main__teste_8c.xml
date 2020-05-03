@@ -93,35 +93,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="testes/main_teste.c" line="8" column="6" bodyfile="testes/main_teste.c" bodystart="8" bodyend="21"/>
+        <location file="testes/main_teste.c" line="12" column="6" bodyfile="testes/main_teste.c" bodystart="12" bodyend="25"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Função que faz varios testes automaticos </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="main__teste_8h" kindref="compound">main_teste.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__estado_8h" kindref="compound">testar_estado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__jogar_8h" kindref="compound">testar_jogar.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__vencedor_8h" kindref="compound">testar_vencedor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__pos_8h" kindref="compound">testar_pos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__heuristica_8h" kindref="compound">testar_heuristica.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main__teste_8h_1a8f6e5f65c7e881551930ee0177897c63" kindref="member">teste</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
-<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__jogar_8h_1af1d018e2433b78c4430cfcea6630ca97" kindref="member">testa_jogar</ref>(e);</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__vencedor_8h_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kindref="member">testa_vencedor</ref>(e);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__pos_8h_1acbd34061ccfd19882abecdc8a6a7ccb4" kindref="member">testa_pos</ref>(e);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__heuristica_8h_1a9e1830eba669d92ec321a8fb5ce5e28b" kindref="member">testa_jog</ref>(e);</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__heuristica_8h_1aeca25ae4adb325af5ae0b607d1c204c0" kindref="member">testa_jog2</ref>(e);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8h_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="main__teste_8h" kindref="compound">main_teste.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__estado_8h" kindref="compound">testar_estado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__jogar_8h" kindref="compound">testar_jogar.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__vencedor_8h" kindref="compound">testar_vencedor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__pos_8h" kindref="compound">testar_pos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="testar__heuristica_8h" kindref="compound">testar_heuristica.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main__teste_8c_1a8f6e5f65c7e881551930ee0177897c63" kindref="member">teste</ref><sp/>(<ref refid="structESTADO" kindref="compound">ESTADO</ref><sp/>e)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__jogar_8c_1af1d018e2433b78c4430cfcea6630ca97" kindref="member">testa_jogar</ref>(e);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__vencedor_8c_1aeb6bd83fb58928a32a0dd9ddfa8339e8" kindref="member">testa_vencedor</ref>(e);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__pos_8c_1acbd34061ccfd19882abecdc8a6a7ccb4" kindref="member">testa_pos</ref>(e);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__heuristica_8c_1a9e1830eba669d92ec321a8fb5ce5e28b" kindref="member">testa_jog</ref>(e);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__heuristica_8c_1aeca25ae4adb325af5ae0b607d1c204c0" kindref="member">testa_jog2</ref>(e);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testar__estado_8c_1a3408a6150ed8646bd869f684357a9bbb" kindref="member">testa_estado</ref>(e);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="testes/main_teste.c"/>
   </compounddef>

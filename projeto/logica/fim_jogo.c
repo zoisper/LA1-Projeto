@@ -1,7 +1,8 @@
-//
-// Created by tiago on 30/04/20.
-//
 
+/**
+@file fim_jogo.c
+Função que deteta o fim do jogo.
+*/
 #include "fim_jogo.h"
 int verificar_vencedor (ESTADO e)
 {

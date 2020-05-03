@@ -18,6 +18,30 @@
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>interface/interpretador.c</label>
+        <link refid="interpretador_8c"/>
+      </node>
+      <node id="3">
+        <label>logica/comando_pos.c</label>
+        <link refid="comando__pos_8c"/>
+      </node>
+      <node id="1">
+        <label>logica/comando_pos.h</label>
+        <link refid="comando__pos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>testes/testar_pos.c</label>
+        <link refid="testar__pos_8c"/>
+      </node>
+    </invincdepgraph>
       <sectiondef kind="func">
       <memberdef kind="function" id="comando__pos_8h_1a86c811a5cae6d95a57f4e54f3d1e1f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -61,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_pos.h" line="17" column="5" bodyfile="logica/comando_pos.c" bodystart="10" bodyend="33" declfile="logica/comando_pos.h" declline="17" declcolumn="5"/>
+        <location file="logica/comando_pos.h" line="17" column="5" bodyfile="logica/comando_pos.c" bodystart="15" bodyend="38" declfile="logica/comando_pos.h" declline="17" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="comando__pos_8h_1a6d0fb62a77fd699232284a3f166ed094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_pos.h" line="24" column="6" bodyfile="logica/comando_pos.c" bodystart="77" bodyend="89" declfile="logica/comando_pos.h" declline="24" declcolumn="6"/>
+        <location file="logica/comando_pos.h" line="24" column="6" bodyfile="logica/comando_pos.c" bodystart="82" bodyend="94" declfile="logica/comando_pos.h" declline="24" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="comando__pos_8h_1abf7d07d13ef2f19715c7b54c64ece152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -171,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_pos.h" line="31" column="6" bodyfile="logica/comando_pos.c" bodystart="35" bodyend="54" declfile="logica/comando_pos.h" declline="31" declcolumn="6"/>
+        <location file="logica/comando_pos.h" line="31" column="6" bodyfile="logica/comando_pos.c" bodystart="40" bodyend="59" declfile="logica/comando_pos.h" declline="31" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="comando__pos_8h_1ac8fb5926d53c2022a8c5482a7e309788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -216,13 +240,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="logica/comando_pos.h" line="38" column="5" bodyfile="logica/comando_pos.c" bodystart="56" bodyend="74" declfile="logica/comando_pos.h" declline="38" declcolumn="5"/>
+        <location file="logica/comando_pos.h" line="38" column="5" bodyfile="logica/comando_pos.c" bodystart="61" bodyend="79" declfile="logica/comando_pos.h" declline="38" declcolumn="5"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Funçãoes que vao realizar o comando pos </para>
+<para>Funções que vao realizar o comando pos </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"></codeline>
