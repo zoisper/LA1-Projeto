@@ -92,3 +92,4 @@ void aceder_jogada (ESTADO *e,  JOGADA jogadas[], int num)
         jogar(e, coord);
     }
 }
+
